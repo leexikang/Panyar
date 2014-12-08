@@ -3,7 +3,7 @@
 
 $db=[ 
     "host" => "localhost",
-    "db_name" => "Panyar",
+    "db_name" => "panyar",
     "username" => "root",
     "password" => "root"
 ];

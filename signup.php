@@ -1,11 +1,10 @@
 <?php
 require("header.php");
-require("config/config.inc.php");    
+require("config/config.inc.php");
 require("User.php");
 require("FormController.php");
 
-$msg = array(); 
-$error = false;
+$msg = array();
     if( isset($_GET['signup']) ){
 
             $username = $_GET['username'];
@@ -13,41 +12,38 @@ $error = false;
             $passwordRe = $_GET['passwordRe'];
             $email = $_GET['email'];
 
-            if( empty($_GET['username']) && empty($_GET['password']) ){
-                $error = true;
+            if( empty($_GET['username'] ) OR empty( $_GET['password'] )
+                OR empty( $_GET['email'] )  ){
                 $msg["allRequire"] = "Please fill all the fields";
-            }
-            
+                }
+
             $form = new FormController($username, $password, $passwordRe, $email);
             $user = new User($conn);
 
             if(!$form->passwordMatch()  ){
-                $error = true;
                 $msg["passwordMatch"] = "password are not match";
             }
-                
-            if( $form->userExist( new User($conn))  ){
-                $error = true;
-                $msg["userExist"] = "User already exist";
-            } 
 
-            if($error == false){
+            if( $form->userExist( new User($conn))  ){
+                $msg["userExist"] = "User already exist";
+            }
+
+            if( $msg == null AND isset( $_GET['signup'] ) ){
                 $user = new User($conn);
                 $user->insertAllRoll($username, $password, $email);
-                var_dump($user);
-
            }
     }
 
-    
+
 ?>
 <section class="content">
+    <div class="contentWrapper">
  	<div>
     <FORM class="login_form" method="GET" action="signup.php">
 		<div> 
 		<label for="username"> Username </label>
 		<input type="text" name="username" id="username" /> 
-        <span><?php echo $msg['userExist'] ?></span>
+        <span><?php echo (isset($msg['userExist']) ? $msg['userExist'] : null )  ?></span>
 	</div>
 	<div>
 		<label for="password"> Password:</label>
@@ -56,7 +52,7 @@ $error = false;
 	<div>
 		<label for="passwordRe"> Confirm Password:</label>
 		<input type="passwordRe" name="passwordRe" id="passwordRe" /><br/>
-        <span><?php echo $msg['passwordMatch'] ?></span>
+        <span><?php echo (isset($msg['passwordMatch']) ? $msg['passwordMatch'] : null ) ?></span>
 	</div>
 	<div>
 		<label for="email"> Email </label>
@@ -64,8 +60,13 @@ $error = false;
 	</div>
 	<div>
 		<input type="submit" value="Signup" name="signup" />
-        <span><?php echo $msg['allRequire'] ?></span>
+        <span><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null ) ?></span>
 	</div>
     </FORM>
 </section>
+</div>
+
+<?php
+require("footer.php");
+?>
 

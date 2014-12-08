@@ -1,33 +1,49 @@
-<!DOCTYPE HTML>
-<html> 
-	<head>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
- <body>
- 	<div>
-	<FORM class="login_form" method="GET" action="FormController.php">
-		<div> 
-		<label for="username"> Username </label>
-		<input type="text" name="username" id="username" /> 
-		<span></span>
-	</div>
-	<div>
-		<label for="password"> Password:</label>
-		<input type="password" name="password" id="password" /><br/>
-	</div>
-	<div>
-		<label for="passwordRe"> Confirm Password:</label>
-		<input type="passwordRe" name="passwordRe" id="passwordRe" /><br/>
-	</div>
-	<div>
-		<label for="email"> Email </label>
-		<input type="email" name="email" id="email" /><br/>
-	</div>
-	<div>
-		<input type="submit" value="Signup" />
-	</div>
-	</FORM>
+<?php
+require("header.php");
+require("config/config.inc.php");
+require("User.php");
+require("FormController.php");
+
+$msg = array();
+    if( isset($_GET['login']) ){
+
+            $username = $_GET['username'];
+            $password = $_GET['password'];
+
+            if( empty($_GET['username'] ) OR empty( $_GET['password'] ) ){
+
+                    $msg["allRequire"] = "Please fill all the fields";
+                }
+
+            $form = new FormController( $username, $password );
+
+            if( !$form->checkLogin( new User($conn))  ){
+                $msg["loginFail"] = "Username and Password are not matched.";
+            }
+
+            if( $msg == null AND isset( $_GET['login'] ) ){
+
+                echo "login";
+            }
+    }
+
+?>
+    <div>
+    <FORM class="login_form" method="GET" action="login.php">
+        <div> 
+        <label for="username"> Username </label>
+        <input type="text" name="username" id="username" /> 
+    </div>
+    <div>
+        <label for="password"> Password:</label>
+        <input type="password" name="password" id="password" /><br/>
+    </div>
+        <div>
+        <input type="submit" value="login" name="login" />
+    </div>
+        <span><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null );
+        echo (isset($msg['loginFail']) ? $msg['loginFail'] : null ) ?></span>
+    </FORM>
 
  </body> 
  </html>

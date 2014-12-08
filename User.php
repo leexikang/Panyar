@@ -3,35 +3,46 @@ require("config/config.inc.php");
 
 class User{
 
-    protected $conn; 
+    protected $conn;
 
-    public function __construct($conn){ 
+    public function __construct($conn){
 
-        $this->conn = $conn; 
-    
-    }  
+        $this->conn = $conn;
+
+    }
 
    public function SearchByName($name){
 
-       $stmt = $this->conn->prepare("SELECT id  FROM user where
+       $stmt = $this->conn->prepare("SELECT * FROM client where
            userName = :name");
 
+       $stmt->setFetchMode( PDO::FETCH_OBJ );
        $stmt->execute(array(':name' => $name));
+       $row  = $stmt->fetch();
+       return $row;
 
-       if($stmt->rowCount() > 0 ) return true;
-       else return false;
-   }
+       }
 
     public function insertAllRoll($username, $password, $email){
-        $sql = "INSERT INTO user (username, password,
+        $sql = "INSERT INTO client (username, password,
             email) VALUES (:username, :password, :email)";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute( array(":username" => $username, ":password" => $password,
             ":email" => $email) );
     }
 
+    public function queryExistUser($username, $password) {
+
+        $sql = "SELECT * FROM client WHERE username = :username
+            ANd password = :password";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute( array( ":username" => $username, ":password" => $password) );
+        $row = $stmt->fetchAll();
+
+        return $row;
+
+    }
 }
-
-
 
 
