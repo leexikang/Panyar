@@ -1,0 +1,51 @@
+[Mon Dec 08 15:29:25.780856 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:27.852782 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:28.798953 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:29.426735 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:29.842579 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:30.218338 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:30.565039 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:30.886826 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:31.269402 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:31.822528 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:29:32.477551 2014] [:error] [pid 11022] [client 127.0.0.1:52770] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:31:29.141154 2014] [:error] [pid 11023] [client 127.0.0.1:52943] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:31:30.190082 2014] [:error] [pid 11023] [client 127.0.0.1:52943] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:31:30.512408 2014] [:error] [pid 11023] [client 127.0.0.1:52943] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 4
+[Mon Dec 08 15:31:37.025061 2014] [:error] [pid 11024] [client 127.0.0.1:52944] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 7
+[Mon Dec 08 15:31:37.288829 2014] [:error] [pid 11024] [client 127.0.0.1:52944] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 7
+[Mon Dec 08 15:31:37.512063 2014] [:error] [pid 11024] [client 127.0.0.1:52944] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 7
+[Mon Dec 08 15:31:47.992577 2014] [:error] [pid 11025] [client 127.0.0.1:52945] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 5
+[Mon Dec 08 15:31:48.372830 2014] [:error] [pid 11025] [client 127.0.0.1:52945] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 5
+[Mon Dec 08 15:31:48.561708 2014] [:error] [pid 11025] [client 127.0.0.1:52945] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 5
+[Mon Dec 08 15:34:13.653960 2014] [:error] [pid 11585] [client 127.0.0.1:53009] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 5
+[Mon Dec 08 15:34:49.824772 2014] [:error] [pid 11586] [client 127.0.0.1:53039] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:34:49.824915 2014] [:error] [pid 11586] [client 127.0.0.1:53039] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:34:49.824954 2014] [:error] [pid 11586] [client 127.0.0.1:53039] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:40:33.350738 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:40:33.350811 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:40:33.350829 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:40:33.680088 2014] [:error] [pid 11589] [client 127.0.0.1:53173] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:40:33.680185 2014] [:error] [pid 11589] [client 127.0.0.1:53173] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:40:33.680232 2014] [:error] [pid 11589] [client 127.0.0.1:53173] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:40:33.875410 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:40:33.875461 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:40:33.875486 2014] [:error] [pid 11588] [client 127.0.0.1:53172] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:33.125481 2014] [:error] [pid 11585] [client 127.0.0.1:53187] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:33.125538 2014] [:error] [pid 11585] [client 127.0.0.1:53187] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:33.125562 2014] [:error] [pid 11585] [client 127.0.0.1:53187] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:33.674387 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:33.674438 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:33.674463 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:33.904086 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:33.904146 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:33.904183 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:34.100998 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:34.101071 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:34.101088 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:34.277161 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:34.277224 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:34.277262 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 15:41:34.460996 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
+[Mon Dec 08 15:41:34.461079 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
+[Mon Dec 08 15:41:34.461116 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16

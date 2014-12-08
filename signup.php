@@ -1,8 +1,7 @@
 <?php
-require("header.php");
 require("config/config.inc.php");
-require("User.php");
-require("FormController.php");
+require("vendor/autoload.php");
+require("config/header.php");
 
 $msg = array();
     if( isset($_GET['signup']) ){
@@ -67,6 +66,6 @@ $msg = array();
 </div>
 
 <?php
-require("footer.php");
+require("config/footer.php");
 ?>
 

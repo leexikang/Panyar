@@ -13,9 +13,8 @@ try {
         $db['username'], $db['password']);
 
 }catch( Exception $e){
-    
     print  $e->getMessage();
 }
 
-    
+
 

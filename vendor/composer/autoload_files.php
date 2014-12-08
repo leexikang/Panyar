@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     $baseDir . '/config/config.inc.php',
+    $baseDir . '/config/header.php',
 );

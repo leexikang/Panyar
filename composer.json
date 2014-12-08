@@ -4,11 +4,8 @@
     "autoload" :{
         "classmap" : [
             "config"
-        ],
-        "files":[
-            "config/config.inc.php"
         ]
-    }
+   }
 
 }
 
