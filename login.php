@@ -1,8 +1,7 @@
 <?php
-require("header.php");
 require("config/config.inc.php");
-require("User.php");
-require("FormController.php");
+require("config/header.php");
+require("vendor/autoload.php");
 
 $msg = array();
     if( isset($_GET['login']) ){
@@ -17,7 +16,7 @@ $msg = array();
 
             $form = new FormController( $username, $password );
 
-            if( !$form->checkLogin( new User($conn))  ){
+            if( !$form->checkLogin( new User())  ){
                 $msg["loginFail"] = "Username and Password are not matched.";
             }
 
@@ -47,3 +46,6 @@ $msg = array();
 
  </body> 
  </html>
+<?php
+
+require("config/footer.php");

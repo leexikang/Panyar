@@ -1,5 +1,7 @@
 <?php
 
+// use define to name db config and see can we reference from conifguration file:w
+//
 
 $db=[ 
     "host" => "localhost",

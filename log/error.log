@@ -49,3 +49,24 @@
 [Mon Dec 08 15:41:34.460996 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 17
 [Mon Dec 08 15:41:34.461079 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Notice:  Undefined variable: conn in /home/xikang/Public/Panyar/signup.php on line 23
 [Mon Dec 08 15:41:34.461116 2014] [:error] [pid 11662] [client 127.0.0.1:53188] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 16
+[Mon Dec 08 16:19:05.047170 2014] [:error] [pid 14231] [client 127.0.0.1:53892] PHP Notice:  Use of undefined constant amin - assumed 'amin' in /home/xikang/Public/Panyar/test.php on line 5
+[Mon Dec 08 16:19:05.047331 2014] [:error] [pid 14231] [client 127.0.0.1:53892] PHP Stack trace:
+[Mon Dec 08 16:19:05.047368 2014] [:error] [pid 14231] [client 127.0.0.1:53892] PHP   1. {main}() /home/xikang/Public/Panyar/test.php:0
+[Mon Dec 08 19:23:01.739693 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/index.php on line 2
+[Mon Dec 08 19:23:01.739751 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP Stack trace:
+[Mon Dec 08 19:23:01.739765 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Mon Dec 08 19:23:01.739813 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/index.php on line 2
+[Mon Dec 08 19:23:01.739822 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP Stack trace:
+[Mon Dec 08 19:23:01.739829 2014] [:error] [pid 14233] [client 127.0.0.1:55008] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Mon Dec 08 19:53:15.534782 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/index.php on line 2
+[Mon Dec 08 19:53:15.708790 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP Stack trace:
+[Mon Dec 08 19:53:15.708811 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Mon Dec 08 19:53:15.708860 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/index.php on line 2
+[Mon Dec 08 19:53:15.708868 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP Stack trace:
+[Mon Dec 08 19:53:15.708873 2014] [:error] [pid 1406] [client 127.0.0.1:55758] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Mon Dec 08 20:27:27.132709 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/login.php on line 2
+[Mon Dec 08 20:27:27.132740 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Stack trace:
+[Mon Dec 08 20:27:27.132750 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Mon Dec 08 20:27:27.132788 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/login.php on line 2
+[Mon Dec 08 20:27:27.132803 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Stack trace:
+[Mon Dec 08 20:27:27.132809 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0

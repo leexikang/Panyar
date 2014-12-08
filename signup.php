@@ -17,18 +17,17 @@ $msg = array();
                 }
 
             $form = new FormController($username, $password, $passwordRe, $email);
-            $user = new User($conn);
 
             if(!$form->passwordMatch()  ){
                 $msg["passwordMatch"] = "password are not match";
             }
 
-            if( $form->userExist( new User($conn))  ){
+            if( $form->userExist( new User())  ){
                 $msg["userExist"] = "User already exist";
             }
 
             if( $msg == null AND isset( $_GET['signup'] ) ){
-                $user = new User($conn);
+                $user = new User();
                 $user->insertAllRoll($username, $password, $email);
            }
     }

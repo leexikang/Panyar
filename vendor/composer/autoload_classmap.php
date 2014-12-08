@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'DbConnect' => $baseDir . '/config/DbConnect.php',
     'FormController' => $baseDir . '/config/FormController.php',
     'User' => $baseDir . '/config/User.php',
 );

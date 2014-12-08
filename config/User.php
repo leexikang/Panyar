@@ -1,27 +1,26 @@
 <?php
-require("config/config.inc.php");
+require("DbConnect.php");
 
-class User{
+
+
+class User {
 
     protected $conn;
-
-    public function __construct($conn){
-
-        $this->conn = $conn;
-
+    public function __construct(){
+        $this->conn = DbConnect::connect();
     }
 
-   public function SearchByName($name){
+    public function SearchByName($name){
 
-       $stmt = $this->conn->prepare("SELECT * FROM client where
-           userName = :name");
+        $stmt = $this->conn->prepare("SELECT * FROM client where
+            userName = :name");
 
-       $stmt->setFetchMode( PDO::FETCH_OBJ );
-       $stmt->execute(array(':name' => $name));
-       $row  = $stmt->fetch();
-       return $row;
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute(array(':name' => $name));
+        $row  = $stmt->fetch();
+        return $row;
 
-       }
+    }
 
     public function insertAllRoll($username, $password, $email){
         $sql = "INSERT INTO client (username, password,
@@ -44,5 +43,4 @@ class User{
 
     }
 }
-
 

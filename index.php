@@ -1,5 +1,5 @@
 <?php
-require("header.php");
+require("config/header.php");
 ?>
 
  <section class="main" >
@@ -24,7 +24,7 @@ require("header.php");
 	
    
 <?php
-require("footer.php");
+require("config/footer.php");
 ?>
 
 
