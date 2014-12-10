@@ -1,5 +1,4 @@
 <?php
-require("config/config.inc.php");
 require("vendor/autoload.php");
 require("config/header.php");
 
@@ -16,13 +15,12 @@ $msg = array();
                 $msg["allRequire"] = "Please fill all the fields";
                 }
 
-            $form = new FormController($username, $password, $passwordRe, $email);
 
-            if(!$form->passwordMatch()  ){
+            if(! Validation::passwordMatch($password, $passwordRe )  ){
                 $msg["passwordMatch"] = "password are not match";
             }
 
-            if( $form->userExist( new User())  ){
+            if( Validation::checkExistance( new User(), $username)  ){
                 $msg["userExist"] = "User already exist";
             }
 

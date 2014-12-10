@@ -70,3 +70,185 @@
 [Mon Dec 08 20:27:27.132788 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/login.php on line 2
 [Mon Dec 08 20:27:27.132803 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP Stack trace:
 [Mon Dec 08 20:27:27.132809 2014] [:error] [pid 1408] [client 127.0.0.1:56294] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Mon Dec 08 22:56:59.480258 2014] [core:error] [pid 1409] (13)Permission denied: [client 127.0.0.1:57069] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:57:35.444462 2014] [core:error] [pid 3874] (13)Permission denied: [client 127.0.0.1:57082] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:57:48.985947 2014] [core:error] [pid 3876] (13)Permission denied: [client 127.0.0.1:57085] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:58:16.562982 2014] [core:error] [pid 1410] (13)Permission denied: [client 127.0.0.1:57088] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:58:17.330742 2014] [core:error] [pid 1408] (13)Permission denied: [client 127.0.0.1:57086] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:58:23.446471 2014] [core:error] [pid 1406] (13)Permission denied: [client 127.0.0.1:57091] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Mon Dec 08 22:58:28.559105 2014] [core:error] [pid 3876] (13)Permission denied: [client 127.0.0.1:57103] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/1.jpg, referer: http://panyar.com/
+[Tue Dec 09 13:42:06.875197 2014] [:error] [pid 5502] [client 127.0.0.1:59920] PHP Fatal error:  Call to undefined function subsrt() in /home/xikang/Public/Panyar/index.php on line 28
+[Tue Dec 09 13:42:06.936003 2014] [:error] [pid 5502] [client 127.0.0.1:59920] PHP Stack trace:
+[Tue Dec 09 13:42:06.936066 2014] [:error] [pid 5502] [client 127.0.0.1:59920] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 09 13:49:00.256677 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/home.php on line 2
+[Tue Dec 09 13:49:00.256755 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP Stack trace:
+[Tue Dec 09 13:49:00.256786 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP   1. {main}() /home/xikang/Public/Panyar/home.php:0
+[Tue Dec 09 13:49:00.256865 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/home.php on line 2
+[Tue Dec 09 13:49:00.256882 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP Stack trace:
+[Tue Dec 09 13:49:00.256901 2014] [:error] [pid 5356] [client 127.0.0.1:60114] PHP   1. {main}() /home/xikang/Public/Panyar/home.php:0
+[Tue Dec 09 13:51:21.313420 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:21.313515 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:21.313547 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:21.313632 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:21.313649 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:21.313696 2014] [:error] [pid 5965] [client 127.0.0.1:60159] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156183 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156220 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156234 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156270 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156278 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:39.156286 2014] [:error] [pid 5964] [client 127.0.0.1:60162] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756414 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP Warning:  require(header.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756468 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756487 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756549 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP Fatal error:  require(): Failed opening required 'header.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createProfile.php on line 2, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756561 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 09 13:51:44.756574 2014] [:error] [pid 5982] [client 127.0.0.1:60163] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 09 14:04:20.456034 2014] [core:error] [pid 5982] (13)Permission denied: [client 127.0.0.1:60366] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/2.jpg, referer: http://panyar.com/
+[Tue Dec 09 14:04:20.456956 2014] [core:error] [pid 5500] (13)Permission denied: [client 127.0.0.1:60364] AH00132: file permissions deny server access: /home/xikang/Public/Panyar/3.jpg, referer: http://panyar.com/
+[Tue Dec 09 14:08:05.763538 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Notice:  Undefined index: username in /home/xikang/Public/Panyar/signup.php on line 9, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763576 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763590 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763627 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Notice:  Undefined index: password in /home/xikang/Public/Panyar/signup.php on line 10, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763635 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763645 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763686 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Notice:  Undefined index: passwordRe in /home/xikang/Public/Panyar/signup.php on line 11, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763694 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763703 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763729 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Notice:  Undefined index: email in /home/xikang/Public/Panyar/signup.php on line 12, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763736 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.763744 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764878 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Warning:  require(config.inc.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/DbConnect.php on line 2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764893 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764904 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764914 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:25, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764925 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764934 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764944 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.764952 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765022 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Fatal error:  require(): Failed opening required 'config.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/DbConnect.php on line 2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765030 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765040 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765049 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:25, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765063 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765076 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765090 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:05.765118 2014] [:error] [pid 5964] [client 127.0.0.1:60428] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873346 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Notice:  Undefined index: username in /home/xikang/Public/Panyar/signup.php on line 9, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873373 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873383 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873407 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Notice:  Undefined index: password in /home/xikang/Public/Panyar/signup.php on line 10, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873411 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873417 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873430 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Notice:  Undefined index: passwordRe in /home/xikang/Public/Panyar/signup.php on line 11, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873435 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873440 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873454 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Notice:  Undefined index: email in /home/xikang/Public/Panyar/signup.php on line 12, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873459 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873464 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873590 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Warning:  require(config.inc.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/DbConnect.php on line 2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873597 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873603 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873608 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:25, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873614 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873620 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873626 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873631 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873670 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Fatal error:  require(): Failed opening required 'config.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/DbConnect.php on line 2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873687 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873692 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873698 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:25, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873703 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873719 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873724 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 14:08:39.873729 2014] [:error] [pid 5500] [client 127.0.0.1:60430] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 20:57:42.018541 2014] [:error] [pid 3398] [client 127.0.0.1:36303] script '/home/xikang/Public/Panyar/creatProfile.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Tue Dec 09 22:26:39.709823 2014] [:error] [pid 1437] [client 127.0.0.1:37257] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/signup.php on line 20, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:26:39.709918 2014] [:error] [pid 1437] [client 127.0.0.1:37257] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:26:39.709955 2014] [:error] [pid 1437] [client 127.0.0.1:37257] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883145 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Notice:  Constant host already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 6, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883189 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883205 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883215 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:24, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883225 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883234 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883242 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883251 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883259 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883266 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:6, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883380 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Notice:  Constant db_name already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 7, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883388 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883396 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883404 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:24, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883412 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883420 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883428 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883435 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883442 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883449 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:7, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883523 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Notice:  Constant username already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 8, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883530 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883538 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883545 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:24, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883554 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883561 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883569 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883576 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883583 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883590 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:8, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883650 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Notice:  Constant password already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 9, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883664 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883671 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883680 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/signup.php:24, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883688 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883696 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883703 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883710 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883717 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.883724 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:9, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.884691 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Notice:  Undefined variable: namE in /home/xikang/Public/Panyar/signup.php on line 24, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.884714 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:20.884727 2014] [:error] [pid 1434] [client 127.0.0.1:37268] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:31.082416 2014] [:error] [pid 3395] [client 127.0.0.1:37271] PHP Notice:  Undefined variable: namE in /home/xikang/Public/Panyar/signup.php on line 23, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:31.082473 2014] [:error] [pid 3395] [client 127.0.0.1:37271] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:27:31.082492 2014] [:error] [pid 3395] [client 127.0.0.1:37271] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 09 22:30:02.833803 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Notice:  Constant host already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 6, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833839 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833854 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833865 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/login.php:17, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833876 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833887 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833897 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833918 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833927 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.833936 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:6, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834004 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Notice:  Constant db_name already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 7, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834010 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834015 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834021 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/login.php:17, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834026 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834031 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834036 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834041 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834046 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834051 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:7, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834096 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Notice:  Constant username already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 8, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834101 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834106 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834111 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/login.php:17, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834117 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834122 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834127 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834132 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834141 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834147 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:8, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834185 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Notice:  Constant password already defined in /home/xikang/Public/Panyar/config/config.inc.php on line 9, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834189 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834194 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834199 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/login.php:17, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834205 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834210 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834215 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834219 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834224 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/login.php
+[Tue Dec 09 22:30:02.834229 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:9, referer: http://panyar.com/login.php

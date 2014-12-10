@@ -1,16 +1,9 @@
 <?php
-require("header.php");
+require("config/header.php");
 ?>
     <section class="main" >
-
-    <article>
-    <ul class="navigation" >
-    <li> <br/> <a href="#">Edit profile</a> </li>
-    <li> <br/> <a href="#">show all course</a> </li>
-    <li> <br/> <a href="#">create course </a> </li>
-    </ul>
- 	</article>
- 	<section class="content" >
+<?php require("config/clientNav.php"); ?>
+	<section class="content" >
  	</section>
 <br/>
 
@@ -18,6 +11,6 @@ require("header.php");
 
 <?php
 
-require("footer.php");
+require("config/footer.php");
 
 ?>

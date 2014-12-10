@@ -26,19 +26,6 @@ class FormController {
     }
 
 
-    public function userExist( User $user ){
-
-        if( $user->searchByName( $this->username ) )
-        {
-            return true;
-        }else{ 
-
-            return false;
-
-        }
-
-    }
-
     public function checkLogin ( User $user )
     {
         if( $user->queryExistUser( $this->username, $this->password ) ){

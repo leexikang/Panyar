@@ -1,23 +1,17 @@
 <?php
-require("header.php");
+require("config/header.php");
 ?>
     <section class="main" >
-
-    <article>
-    <ul>
-    <li> <br/> <a href="#">Create profile </a> </li>
-    <li> <br/> <a href="#">show all course</a> </li>
-    <li> <br/> <a href="#">create course </a> </li>
-    </ul>
- 	</article>
+<?php require("config/clientNav.php"); ?>
     <section class="content" >
     <div class="contentWrapper">
 
-    <FORM class="login_form" method="GET" action="signup.php">
+    <FORM class="login_form" method="GET" action="createCourse.php">
 		<div> 
 		<label for="courseName"> Name: </label> <br/>
-		<input type="text" name="courseName" id="courseName" /> 
-        <span><?php echo (isset($msg['courseName']) ? $msg['courseName'] : null )  ?></span>
+		<input type="text" name="courseName" id="courseName" />
+        <span class="messageError">Mi Na<?php echo (isset($msg['courseName']) ? $msg['courseName'] : null )  ?> </span>
+        <br/>
     </div>
 
 	<div>
@@ -27,9 +21,22 @@ require("header.php");
 
     <div>
         <label>Course's time</label> <br/>
-        <input class='smallInput' type="text" name='startTime' id='startDate' /> 
-        <span> to </span>
-        <input class='smallInput' type="text" name='endTime' id='startDate' /> 
+        <input class='smallInput' type="text" name='startTime'  />
+        <span> To </span>
+        <input class='smallInput' type="text" name='endTime' />
+    </div>
+
+    <div>
+
+        <label>Course Duration </label> <br/>
+        <input class='smallInput' type="text" name='startDate' />
+        <span> To </span>
+        <input class='smallInput' type="text" name='endDate' />
+    </div>
+
+    <div>
+        <label> Fee </label> <br/>
+        <input  type="text" name='fee' placeholder=" $" />
     </div>
 
 		<div>
@@ -58,5 +65,5 @@ require("header.php");
 
 
 <?php
-require("footer.php");
+require("config/footer.php");
 ?>

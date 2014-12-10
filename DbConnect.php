@@ -1,24 +1,25 @@
 <?php
+require("config.inc.php");
 
-class DbConnect{
+class dbconnect{
 
     public function  __construct(){
     }
 
     public static function connect(){
-        $db=[
+/*        $db=[
             "host" => "localhost",
             "db_name" => "panyar",
             "username" => "root",
             "password" => "root"
-        ];
+        ]; */
         try {
-            $conn = new PDO("mysql:dbname={$db['db_name']};host={$db['host']}",
-                $db['username'], $db['password']);
+            $conn = new pdo("mysql:dbname={ dbname };host={ host }",
+        username, password);
             return $conn;
 
-        }catch( Exception $e){
-            print  $e->getMessage();
+        }catch( exception $e){
+            print  $e->getmessage();
         }
     }
 
