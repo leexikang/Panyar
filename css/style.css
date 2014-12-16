@@ -138,6 +138,11 @@ form .smallInput {
     text-size: 0.5em;
     margin: 0em 0em 1em 1em;
 
+}
+
+.warningMessage {
+
+    color: #777;
 
 }
 
@@ -168,4 +173,7 @@ form .smallInput {
 .element:hover{
 
     border-color: #61D43D;
+    cursor: pointer;
 }
+
+

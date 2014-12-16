@@ -1,23 +1,31 @@
 <?php
 require("vendor/autoload.php");
 require("config/header.php");
+
+use Panyar\Category;
+use Panyar\Course;
+
 ?>
 
  <section class="main" >
+    <article class="category" >
 
-
-    <article >
-     <ul class="category">
-    <li> <br/> <a href="#">Web Development</a> </li>
-    <li> <br/> <a href="#">Bussiness Management </a> </li>
-                    <li> <br/> <a href="#">Web Development</a> </li>
-    <li> <br/> <a href="#">Bussiness Management </a> </li>
-    <li> <br/> <a href="#">create course </a> </li><li> <br/> <a href="#">Web Development</a> </li>
-    <li> <br/> <a href="#">Bussiness Management </a> </li>
-    <li> <br/> <a href="#">create course </a> </li><li> <br/> <a href="#">Web Development</a> </li> </ul>
 <?php
+
+$categoryObj = new Category();
+$categories  = $categoryObj->fetchAll();
+echo '<ul>';
+
+foreach ( $categories as $category ){
+
+    echo '<li>' .$category->categoryName . '</li>';
+
+}
+
+echo '</ul>';
+
 $course = new Course();
-$data = $course->fetchAll(1);
+$data = $course->fetchById(1);
 
 ?>
     </article>

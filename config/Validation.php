@@ -1,4 +1,4 @@
-<?php
+<?php namespace config\Validation;
 
 class Validation{
 

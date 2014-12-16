@@ -2,10 +2,11 @@
 
 
     "autoload" :{
-        "classmap" : [
-            "config"
-        ]
-   }
+        "psr-4": {
+
+            "Panyar\\": "config"
+        }
+  }
 
 }
 

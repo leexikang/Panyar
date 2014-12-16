@@ -1,6 +1,6 @@
-<?php
-require("config/DbConnect.php");
-require("config/Query.php");
+<?php namespace config\User;
+use config\DbConnect;
+use config\Query;
 
 
 class User implements Query{

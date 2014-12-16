@@ -16,7 +16,7 @@ $msg = array();
                 }
 
 
-            if(! Validation::passwordMatch($password, $passwordRe )  ){
+            if( !Validation::passwordMatch($password, $passwordRe )  ){
                 $msg["passwordMatch"] = "password are not match";
             }
 
@@ -25,8 +25,14 @@ $msg = array();
             }
 
             if( $msg == null AND isset( $_GET['signup'] ) ){
+                $data = array(
+                    'username' => $username,
+                    'password' => $password,
+                    'email' => $email
+                );
+
                 $user = new User();
-                $user->insertAllRoll($username, $password, $email);
+                $user->insertAllRoll($data);
            }
     }
 

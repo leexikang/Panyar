@@ -6,10 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Course' => $baseDir . '/config/Course.php',
-    'FormController' => $baseDir . '/config/FormController.php',
-    'Query' => $baseDir . '/config/Query.php',
-    'User' => $baseDir . '/config/User.php',
-    'Validation' => $baseDir . '/config/Validation.php',
-    'dbconnect' => $baseDir . '/config/DbConnect.php',
 );

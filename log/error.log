@@ -252,3 +252,450 @@
 [Tue Dec 09 22:30:02.834219 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   6. require() /home/xikang/Public/Panyar/config/User.php:2, referer: http://panyar.com/login.php
 [Tue Dec 09 22:30:02.834224 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   7. require() /home/xikang/Public/Panyar/config/DbConnect.php:2, referer: http://panyar.com/login.php
 [Tue Dec 09 22:30:02.834229 2014] [:error] [pid 3398] [client 127.0.0.1:37341] PHP   8. define() /home/xikang/Public/Panyar/config/config.inc.php:9, referer: http://panyar.com/login.php
+[Wed Dec 10 22:45:22.886300 2014] [:error] [pid 3246] [client 127.0.0.1:47190] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/createCourse.php on line 26, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:22.886409 2014] [:error] [pid 3246] [client 127.0.0.1:47190] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:22.886463 2014] [:error] [pid 3246] [client 127.0.0.1:47190] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.859874 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP Warning:  require(vendor/autoload): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createCourse.php on line 2, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.859963 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.859997 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.860127 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP Fatal error:  require(): Failed opening required 'vendor/autoload' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createCourse.php on line 2, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.860159 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:45:56.860191 2014] [:error] [pid 3241] [client 127.0.0.1:47204] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:46:12.708190 2014] [:error] [pid 1382] [client 127.0.0.1:47208] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/createCourse.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:46:12.708257 2014] [:error] [pid 1382] [client 127.0.0.1:47208] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:46:12.708272 2014] [:error] [pid 1382] [client 127.0.0.1:47208] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.277789 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Notice:  Undefined offset: 1 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.277832 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.277879 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.277918 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278097 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Notice:  Undefined offset: 2 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278124 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278150 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278179 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278260 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Notice:  A non well formed numeric value encountered in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278300 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278329 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278364 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:51:12.278385 2014] [:error] [pid 1384] [client 127.0.0.1:47291] PHP   3. checkdate() /home/xikang/Public/Panyar/config/Validation.php:27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113509 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Notice:  Undefined offset: 1 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113621 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113688 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113729 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113877 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Notice:  Undefined offset: 2 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113912 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.113988 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114026 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114214 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Notice:  A non well formed numeric value encountered in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114257 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114287 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114322 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:13.114355 2014] [:error] [pid 1385] [client 127.0.0.1:47304] PHP   3. checkdate() /home/xikang/Public/Panyar/config/Validation.php:27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216008 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Notice:  Undefined offset: 1 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216065 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216078 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216088 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216129 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Notice:  Undefined offset: 2 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216158 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216178 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216200 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216279 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Notice:  A non well formed numeric value encountered in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216299 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216317 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216338 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:52:23.216357 2014] [:error] [pid 1382] [client 127.0.0.1:47306] PHP   3. checkdate() /home/xikang/Public/Panyar/config/Validation.php:27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.395789 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Notice:  Undefined offset: 1 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.395916 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.395953 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.395977 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396114 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Notice:  Undefined offset: 2 in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396131 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396153 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396163 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396245 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Notice:  A non well formed numeric value encountered in /home/xikang/Public/Panyar/config/Validation.php on line 27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396274 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396283 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396293 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   2. Validation::dateValidation() /home/xikang/Public/Panyar/createCourse.php:31, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:53:44.396302 2014] [:error] [pid 7222] [client 127.0.0.1:47329] PHP   3. checkdate() /home/xikang/Public/Panyar/config/Validation.php:27, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021593 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Notice:  Undefined variable: data in /home/xikang/Public/Panyar/createCourse.php on line 52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021671 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021688 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021775 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/xikang/Public/Panyar/config/Course.php on line 48, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021787 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021795 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021804 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021812 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   3. extract() /home/xikang/Public/Panyar/config/Course.php:48, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021890 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Fatal error:  Call to undefined method PDOStatement::excute() in /home/xikang/Public/Panyar/config/Course.php on line 54, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021919 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021927 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:56:52.021935 2014] [:error] [pid 7397] [client 127.0.0.1:47398] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:25.325924 2014] [:error] [pid 7394] [client 127.0.0.1:47400] PHP Fatal error:  Call to undefined method PDOStatement::excute() in /home/xikang/Public/Panyar/config/Course.php on line 54, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:25.326020 2014] [:error] [pid 7394] [client 127.0.0.1:47400] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:25.326053 2014] [:error] [pid 7394] [client 127.0.0.1:47400] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:25.326124 2014] [:error] [pid 7394] [client 127.0.0.1:47400] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:49.538544 2014] [:error] [pid 7358] [client 127.0.0.1:47413] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:49.538654 2014] [:error] [pid 7358] [client 127.0.0.1:47413] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:49.538704 2014] [:error] [pid 7358] [client 127.0.0.1:47413] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:49.538737 2014] [:error] [pid 7358] [client 127.0.0.1:47413] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:57:49.538759 2014] [:error] [pid 7358] [client 127.0.0.1:47413] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:58:48.226524 2014] [:error] [pid 3246] [client 127.0.0.1:47425] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:58:48.226596 2014] [:error] [pid 3246] [client 127.0.0.1:47425] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:58:48.226608 2014] [:error] [pid 3246] [client 127.0.0.1:47425] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:58:48.226618 2014] [:error] [pid 3246] [client 127.0.0.1:47425] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:58:48.226626 2014] [:error] [pid 3246] [client 127.0.0.1:47425] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:02.269381 2014] [:error] [pid 7419] [client 127.0.0.1:47427] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:02.269441 2014] [:error] [pid 7419] [client 127.0.0.1:47427] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:02.269459 2014] [:error] [pid 7419] [client 127.0.0.1:47427] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:02.269473 2014] [:error] [pid 7419] [client 127.0.0.1:47427] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:02.269501 2014] [:error] [pid 7419] [client 127.0.0.1:47427] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:11.087577 2014] [:error] [pid 7397] [client 127.0.0.1:47429] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:11.087666 2014] [:error] [pid 7397] [client 127.0.0.1:47429] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:11.087701 2014] [:error] [pid 7397] [client 127.0.0.1:47429] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:11.087732 2014] [:error] [pid 7397] [client 127.0.0.1:47429] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:11.087761 2014] [:error] [pid 7397] [client 127.0.0.1:47429] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:40.893173 2014] [:error] [pid 7394] [client 127.0.0.1:47442] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:40.893263 2014] [:error] [pid 7394] [client 127.0.0.1:47442] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:40.893280 2014] [:error] [pid 7394] [client 127.0.0.1:47442] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:40.893294 2014] [:error] [pid 7394] [client 127.0.0.1:47442] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 22:59:40.893305 2014] [:error] [pid 7394] [client 127.0.0.1:47442] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:00:45.500660 2014] [:error] [pid 1384] [client 127.0.0.1:47454] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:00:45.500722 2014] [:error] [pid 1384] [client 127.0.0.1:47454] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:00:45.500733 2014] [:error] [pid 1384] [client 127.0.0.1:47454] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:00:45.500743 2014] [:error] [pid 1384] [client 127.0.0.1:47454] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:00:45.500752 2014] [:error] [pid 1384] [client 127.0.0.1:47454] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:14.096585 2014] [:error] [pid 7398] [client 127.0.0.1:47481] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:14.096656 2014] [:error] [pid 7398] [client 127.0.0.1:47481] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:14.096678 2014] [:error] [pid 7398] [client 127.0.0.1:47481] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:14.096693 2014] [:error] [pid 7398] [client 127.0.0.1:47481] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:14.096727 2014] [:error] [pid 7398] [client 127.0.0.1:47481] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:17.345195 2014] [:error] [pid 7397] [client 127.0.0.1:47482] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:17.345272 2014] [:error] [pid 7397] [client 127.0.0.1:47482] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:17.345297 2014] [:error] [pid 7397] [client 127.0.0.1:47482] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:17.345322 2014] [:error] [pid 7397] [client 127.0.0.1:47482] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:17.345344 2014] [:error] [pid 7397] [client 127.0.0.1:47482] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:41.063302 2014] [:error] [pid 7394] [client 127.0.0.1:47494] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:41.063356 2014] [:error] [pid 7394] [client 127.0.0.1:47494] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:41.063369 2014] [:error] [pid 7394] [client 127.0.0.1:47494] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:41.063379 2014] [:error] [pid 7394] [client 127.0.0.1:47494] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:03:41.063389 2014] [:error] [pid 7394] [client 127.0.0.1:47494] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:03.028219 2014] [:error] [pid 1384] [client 127.0.0.1:47496] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:03.028284 2014] [:error] [pid 1384] [client 127.0.0.1:47496] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:03.028297 2014] [:error] [pid 1384] [client 127.0.0.1:47496] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:03.028308 2014] [:error] [pid 1384] [client 127.0.0.1:47496] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:03.028317 2014] [:error] [pid 1384] [client 127.0.0.1:47496] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:10.448596 2014] [:error] [pid 3246] [client 127.0.0.1:47498] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:10.448707 2014] [:error] [pid 3246] [client 127.0.0.1:47498] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:10.448734 2014] [:error] [pid 3246] [client 127.0.0.1:47498] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:10.448756 2014] [:error] [pid 3246] [client 127.0.0.1:47498] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:10.448808 2014] [:error] [pid 3246] [client 127.0.0.1:47498] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:18.333797 2014] [:error] [pid 7419] [client 127.0.0.1:47500] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:18.333882 2014] [:error] [pid 7419] [client 127.0.0.1:47500] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:18.333907 2014] [:error] [pid 7419] [client 127.0.0.1:47500] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:18.333930 2014] [:error] [pid 7419] [client 127.0.0.1:47500] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:18.333949 2014] [:error] [pid 7419] [client 127.0.0.1:47500] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:04:56.906825 2014] [:error] [pid 7397] [client 127.0.0.1:47512] script '/home/xikang/Public/Panyar/allCourses.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:05:00.031177 2014] [:error] [pid 7397] [client 127.0.0.1:47512] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:05:00.031257 2014] [:error] [pid 7397] [client 127.0.0.1:47512] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:05:00.031290 2014] [:error] [pid 7397] [client 127.0.0.1:47512] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:05:00.031320 2014] [:error] [pid 7397] [client 127.0.0.1:47512] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:05:00.031349 2014] [:error] [pid 7397] [client 127.0.0.1:47512] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:53.077687 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:53.077740 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:53.077751 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:53.077761 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:53.077769 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:57.435743 2014] [:error] [pid 7358] [client 127.0.0.1:47538] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:57.435802 2014] [:error] [pid 7358] [client 127.0.0.1:47538] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:57.435815 2014] [:error] [pid 7358] [client 127.0.0.1:47538] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:57.435848 2014] [:error] [pid 7358] [client 127.0.0.1:47538] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:06:57.435858 2014] [:error] [pid 7358] [client 127.0.0.1:47538] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:07:00.681791 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:07:00.681844 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:07:00.681858 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:07:00.681870 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:07:00.681881 2014] [:error] [pid 1384] [client 127.0.0.1:47537] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:09:17.110422 2014] [:error] [pid 3246] [client 127.0.0.1:47590] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/xikang/Public/Panyar/config/Course.php on line 64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:09:17.110484 2014] [:error] [pid 3246] [client 127.0.0.1:47590] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:09:17.110496 2014] [:error] [pid 3246] [client 127.0.0.1:47590] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:09:17.110506 2014] [:error] [pid 3246] [client 127.0.0.1:47590] PHP   2. Course->InsertAll() /home/xikang/Public/Panyar/createCourse.php:52, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:09:17.110513 2014] [:error] [pid 3246] [client 127.0.0.1:47590] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Course.php:64, referer: http://panyar.com/createCourse.php
+[Wed Dec 10 23:20:27.302324 2014] [:error] [pid 7837] [client 127.0.0.1:47766] PHP Parse error:  syntax error, unexpected '{' in /home/xikang/Public/Panyar/createCourse.php on line 28, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:02:06.118613 2014] [:error] [pid 1386] [client 127.0.0.1:44102] PHP Notice:  Undefined variable: date in /home/xikang/Public/Panyar/config/Validation.php on line 35, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:02:06.161146 2014] [:error] [pid 1386] [client 127.0.0.1:44102] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:02:06.161209 2014] [:error] [pid 1386] [client 127.0.0.1:44102] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:02:06.161225 2014] [:error] [pid 1386] [client 127.0.0.1:44102] PHP   2. Validation::validateInt() /home/xikang/Public/Panyar/createCourse.php:38, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:03:45.842624 2014] [:error] [pid 1387] [client 127.0.0.1:44116] PHP Notice:  Undefined variable: date in /home/xikang/Public/Panyar/config/Validation.php on line 35, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:03:45.842673 2014] [:error] [pid 1387] [client 127.0.0.1:44116] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:03:45.842689 2014] [:error] [pid 1387] [client 127.0.0.1:44116] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:03:45.842715 2014] [:error] [pid 1387] [client 127.0.0.1:44116] PHP   2. Validation::validateInt() /home/xikang/Public/Panyar/createCourse.php:38, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:09:19.546993 2014] [:error] [pid 5875] [client 127.0.0.1:44196] script '/home/xikang/Public/Panyar/creatProfile.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:10:44.598587 2014] [:error] [pid 4464] [client 127.0.0.1:44218] script '/home/xikang/Public/Panyar/creatProfile.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 21:10:49.089889 2014] [:error] [pid 4464] [client 127.0.0.1:44218] script '/home/xikang/Public/Panyar/creatProfile.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Thu Dec 11 22:04:46.621887 2014] [:error] [pid 4464] [client 127.0.0.1:44785] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/createProfile.php on line 18, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:04:46.621923 2014] [:error] [pid 4464] [client 127.0.0.1:44785] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:04:46.621935 2014] [:error] [pid 4464] [client 127.0.0.1:44785] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987531 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP Warning:  require(config/autoload.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createProfile.php on line 3, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987616 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987660 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987777 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP Fatal error:  require(): Failed opening required 'config/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createProfile.php on line 3, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987808 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:05:08.987844 2014] [:error] [pid 1386] [client 127.0.0.1:44797] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:21:52.144048 2014] [:error] [pid 5875] [client 127.0.0.1:44992] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:21:52.144102 2014] [:error] [pid 5875] [client 127.0.0.1:44992] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:21:52.144117 2014] [:error] [pid 5875] [client 127.0.0.1:44992] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.732142 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.732260 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.732317 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734162 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Notice:  Undefined index: userExist in /home/xikang/Public/Panyar/createProfile.php on line 44, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734196 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734234 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734282 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Notice:  Undefined index: passwordMatch in /home/xikang/Public/Panyar/createProfile.php on line 53, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734292 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:23:42.734302 2014] [:error] [pid 1388] [client 127.0.0.1:45015] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.918868 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.918948 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.918987 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.920098 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP Notice:  Undefined index: passwordMatch in /home/xikang/Public/Panyar/createProfile.php on line 53, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.920125 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:25:47.920137 2014] [:error] [pid 1390] [client 127.0.0.1:45038] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.496671 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.496754 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.496784 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498902 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Notice:  Undefined index: userExist in /home/xikang/Public/Panyar/createProfile.php on line 44, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498928 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498937 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498970 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Notice:  Undefined index: passwordMatch in /home/xikang/Public/Panyar/createProfile.php on line 53, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498977 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:26:45.498985 2014] [:error] [pid 1387] [client 127.0.0.1:45050] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:28:52.461661 2014] [:error] [pid 4445] [client 127.0.0.1:45073] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:28:52.461765 2014] [:error] [pid 4445] [client 127.0.0.1:45073] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:28:52.461816 2014] [:error] [pid 4445] [client 127.0.0.1:45073] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:13.671133 2014] [:error] [pid 5875] [client 127.0.0.1:45075] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:13.671164 2014] [:error] [pid 5875] [client 127.0.0.1:45075] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:13.671177 2014] [:error] [pid 5875] [client 127.0.0.1:45075] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:28.036367 2014] [:error] [pid 1388] [client 127.0.0.1:45087] PHP Notice:  Undefined index: intro in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:28.036446 2014] [:error] [pid 1388] [client 127.0.0.1:45087] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:29:28.036473 2014] [:error] [pid 1388] [client 127.0.0.1:45087] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php
+[Thu Dec 11 22:35:25.876437 2014] [:error] [pid 1390] [client 127.0.0.1:45153] PHP Notice:  Undefined property: stdClass::$name in /home/xikang/Public/Panyar/createProfile.php on line 47, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=&signup=Signup
+[Thu Dec 11 22:35:25.876550 2014] [:error] [pid 1390] [client 127.0.0.1:45153] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=&signup=Signup
+[Thu Dec 11 22:35:25.876599 2014] [:error] [pid 1390] [client 127.0.0.1:45153] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=&signup=Signup
+[Thu Dec 11 22:53:08.360005 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 22:53:08.360045 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 22:53:08.360056 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 22:53:08.360088 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP Notice:  Undefined variable: password in /home/xikang/Public/Panyar/createProfile.php on line 11, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 22:53:08.360095 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 22:53:08.360103 2014] [:error] [pid 1388] [client 127.0.0.1:45388] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037339 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Notice:  Undefined variable: data in /home/xikang/Public/Panyar/createProfile.php on line 18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037399 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037414 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037463 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/xikang/Public/Panyar/config/User.php on line 61, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037488 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037499 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037510 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037519 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   3. extract() /home/xikang/Public/Panyar/config/User.php:61, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037589 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Notice:  Undefined variable: name in /home/xikang/Public/Panyar/config/User.php on line 68, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037597 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037605 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037614 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037672 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Notice:  Undefined variable: email in /home/xikang/Public/Panyar/config/User.php on line 69, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037682 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037691 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037700 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037728 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Notice:  Undefined variable: intro in /home/xikang/Public/Panyar/config/User.php on line 71, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037736 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037744 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:33.037753 2014] [:error] [pid 1387] [client 127.0.0.1:45624] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949501 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Notice:  Undefined variable: data in /home/xikang/Public/Panyar/createProfile.php on line 18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949550 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949570 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949681 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/xikang/Public/Panyar/config/User.php on line 61, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949715 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949749 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949776 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949797 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   3. extract() /home/xikang/Public/Panyar/config/User.php:61, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949937 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Notice:  Undefined variable: name in /home/xikang/Public/Panyar/config/User.php on line 68, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949964 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.949984 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950006 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950131 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Notice:  Undefined variable: email in /home/xikang/Public/Panyar/config/User.php on line 69, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950165 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950179 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950194 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950298 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Notice:  Undefined variable: intro in /home/xikang/Public/Panyar/config/User.php on line 71, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950318 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950335 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:15:48.950355 2014] [:error] [pid 5874] [client 127.0.0.1:45626] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:16:11.308582 2014] [:error] [pid 7484] [client 127.0.0.1:45638] PHP Notice:  Undefined variable: intro in /home/xikang/Public/Panyar/config/User.php on line 71, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:16:11.308689 2014] [:error] [pid 7484] [client 127.0.0.1:45638] PHP Stack trace:, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:16:11.308730 2014] [:error] [pid 7484] [client 127.0.0.1:45638] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:16:11.308757 2014] [:error] [pid 7484] [client 127.0.0.1:45638] PHP   2. User->updateInfo() /home/xikang/Public/Panyar/createProfile.php:18, referer: http://panyar.com/createProfile.php?username=&password=&passwordRe=&email=&intro=afsa&signup=Signup
+[Thu Dec 11 23:32:00.472117 2014] [:error] [pid 8088] [client 127.0.0.1:45899] PHP Notice:  Undefined variable: data in /home/xikang/Public/Panyar/createProfile.php on line 28, referer: http://panyar.com/createProfile.php?name=KMD&email=admin%40kmd.com&intro=way+to+go+dam+&edit=Eidt
+[Thu Dec 11 23:32:00.472162 2014] [:error] [pid 8088] [client 127.0.0.1:45899] PHP Stack trace:, referer: http://panyar.com/createProfile.php?name=KMD&email=admin%40kmd.com&intro=way+to+go+dam+&edit=Eidt
+[Thu Dec 11 23:32:00.472172 2014] [:error] [pid 8088] [client 127.0.0.1:45899] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/createProfile.php?name=KMD&email=admin%40kmd.com&intro=way+to+go+dam+&edit=Eidt
+[Tue Dec 16 19:46:29.571834 2014] [:error] [pid 1378] [client 127.0.0.1:53628] PHP Fatal error:  Class 'Category' not found in /home/xikang/Public/Panyar/index.php on line 9
+[Tue Dec 16 19:46:29.611692 2014] [:error] [pid 1378] [client 127.0.0.1:53628] PHP Stack trace:
+[Tue Dec 16 19:46:29.611742 2014] [:error] [pid 1378] [client 127.0.0.1:53628] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:47:38.532851 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:47:38.532890 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP Stack trace:
+[Tue Dec 16 19:47:38.532902 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:47:38.532910 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:47:38.532918 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:47:38.532937 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:47:38.532944 2014] [:error] [pid 3254] [client 127.0.0.1:53644] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:07.197904 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:07.197988 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Stack trace:
+[Tue Dec 16 19:49:07.198021 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:07.198042 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:07.198087 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:07.198111 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:07.198132 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:07.868141 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:07.868173 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Stack trace:
+[Tue Dec 16 19:49:07.868186 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:07.868196 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:07.868206 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:07.868215 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:07.868224 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:08.140815 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:08.140844 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Stack trace:
+[Tue Dec 16 19:49:08.140853 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.140861 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:08.140870 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.140877 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:08.140884 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:08.353678 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:08.353703 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Stack trace:
+[Tue Dec 16 19:49:08.353713 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.353722 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:08.353748 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.353756 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:08.353764 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:08.555899 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:08.555951 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Stack trace:
+[Tue Dec 16 19:49:08.555974 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.555993 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:08.556013 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.556031 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:08.556048 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:08.750030 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:08.750084 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP Stack trace:
+[Tue Dec 16 19:49:08.750098 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.750106 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:08.750113 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.750120 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:08.750127 2014] [:error] [pid 1375] [client 127.0.0.1:53671] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:49:08.977712 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Fatal error:  Cannot redeclare class dbconnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:49:08.977741 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP Stack trace:
+[Tue Dec 16 19:49:08.977750 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.977758 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:49:08.977767 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:49:08.977774 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:49:08.977795 2014] [:error] [pid 1376] [client 127.0.0.1:53672] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:50:09.676465 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP Fatal error:  Cannot redeclare class DbConnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:50:09.676551 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP Stack trace:
+[Tue Dec 16 19:50:09.676607 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:50:09.676627 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:50:09.676645 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:50:09.676660 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:50:09.676675 2014] [:error] [pid 3745] [client 127.0.0.1:53687] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:51:18.986133 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP Fatal error:  Cannot redeclare class DbConnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:51:18.986252 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP Stack trace:
+[Tue Dec 16 19:51:18.986283 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:51:18.986305 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:51:18.986328 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:51:18.986349 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:51:18.986369 2014] [:error] [pid 1375] [client 127.0.0.1:53701] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 19:51:38.742399 2014] [:error] [pid 3254] [client 127.0.0.1:53705] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xikang/Public/Panyar/config/Category.php on line 16
+[Tue Dec 16 19:51:38.742463 2014] [:error] [pid 3254] [client 127.0.0.1:53705] PHP Stack trace:
+[Tue Dec 16 19:51:38.742506 2014] [:error] [pid 3254] [client 127.0.0.1:53705] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:51:38.742531 2014] [:error] [pid 3254] [client 127.0.0.1:53705] PHP   2. Category->fetchAll() /home/xikang/Public/Panyar/index.php:10
+[Tue Dec 16 19:52:46.143875 2014] [:error] [pid 1377] [client 127.0.0.1:53720] PHP Fatal error:  Class 'DbConnect' not found in /home/xikang/Public/Panyar/config/Category.php on line 10
+[Tue Dec 16 19:52:46.143933 2014] [:error] [pid 1377] [client 127.0.0.1:53720] PHP Stack trace:
+[Tue Dec 16 19:52:46.143956 2014] [:error] [pid 1377] [client 127.0.0.1:53720] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:52:46.143974 2014] [:error] [pid 1377] [client 127.0.0.1:53720] PHP   2. Category->__construct() /home/xikang/Public/Panyar/index.php:9
+[Tue Dec 16 19:52:52.763560 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP Fatal error:  Cannot redeclare class DbConnect in /home/xikang/Public/Panyar/config/DbConnect.php on line 5
+[Tue Dec 16 19:52:52.763657 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP Stack trace:
+[Tue Dec 16 19:52:52.763683 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:52:52.763707 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:22
+[Tue Dec 16 19:52:52.763729 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 19:52:52.763752 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 19:52:52.763774 2014] [:error] [pid 1375] [client 127.0.0.1:53722] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 20:11:58.815377 2014] [:error] [pid 1374] [client 127.0.0.1:54092] PHP Fatal error:  Class 'DbConnect' not found in /home/xikang/Public/Panyar/config/Category.php on line 10
+[Tue Dec 16 20:11:58.815435 2014] [:error] [pid 1374] [client 127.0.0.1:54092] PHP Stack trace:
+[Tue Dec 16 20:11:58.815457 2014] [:error] [pid 1374] [client 127.0.0.1:54092] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:11:58.815468 2014] [:error] [pid 1374] [client 127.0.0.1:54092] PHP   2. Category->__construct() /home/xikang/Public/Panyar/index.php:9
+[Tue Dec 16 20:17:57.878129 2014] [:error] [pid 3251] [client 127.0.0.1:54160] PHP Fatal error:  Class 'DbConnect' not found in /home/xikang/Public/Panyar/config/Category.php on line 10
+[Tue Dec 16 20:17:57.878223 2014] [:error] [pid 3251] [client 127.0.0.1:54160] PHP Stack trace:
+[Tue Dec 16 20:17:57.878257 2014] [:error] [pid 3251] [client 127.0.0.1:54160] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:17:57.878281 2014] [:error] [pid 3251] [client 127.0.0.1:54160] PHP   2. Category->__construct() /home/xikang/Public/Panyar/index.php:9
+[Tue Dec 16 20:28:33.227913 2014] [:error] [pid 3255] [client 127.0.0.1:54279] PHP Fatal error:  Class 'Category' not found in /home/xikang/Public/Panyar/index.php on line 9
+[Tue Dec 16 20:28:33.227957 2014] [:error] [pid 3255] [client 127.0.0.1:54279] PHP Stack trace:
+[Tue Dec 16 20:28:33.227973 2014] [:error] [pid 3255] [client 127.0.0.1:54279] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:29:10.448753 2014] [:error] [pid 1378] [client 127.0.0.1:54283] PHP Fatal error:  Class 'config\\Category' not found in /home/xikang/Public/Panyar/index.php on line 11
+[Tue Dec 16 20:29:10.448787 2014] [:error] [pid 1378] [client 127.0.0.1:54283] PHP Stack trace:
+[Tue Dec 16 20:29:10.448796 2014] [:error] [pid 1378] [client 127.0.0.1:54283] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:29:42.307961 2014] [:error] [pid 1377] [client 127.0.0.1:54297] PHP Warning:  The use statement with non-compound name 'config' has no effect in /home/xikang/Public/Panyar/index.php on line 5
+[Tue Dec 16 20:29:42.308929 2014] [:error] [pid 1377] [client 127.0.0.1:54297] PHP Fatal error:  Class 'Category' not found in /home/xikang/Public/Panyar/index.php on line 11
+[Tue Dec 16 20:29:42.308958 2014] [:error] [pid 1377] [client 127.0.0.1:54297] PHP Stack trace:
+[Tue Dec 16 20:29:42.308969 2014] [:error] [pid 1377] [client 127.0.0.1:54297] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:29:54.135387 2014] [:error] [pid 1374] [client 127.0.0.1:54300] PHP Fatal error:  Class 'config\\Category' not found in /home/xikang/Public/Panyar/index.php on line 11
+[Tue Dec 16 20:29:54.135467 2014] [:error] [pid 1374] [client 127.0.0.1:54300] PHP Stack trace:
+[Tue Dec 16 20:29:54.135495 2014] [:error] [pid 1374] [client 127.0.0.1:54300] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:33:40.459733 2014] [:error] [pid 3251] [client 127.0.0.1:54345] PHP Parse error:  syntax error, unexpected '"config\\Category"' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or \\\\ (T_NS_SEPARATOR) in /home/xikang/Public/Panyar/index.php on line 5
+[Tue Dec 16 20:33:53.774630 2014] [:error] [pid 1377] [client 127.0.0.1:54348] PHP Fatal error:  Class 'config\\Category' not found in /home/xikang/Public/Panyar/index.php on line 11
+[Tue Dec 16 20:33:53.774703 2014] [:error] [pid 1377] [client 127.0.0.1:54348] PHP Stack trace:
+[Tue Dec 16 20:33:53.774729 2014] [:error] [pid 1377] [client 127.0.0.1:54348] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:36:13.574527 2014] [:error] [pid 1374] [client 127.0.0.1:54372] PHP Parse error:  syntax error, unexpected '"config\\Category"' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or \\\\ (T_NS_SEPARATOR) in /home/xikang/Public/Panyar/index.php on line 5
+[Tue Dec 16 20:36:51.681230 2014] [:error] [pid 3251] [client 127.0.0.1:54385] PHP Fatal error:  Class 'Category' not found in /home/xikang/Public/Panyar/index.php on line 10
+[Tue Dec 16 20:36:51.681267 2014] [:error] [pid 3251] [client 127.0.0.1:54385] PHP Stack trace:
+[Tue Dec 16 20:36:51.681275 2014] [:error] [pid 3251] [client 127.0.0.1:54385] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:38:10.485091 2014] [:error] [pid 1377] [client 127.0.0.1:54399] PHP Fatal error:  Class 'config\\Category' not found in /home/xikang/Public/Panyar/index.php on line 10
+[Tue Dec 16 20:38:10.485118 2014] [:error] [pid 1377] [client 127.0.0.1:54399] PHP Stack trace:
+[Tue Dec 16 20:38:10.485126 2014] [:error] [pid 1377] [client 127.0.0.1:54399] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 20:38:30.406036 2014] [:error] [pid 1374] [client 127.0.0.1:54412] PHP Fatal error:  Class 'Panyar\\Category' not found in /home/xikang/Public/Panyar/index.php on line 10
+[Tue Dec 16 20:38:30.406103 2014] [:error] [pid 1374] [client 127.0.0.1:54412] PHP Stack trace:
+[Tue Dec 16 20:38:30.406137 2014] [:error] [pid 1374] [client 127.0.0.1:54412] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:26:05.389300 2014] [:error] [pid 1374] [client 127.0.0.1:54522] PHP Fatal error:  Class 'Panyar\\DbConnect' not found in /home/xikang/Public/Panyar/config/Category.php on line 11
+[Tue Dec 16 22:26:05.389340 2014] [:error] [pid 1374] [client 127.0.0.1:54522] PHP Stack trace:
+[Tue Dec 16 22:26:05.389372 2014] [:error] [pid 1374] [client 127.0.0.1:54522] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:26:05.389397 2014] [:error] [pid 1374] [client 127.0.0.1:54522] PHP   2. Panyar\\Category->__construct() /home/xikang/Public/Panyar/index.php:11
+[Tue Dec 16 22:26:44.545273 2014] [:error] [pid 1378] [client 127.0.0.1:54526] PHP Fatal error:  Class 'Panyar\\pdo' not found in /home/xikang/Public/Panyar/config/DbConnect.php on line 12
+[Tue Dec 16 22:26:44.545337 2014] [:error] [pid 1378] [client 127.0.0.1:54526] PHP Stack trace:
+[Tue Dec 16 22:26:44.545350 2014] [:error] [pid 1378] [client 127.0.0.1:54526] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:26:44.545360 2014] [:error] [pid 1378] [client 127.0.0.1:54526] PHP   2. Panyar\\Category->__construct() /home/xikang/Public/Panyar/index.php:11
+[Tue Dec 16 22:26:44.545369 2014] [:error] [pid 1378] [client 127.0.0.1:54526] PHP   3. Panyar\\DbConnect::connect() /home/xikang/Public/Panyar/config/Category.php:11
+[Tue Dec 16 22:27:03.354009 2014] [:error] [pid 3255] [client 127.0.0.1:54528] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/Category.php on line 17
+[Tue Dec 16 22:27:03.354080 2014] [:error] [pid 3255] [client 127.0.0.1:54528] PHP Stack trace:
+[Tue Dec 16 22:27:03.354093 2014] [:error] [pid 3255] [client 127.0.0.1:54528] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:27:03.354103 2014] [:error] [pid 3255] [client 127.0.0.1:54528] PHP   2. Panyar\\Category->fetchAll() /home/xikang/Public/Panyar/index.php:12
+[Tue Dec 16 22:27:57.894909 2014] [:error] [pid 3251] [client 127.0.0.1:54551] PHP Fatal error:  Class 'Course' not found in /home/xikang/Public/Panyar/index.php on line 24
+[Tue Dec 16 22:27:57.894991 2014] [:error] [pid 3251] [client 127.0.0.1:54551] PHP Stack trace:
+[Tue Dec 16 22:27:57.895017 2014] [:error] [pid 3251] [client 127.0.0.1:54551] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:28:50.434407 2014] [:error] [pid 1375] [client 127.0.0.1:54555] PHP Fatal error:  Class 'Course' not found in /home/xikang/Public/Panyar/index.php on line 26
+[Tue Dec 16 22:28:50.434494 2014] [:error] [pid 1375] [client 127.0.0.1:54555] PHP Stack trace:
+[Tue Dec 16 22:28:50.434517 2014] [:error] [pid 1375] [client 127.0.0.1:54555] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:29:02.812186 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP Fatal error:  Interface 'Panyar\\Query' not found in /home/xikang/Public/Panyar/config/Course.php on line 6
+[Tue Dec 16 22:29:02.812259 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP Stack trace:
+[Tue Dec 16 22:29:02.812270 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:29:02.812277 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/index.php:26
+[Tue Dec 16 22:29:02.812285 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:29:02.812292 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Tue Dec 16 22:29:02.812298 2014] [:error] [pid 3255] [client 127.0.0.1:54568] PHP   5. include() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:385
+[Tue Dec 16 22:29:43.435993 2014] [:error] [pid 3251] [client 127.0.0.1:54571] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/Course.php on line 19
+[Tue Dec 16 22:29:43.436079 2014] [:error] [pid 3251] [client 127.0.0.1:54571] PHP Stack trace:
+[Tue Dec 16 22:29:43.436106 2014] [:error] [pid 3251] [client 127.0.0.1:54571] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:29:43.436129 2014] [:error] [pid 3251] [client 127.0.0.1:54571] PHP   2. Panyar\\Course->fetchAll() /home/xikang/Public/Panyar/index.php:27
+[Tue Dec 16 22:30:20.431850 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 34
+[Tue Dec 16 22:30:20.431895 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
+[Tue Dec 16 22:30:20.431907 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:30:20.431945 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 35
+[Tue Dec 16 22:30:20.431957 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
+[Tue Dec 16 22:30:20.431971 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:30:20.432006 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 35
+[Tue Dec 16 22:30:20.432014 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
+[Tue Dec 16 22:30:20.432022 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:30:20.432085 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 36
+[Tue Dec 16 22:30:20.432101 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
+[Tue Dec 16 22:30:20.432118 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Tue Dec 16 22:30:20.432180 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 36
+[Tue Dec 16 22:30:20.432196 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
+[Tue Dec 16 22:30:20.432213 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0

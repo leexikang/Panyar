@@ -1,4 +1,6 @@
-<?php
+<?php namespace Panyar;
+use Panyar\DbConnect;
+use \PDO;
 
 class Category {
 
@@ -8,7 +10,7 @@ class Category {
     public function __construct(){
 
         $this->conn = DbConnect::connect();
-    }
+}
 
     public function fetchAll(){
 

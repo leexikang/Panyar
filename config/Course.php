@@ -1,6 +1,8 @@
-<?php
-require("config/DbConnect.php");
-require("config/Query.php");
+<?php namespace Panyar;
+use Panyar\DbConnect;
+use Panyar\Query;
+use \PDO;
+
 
 class Course Implements Query{
 

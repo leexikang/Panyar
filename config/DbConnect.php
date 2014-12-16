@@ -1,4 +1,4 @@
-<?php
+<?php namespace Panyar;
 
 require("config.inc.php");
 
@@ -9,7 +9,7 @@ class DbConnect{
 
     public static function connect(){
        try {
-            $conn = new pdo("mysql:dbname=". db_name. ";host=". host ,
+            $conn = new \pdo("mysql:dbname=". db_name. ";host=". host ,
         username, password);
             return $conn;
 
