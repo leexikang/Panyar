@@ -1,7 +1,8 @@
 <?php
+
 require("config.inc.php");
 
-class dbconnect{
+class DbConnect{
 
     public function  __construct(){
     }

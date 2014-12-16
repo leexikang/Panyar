@@ -17,7 +17,7 @@ protected $conn;
         $stmt = $this->conn->prepare("SELECT * FROM course");
         $stmt->setFetchMode( PDO::FETCH_OBJ );
         $stmt->execute();
-        $row  = $stmt->fetch();
+        $row  = $stmt->fetchAll();
         return $row;
     }
 
@@ -41,6 +41,28 @@ protected $conn;
         $row  = $stmt->fetch();
         return $row;
 
+    }
+
+    public function InsertAll( $data ){
+
+        extract($data);
+
+        $stmt = $this->conn->prepare("INSERT INTO course
+            (courseName, description, startTime, endTime,
+            startDate, endDate, fee, categoryId, note) VALUES
+            (:courseName, :description, :startTime, :endTime,
+            :startDate, :endDate, :fee, :categoryId, :note)");
+            $stmt->execute( array(
+            'courseName' => $courseName,
+            'description' => $description,
+            'startTime' => $startTime,
+            'endTime' => $endTime,
+            'startDate' => $startDate,
+            'endDate' => $endDate,
+            'fee' => $fee,
+            'categoryId' => $category,
+            'note' => $note
+        ) );
     }
 }
 

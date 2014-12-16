@@ -6,6 +6,7 @@ require("config/Query.php");
 class User implements Query{
 
     protected $conn;
+
     public function __construct(){
         $this->conn = DbConnect::connect();
     }
@@ -45,12 +46,32 @@ class User implements Query{
     }
 
 
-    public function insertAllRoll($username, $password, $email){
+    public function createUser( $data ){
+
+        extract( $data );
+
         $sql = "INSERT INTO client (username, password,
             email) VALUES (:username, :password, :email)";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute( array(":username" => $username, ":password" => $password,
             ":email" => $email) );
+    }
+
+    public function updateInfo( $data, $id ){
+
+        extract( $data );
+        $sql = "UPDATE client 
+            set name = :name,
+            email = :email,
+            intro = :intro
+            Where id = :id";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute(
+            array( ':name' => $name,
+            ':email' => $email,
+            ':intro' => $intro,
+            ':id' => $id
+        ) );
     }
 
     public function queryExistUser($username, $password) {
@@ -66,4 +87,5 @@ class User implements Query{
 
     }
 }
+
 

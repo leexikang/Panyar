@@ -30,6 +30,19 @@ class Validation{
             }
     }
 
+    public static  function validateInt($integer){
+
+        if( filter_var($integer, FILTER_VALIDATE_INT) ){
+
+            return true;
+
+            }else{
+                return false;
+
+            }
+
+    }
+
     public static function passwordMatch($password, $passwordRe) {
 
         if( $password == $passwordRe){
@@ -62,6 +75,19 @@ class Validation{
         }
     }
 
+    // check if variable is set if set return variable
+    //
+    public static function varIsset( $variable =null ){
+
+        if ( isset( $variable ) ){
+
+            return $variable;
+
+        }else{
+
+            return null;
+        }
+    }
 
 }
 
