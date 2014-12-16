@@ -8,17 +8,17 @@ use Panyar\Course;
 ?>
 
  <section class="main" >
-    <article class="category" >
+    <article>
 
 <?php
 
 $categoryObj = new Category();
 $categories  = $categoryObj->fetchAll();
-echo '<ul>';
+echo "<ul class='category'> " ;
 
 foreach ( $categories as $category ){
 
-    echo '<li>' .$category->categoryName . '</li>';
+    echo '<li> <a href="#"> ' .$category->categoryName . '</a> </li>';
 
 }
 
