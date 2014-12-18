@@ -2,8 +2,10 @@
 
 
 
-$string = "Match this string";
+$date = '2/01/2014';
 
-var_dump(filter_var($string, FILTER_VALIDATE_REGEXP,
-    array("options"=>array("regexp"=>"/^M(.*)/"))))
+
+
+$d = strtotime($date);
+echo date("m-d-Y", $d);
 ?>

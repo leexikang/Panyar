@@ -22,7 +22,6 @@ class Validation{
 
      if( filter_var($date, FILTER_VALIDATE_REGEXP,
          array("options"=>array("regexp"=>$regEx))) ){
-
              $Ddate = explode("-", $date);
              return checkdate($Ddate[1], $Ddate[0], $Ddate[2] );
             }else{

@@ -18,65 +18,49 @@ echo "<ul class='category'> " ;
 
 foreach ( $categories as $category ){
 
-    echo '<li> <a href="#"> ' .$category->categoryName . '</a> </li>';
+    $categoryName = $category->categoryName;
+    echo '<li>  <a href="index.php?name=' . $categoryName .' "> ' .$categoryName . '</a> </li>';
 
 }
 
 echo '</ul>';
 
-$course = new Course();
-$data = $course->fetchById(1);
+$courseObj = new Course();
+if ( isset( $_GET['name'] ) ) {
+
+ $name = $_GET['name'];
+ $courses = $courseObj->FetchByCategory( $name );
+
+}else{
+
+    $courses = $courseObj->fetchJointAll();
+    var_dump( $courses );
+
+}
 
 ?>
     </article>
     <section class="content" >
+<?php
+
+foreach( $courses as $course ){
+
+?>
+
+    <a href= "showCourse.php?id=<?php echo $course->courseId; ?>">
         <div class="element">
         <img  src="1.jpg">
-        <span><?php echo $data->courseName ?> </span> <br/>
-        <span><?php echo substr($data->startTime, 0,5) . ' to ' . substr( $data->endTime, 0, 5 ) ?> </span> <br/>
-        <span> <?php echo $data->startDate . ' to ' . $data->endDate ?></span> <br/>
-        <span> center: kmd </span> <br/>
+        <span><?php echo $course->courseName ?> </span> <br/>
+        <span><?php echo substr($course->startTime, 0,5) . ' to ' . substr( $course->endTime, 0, 5 ) ?> </span> <br/>
+        <span> <?php echo $course->startDate . ' to ' . $course->endDate ?></span> <br/>
+        <span><?php echo $course->username ?> </span> <br/> 
 
         </div>
-        <div class="element">
-         <img  src="2.jpg">
-        <span> name: advanced web development name: advanced web development   </span> <br/>
-        <span> time: 12:30 to 1:30 </span> <br/>
-        <span> date: 12.5.5 </span> <br/>
-        <span> center: kmd </span> <br/>
-
-       </div>
-        <div class="element">
-         <img  src="3.jpg">
-        <span> name: advanced web development name: advanced web development   </span> <br/>
-        <span> time: 12:30 to 1:30 </span> <br/>
-        <span> date: 12.5.5 </span> <br/>
-        <span> center: kmd </span> <br/>
-       </div>
-         <div class="element">
-        <img  src="1.jpg">
-        <span> name: advanced web development name: advanced web development   </span> <br/>
-        <span> time: 12:30 to 1:30 </span> <br/>
-        <span> date: 12.5.5 </span> <br/>
-        <span> center: kmd </span> <br/>
-
-        </div>
-        <div class="element">
-         <img  src="1.jpg">
-        <span> name: advanced web development name: advanced web development   </span> <br/>
-        <span> time: 12:30 to 1:30 </span> <br/>
-        <span> date: 12.5.5 </span> <br/>
-        <span> center: kmd </span> <br/>
-
-       </div>
-        <div class="element">
-         <img  src="1.jpg">
-        <span> name: advanced web development name: advanced web development   </span> <br/>
-        <span> time: 12:30 to 1:30 </span> <br/>
-        <span> date: 12.5.5 </span> <br/>
-        <span> center: kmd </span> <br/>
-       </div>
-   </section>
+</a>
+<?php
+}
+?>
+  </section>
 
 
     </section>

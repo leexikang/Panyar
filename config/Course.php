@@ -23,6 +23,16 @@ protected $conn;
         return $row;
     }
 
+    public function fetchJointALl(){
+
+        $stmt = $this->conn->prepare("SELECT * FROM course, client 
+            Where course.id = client.id");
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute();
+        $row  = $stmt->fetchAll();
+        return $row;
+
+    }
 
     public function fetchById($id){
 
@@ -65,6 +75,32 @@ protected $conn;
             'categoryId' => $category,
             'note' => $note
         ) );
+    }
+
+    public function fetchByCategory( $category ) {
+
+        $stmt = $this->conn->prepare("SELECT * FROM 
+            course co, category ca, client
+            Where co.categoryId = ca.categoryId
+            AND co.id = client.id
+            AND  ca.categoryName = :categoryName");
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute( array ( ":categoryName" => $category ) );
+        $row  = $stmt->fetchAll();
+        return $row;
+
+    }
+
+    public function fetchByOwner( $owner ){
+
+        $stmt = $this->conn->prepare("SELECT * FROM
+            course where id = :id");
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute( array ( ":id" => $owner ) );
+        $row  = $stmt->fetchAll();
+        return $row;
+
+
     }
 }
 

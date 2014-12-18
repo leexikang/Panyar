@@ -699,3 +699,146 @@
 [Tue Dec 16 22:30:20.432180 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/index.php on line 36
 [Tue Dec 16 22:30:20.432196 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP Stack trace:
 [Tue Dec 16 22:30:20.432213 2014] [:error] [pid 1375] [client 127.0.0.1:54584] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Wed Dec 17 11:46:35.620456 2014] [:error] [pid 1331] [client 127.0.0.1:33106] PHP Fatal error:  Class 'User' not found in /home/xikang/Public/Panyar/createProfile.php on line 21, referer: http://panyar.com/home.php
+[Wed Dec 17 11:46:35.631033 2014] [:error] [pid 1331] [client 127.0.0.1:33106] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:46:35.631090 2014] [:error] [pid 1331] [client 127.0.0.1:33106] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:05.574205 2014] [:error] [pid 1330] [client 127.0.0.1:33132] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/xikang/Public/Panyar/createProfile.php on line 7, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:08.690745 2014] [:error] [pid 1330] [client 127.0.0.1:33132] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:08.690819 2014] [:error] [pid 1330] [client 127.0.0.1:33132] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:08.690837 2014] [:error] [pid 1330] [client 127.0.0.1:33132] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:08.690847 2014] [:error] [pid 1330] [client 127.0.0.1:33132] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:24, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:16.299191 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:16.299276 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:16.299308 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:16.299331 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.247532 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.247578 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.247590 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.247599 2014] [:error] [pid 1329] [client 127.0.0.1:33134] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.485804 2014] [:error] [pid 17254] [client 127.0.0.1:33135] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.485832 2014] [:error] [pid 17254] [client 127.0.0.1:33135] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.485845 2014] [:error] [pid 17254] [client 127.0.0.1:33135] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:18.485854 2014] [:error] [pid 17254] [client 127.0.0.1:33135] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:25.992546 2014] [:error] [pid 17255] [client 127.0.0.1:33136] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /home/xikang/Public/Panyar/createProfile.php on line 6, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:25.996443 2014] [:error] [pid 17255] [client 127.0.0.1:33136] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:25.996462 2014] [:error] [pid 17255] [client 127.0.0.1:33136] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:25.996475 2014] [:error] [pid 17255] [client 127.0.0.1:33136] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:25.996483 2014] [:error] [pid 17255] [client 127.0.0.1:33136] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:31.733977 2014] [:error] [pid 1331] [client 127.0.0.1:33138] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:31.734020 2014] [:error] [pid 1331] [client 127.0.0.1:33138] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:31.734032 2014] [:error] [pid 1331] [client 127.0.0.1:33138] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:31.734041 2014] [:error] [pid 1331] [client 127.0.0.1:33138] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:51.965275 2014] [:error] [pid 1328] [client 127.0.0.1:33141] PHP Fatal error:  Class 'Panyar\\PDO' not found in /home/xikang/Public/Panyar/config/User.php on line 41, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:51.965359 2014] [:error] [pid 1328] [client 127.0.0.1:33141] PHP Stack trace:, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:51.965393 2014] [:error] [pid 1328] [client 127.0.0.1:33141] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Wed Dec 17 11:48:51.965416 2014] [:error] [pid 1328] [client 127.0.0.1:33141] PHP   2. Panyar\\User->fetchById() /home/xikang/Public/Panyar/createProfile.php:25, referer: http://panyar.com/home.php
+[Wed Dec 17 11:50:20.033139 2014] [:error] [pid 17256] [client 127.0.0.1:33168] script '/home/xikang/Public/Panyar/allCourses.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 11:52:16.532758 2014] [:error] [pid 11306] [client 127.0.0.1:33191] script '/home/xikang/Public/Panyar/allCourses.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 11:52:50.815409 2014] [:error] [pid 1330] [client 127.0.0.1:33194] script '/home/xikang/Public/Panyar/allCourses.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 11:52:52.972410 2014] [:error] [pid 1330] [client 127.0.0.1:33194] script '/home/xikang/Public/Panyar/allCourses.php' not found or unable to stat, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 11:53:25.598495 2014] [:error] [pid 1329] [client 127.0.0.1:33206] PHP Parse error:  syntax error, unexpected '?' in /home/xikang/Public/Panyar/showAllCourses.php on line 21, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353659 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Notice:  Undefined property: stdClass::$CourseId in /home/xikang/Public/Panyar/showAllCourses.php on line 30, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353712 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353726 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353769 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Notice:  Undefined property: stdClass::$CourseId in /home/xikang/Public/Panyar/showAllCourses.php on line 30, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353778 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353789 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353817 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Notice:  Undefined property: stdClass::$CourseId in /home/xikang/Public/Panyar/showAllCourses.php on line 30, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353825 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:17:57.353852 2014] [:error] [pid 1330] [client 127.0.0.1:36047] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createCourse.php
+[Wed Dec 17 14:18:20.453268 2014] [:error] [pid 11306] [client 127.0.0.1:36057] script '/home/xikang/Public/Panyar/viewCourse.php' not found or unable to stat, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 14:18:46.036235 2014] [:error] [pid 1331] [client 127.0.0.1:36060] script '/home/xikang/Public/Panyar/viewCourse.php' not found or unable to stat, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:45:55.738737 2014] [:error] [pid 1366] [client 127.0.0.1:34117] script '/home/xikang/Public/Panyar/viewCourse.php' not found or unable to stat, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:46:42.189320 2014] [:error] [pid 1365] [client 127.0.0.1:34130] script '/home/xikang/Public/Panyar/viewCourse.php' not found or unable to stat, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:46:45.587826 2014] [:error] [pid 1365] [client 127.0.0.1:34130] script '/home/xikang/Public/Panyar/viewCourse.php' not found or unable to stat, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907147 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907213 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907245 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907354 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907372 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:56:56.907391 2014] [:error] [pid 1366] [client 127.0.0.1:34250] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018299 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018367 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018399 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018501 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018515 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.018531 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591652 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591711 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591752 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591827 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591872 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.591892 2014] [:error] [pid 1367] [client 127.0.0.1:34263] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.867870 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.867916 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.867941 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.868010 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.868018 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:37.868025 2014] [:error] [pid 1365] [client 127.0.0.1:34264] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.847859 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.847999 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.848023 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.848132 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 23, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.848150 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 16:58:46.848169 2014] [:error] [pid 3479] [client 127.0.0.1:34265] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 17:30:28.540295 2014] [:error] [pid 1367] [client 127.0.0.1:34507] PHP Fatal error:  Call to undefined function crateAnswer() in /home/xikang/Public/Panyar/showCourse.php on line 21, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 17:30:28.540351 2014] [:error] [pid 1367] [client 127.0.0.1:34507] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 17:30:28.540364 2014] [:error] [pid 1367] [client 127.0.0.1:34507] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Wed Dec 17 22:05:23.115344 2014] [:error] [pid 6760] [client 127.0.0.1:35206] PHP Parse error:  syntax error, unexpected '<' in /home/xikang/Public/Panyar/showCourse.php on line 33
+[Thu Dec 18 13:49:40.904696 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932152 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932206 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932269 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932293 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932300 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932329 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932333 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932339 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932351 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932355 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932360 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932389 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932394 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932399 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932411 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932415 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932420 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932435 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932439 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932444 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932456 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932460 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932465 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932621 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932636 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932654 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932670 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932674 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932678 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932704 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932708 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932713 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932724 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932728 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932733 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932754 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932759 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932763 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932778 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932782 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932786 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932799 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932803 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932807 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932829 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932834 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP Stack trace:, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 13:49:40.932838 2014] [:error] [pid 1404] [client 127.0.0.1:33096] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/index.php?name=Web%20Development
+[Thu Dec 18 16:15:58.637113 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/index.php on line 56
+[Thu Dec 18 16:15:58.637157 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Stack trace:
+[Thu Dec 18 16:15:58.637170 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 16:15:58.637214 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/index.php on line 56
+[Thu Dec 18 16:15:58.637223 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Stack trace:
+[Thu Dec 18 16:15:58.637232 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 16:15:58.637264 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/index.php on line 56
+[Thu Dec 18 16:15:58.637272 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Stack trace:
+[Thu Dec 18 16:15:58.637279 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0

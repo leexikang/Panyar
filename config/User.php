@@ -1,6 +1,7 @@
-<?php namespace config\User;
-use config\DbConnect;
-use config\Query;
+<?php namespace Panyar;
+use Panyar\DbConnect;
+use Panyar\Query;
+use \PDO;
 
 
 class User implements Query{

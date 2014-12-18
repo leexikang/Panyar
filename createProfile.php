@@ -2,6 +2,8 @@
 require("config/header.php");
 require('vendor/autoload.php');
 
+use Panyar\User;
+
     if( isset($_GET['edit']) ){
 
         $name = $_GET['email'];
