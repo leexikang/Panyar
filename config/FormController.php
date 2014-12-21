@@ -1,41 +1,90 @@
 <?php
+use Panyar\Validation;
+use Panyar\Course;
 
-class FormController {
+$msg = array();
 
-    protected $username;
-    protected $password;
-    protected $passwordRe;
-    protected $email;
+if( isset($_POST['edit']) ){
 
-
-    public function __construct($username, $password, $passwordRe = null , $email = null ) {
-
-
-        $this->username = $username; 
-        $this->password = $password; 
-        $this->passwordRe = $passwordRe;
-        $this->email = $email; 
-    }
-
-    public function passwordMatch() {
-
-        if( $this->password == $this->passwordRe){
-            return true;
-        }else return false;
-
-    }
+            $courseName = $_POST['courseName'];
+            $description = $_POST['description'];
+            $startTime= $_POST['startTime'];
+            $endTime = $_POST['endTime'];
+            $startDate = $_POST['startDate'];
+            $endDate = $_POST['endDate'];
+            $fee = $_POST['fee'];
+            $category = $_POST['category'];
+            $note = $_POST['note'];
+            $coursePhoto = $_FILES['coursePhoto']['name'];
+            $tmp = $_FILES['coursePhoto']['tmp_name'];
+            $photoType = $_FILES['coursePhoto']['type'];
 
 
-    public function checkLogin ( User $user )
-    {
-        if( $user->queryExistUser( $this->username, $this->password ) ){
-            return true;
+            if( empty($_POST['courseName'] ) OR empty( $_POST['startTime'] )
+                OR empty( $_POST['startDate'] )  ){
 
-        }else{
-            return false;
-        }
-    }
+                    $msg["allRequire"] = "Please fill all the fields";
 
-}
+                }
 
+
+            if( !Validation::timeValidation($startTime) AND !Validation::timeValidation($endTime)
+                AND empty($msg["allRequire"]) ){
+                $msg['time'] = "Please enter valide Time Format HH:MM";
+            }
+
+            if( !Validation::dateValidation($startDate) AND !Validation::dateValidation($endDate)
+            AND empty($msg["allRequire"]) ){
+                $msg['date'] ='Please enter valide Date format DD:MM:YYYY';
+            }
+
+
+            if( !Validation::validateInt( $fee ) AND empty( $msg['allRequire'] ) ){
+
+                $msg['fee'] = 'Please enter the right fee';
+
+            }
+
+            if( !Validation::validatePhotoType( $photoType ) AND empty( $msg['allRequire'] ) ){
+
+                $msg['photo'] = 'Please upload only jpg png jpeg';
+            }
+
+            if( $msg == null AND isset( $_POST['edit'] ) ){
+
+                // change data to array and pass to InsertAll as parm
+
+                $path = "image/" . $coursePhoto;
+                move_uploaded_file( $tmp, $path );
+
+                $data = array(
+                    'courseName' => $courseName,
+                    'description' => $description,
+                    'startTime' => $startTime,
+                    'endTime' => $endTime,
+                    'startDate' => $startDate,
+                    'endDate' => $endDate,
+                    'fee' => $fee,
+                    'category' => $category,
+                    'note' => $note,
+                    'photo' => $path
+                );
+
+                $course = new Course();
+
+                if ( $action == 'edit' ){
+
+                        $photo = new Course();
+                        $data['photo'] = $photo->checkPhotoPath( $path, $_GET['id'] );
+                        $data['courseId'] = $_GET['id'];
+                        $course->edit( $data );
+
+                    }else{
+
+                        $course->InsertAll( $data );
+
+                    }
+
+                }
+            }
 

@@ -34,6 +34,18 @@ protected $conn;
 
     }
 
+    public function fetchByClient( $name ){
+
+        $stmt = $this->conn->prepare("SELECT * FROM course, client 
+            Where course.id = client.id
+            AND client.username = :name");
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute( array( ":name" => $name ) );
+        $row  = $stmt->fetchAll();
+        return $row;
+
+    }
+
     public function fetchById($id){
 
         $stmt = $this->conn->prepare("SELECT * FROM course where
@@ -61,9 +73,9 @@ protected $conn;
 
         $stmt = $this->conn->prepare("INSERT INTO course
             (courseName, description, startTime, endTime,
-            startDate, endDate, fee, categoryId, note) VALUES
+            startDate, endDate, fee, categoryId, note, photo) VALUES
             (:courseName, :description, :startTime, :endTime,
-            :startDate, :endDate, :fee, :categoryId, :note)");
+            :startDate, :endDate, :fee, :categoryId, :note, :photo)");
             $stmt->execute( array(
             'courseName' => $courseName,
             'description' => $description,
@@ -73,7 +85,8 @@ protected $conn;
             'endDate' => $endDate,
             'fee' => $fee,
             'categoryId' => $category,
-            'note' => $note
+            'note' => $note,
+            'photo' => $photo
         ) );
     }
 
@@ -101,6 +114,57 @@ protected $conn;
         return $row;
 
 
+    }
+
+    public function edit( $data ){
+
+        extract($data);
+
+        $stmt = $this->conn->prepare("UPDATE course
+            set courseName = :courseName,
+            description = :description,
+            startTime = :startTime,
+            endTime = :endTime,
+            startDate = :startDate,
+            endDate = :endDate,
+            fee = :fee,
+            categoryId = :categoryId,
+            note = :note,
+            photo = :photo
+            WHERE courseId = :courseId");
+        $stmt->execute( array(
+            'courseId' => $courseId,
+            'courseName' => $courseName,
+            'description' => $description,
+            'startTime' => $startTime,
+            'endTime' => $endTime,
+            'startDate' => $startDate,
+            'endDate' => $endDate,
+            'fee' => $fee,
+            'categoryId' => $category,
+            'note' => $note,
+            'photo' => $photo
+        ) );
+    }
+
+
+    public function deleteById( $id ) {
+
+        $stmt = $this->conn->prepare("DELETE FROM course 
+            WHERE courseId = :id");
+        $stmt->execute( array ( ":id" => $id ) );
+
+    }
+
+    public function checkPhotoPath ( $path, $id){
+
+        if( $path == 'image/' ){
+            $course = SELF::fetchById( $id );
+            var_dump( $course );
+            return $course->photo;
+        }else{
+            return $path;
+        }
     }
 }
 

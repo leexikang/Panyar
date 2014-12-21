@@ -7,4 +7,13 @@ function createAnswer( $name, $value ){
         <td>  $value  </td> </tr> ";
 }
 
+function checkIsset( $varName ){
 
+    if ( isset( $varName ) ){
+
+        return $varName;
+    }else{
+
+        return null;
+    }
+}

@@ -34,17 +34,20 @@ createAnswer( 'Duration', $date);
     </table>
     <br/>
     <a href='' class='first' > Back </a>
-    <a href=#'> Edit </a>
-    <a href='#'> Delete </a>
+    <a href="editCourse.php?id=<?php echo $course->courseId ?>"> Edit </a>
+    <a href="deleteCourse.php?id=<?php echo $course->courseId ?>" > Delete </a>
     </div>
 
         </section>
 
-		</section>
+        </section>
 
 <?php
 
 
 require("config/footer.php");
 
+
 ?>
+<script type="text/javascript" src='script/app.js' >
+</script>

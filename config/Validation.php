@@ -1,4 +1,4 @@
-<?php namespace config\Validation;
+<?php namespace  Panyar;
 
 class Validation{
 
@@ -18,15 +18,26 @@ class Validation{
 
 
     public static function dateValidation($date) {
-        $regEx = "/(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}/";
+        $regEx = "/[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])/";
 
      if( filter_var($date, FILTER_VALIDATE_REGEXP,
          array("options"=>array("regexp"=>$regEx))) ){
              $Ddate = explode("-", $date);
-             return checkdate($Ddate[1], $Ddate[0], $Ddate[2] );
+             return checkdate($Ddate[1], $Ddate[2], $Ddate[1] );
             }else{
             return false;
             }
+    }
+
+    public static function validatePhotoType( $photoType ){
+
+        if ($photoType== ''OR  $photoType =='image/jpg' OR $photoType == 'image/png' OR $photoType == 'image/jpeg'){
+
+            return true;
+        }else{
+
+            return false;
+        }
     }
 
     public static  function validateInt($integer){
@@ -55,8 +66,7 @@ class Validation{
         if( $obj->fetchByName( $name ) )
         {
             return true;
-
-        }else{
+}else{
 
             return false;
 
@@ -89,4 +99,3 @@ class Validation{
     }
 
 }
-

@@ -60,7 +60,22 @@ article ul a{
 
 }
 
+.content button{
 
+    display: block;
+    clear: both;
+    margin: 5em;
+    width: 4em;
+    height: 2em;
+    font-size: 1.1em;
+
+}
+
+.content button a{
+
+    text-decoration: none;
+
+}
 
 section .content{
 
@@ -174,10 +189,21 @@ form .smallInput {
 .element:hover{
 
     border-color: #61D43D;
-    cursor: pointer;
+}
+
+.element span a {
+
+    color: #009ead;
+
+}
+
+.element span a:hover{
+
+    color: #2D3E64;
 }
 
 table {
+
     margin: 0 auto;
     display: block;
     width: 80%;

@@ -842,3 +842,838 @@
 [Thu Dec 18 16:15:58.637264 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/index.php on line 56
 [Thu Dec 18 16:15:58.637272 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP Stack trace:
 [Thu Dec 18 16:15:58.637279 2014] [:error] [pid 3321] [client 127.0.0.1:36290] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057243 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057340 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.057375 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057549 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057572 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.057593 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057663 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057680 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.057700 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057780 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057796 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.057814 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057878 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057895 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.057914 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:42:38.057958 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Notice:  Undefined variable: username in /home/xikang/Public/Panyar/index.php on line 55
+[Thu Dec 18 17:42:38.057997 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP Stack trace:
+[Thu Dec 18 17:42:38.058015 2014] [:error] [pid 5701] [client 127.0.0.1:42714] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Thu Dec 18 17:44:09.302253 2014] [:error] [pid 1364] [client 127.0.0.1:42744] script '/home/xikang/Public/Panyar/showClient.php' not found or unable to stat, referer: http://panyar.com/
+[Thu Dec 18 19:38:23.404041 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP Notice:  Undefined index: id in /home/xikang/Public/Panyar/createCourse.php on line 9, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:38:23.404149 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:38:23.404194 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:38:23.404392 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP Notice:  Undefined variable: couseName in /home/xikang/Public/Panyar/createCourse.php on line 85, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:38:23.404424 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:38:23.404477 2014] [:error] [pid 1361] [client 127.0.0.1:43042] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Dec 18 19:40:21.678827 2014] [:error] [pid 1363] [client 127.0.0.1:43064] PHP Notice:  Undefined variable: couseName in /home/xikang/Public/Panyar/createCourse.php on line 85, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:40:21.678883 2014] [:error] [pid 1363] [client 127.0.0.1:43064] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:40:21.678904 2014] [:error] [pid 1363] [client 127.0.0.1:43064] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:40:41.143244 2014] [:error] [pid 5725] [client 127.0.0.1:43067] PHP Notice:  Undefined variable: couseName in /home/xikang/Public/Panyar/createCourse.php on line 85, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:40:41.143310 2014] [:error] [pid 5725] [client 127.0.0.1:43067] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:40:41.143325 2014] [:error] [pid 5725] [client 127.0.0.1:43067] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:48.040382 2014] [:error] [pid 5723] [client 127.0.0.1:43235] PHP Warning:  The use statement with non-compound name 'Panyar' has no effect in /home/xikang/Public/Panyar/editCourse.php on line 4, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:48.040455 2014] [:error] [pid 5723] [client 127.0.0.1:43235] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/xikang/Public/Panyar/editCourse.php on line 4, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409176 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP Warning:  require(config/courseForm.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/editCourse.php on line 26, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409228 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409241 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409288 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP Fatal error:  require(): Failed opening required 'config/courseForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/editCourse.php on line 26, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409310 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Thu Dec 18 19:56:58.409334 2014] [:error] [pid 5725] [client 127.0.0.1:43236] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 11:14:48.316686 2014] [:error] [pid 1400] [client 127.0.0.1:54387] script '/home/xikang/Public/Panyar/showClient.php' not found or unable to stat, referer: http://panyar.com/
+[Fri Dec 19 12:12:39.053690 2014] [:error] [pid 1399] [client 127.0.0.1:55984] PHP Parse error:  syntax error, unexpected ':' in /home/xikang/Public/Panyar/editCourse.php on line 23, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:12:45.529393 2014] [:error] [pid 1400] [client 127.0.0.1:55985] PHP Parse error:  syntax error, unexpected ':' in /home/xikang/Public/Panyar/editCourse.php on line 23, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:09.236476 2014] [:error] [pid 1398] [client 127.0.0.1:55996] PHP Fatal error:  Call to undefined function chcekIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 4, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:09.236601 2014] [:error] [pid 1398] [client 127.0.0.1:55996] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:09.236644 2014] [:error] [pid 1398] [client 127.0.0.1:55996] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:09.236669 2014] [:error] [pid 1398] [client 127.0.0.1:55996] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:24, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:27.880731 2014] [:error] [pid 1401] [client 127.0.0.1:55999] PHP Fatal error:  Call to undefined function chcekIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 4, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:27.880850 2014] [:error] [pid 1401] [client 127.0.0.1:55999] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:27.880900 2014] [:error] [pid 1401] [client 127.0.0.1:55999] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:13:27.880943 2014] [:error] [pid 1401] [client 127.0.0.1:55999] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:25, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:15:22.940132 2014] [:error] [pid 1402] [client 127.0.0.1:56022] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:15:22.940249 2014] [:error] [pid 1402] [client 127.0.0.1:56022] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:15:22.940284 2014] [:error] [pid 1402] [client 127.0.0.1:56022] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:15:22.940308 2014] [:error] [pid 1402] [client 127.0.0.1:56022] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:25, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:16:05.529544 2014] [:error] [pid 1400] [client 127.0.0.1:56034] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:16:05.529645 2014] [:error] [pid 1400] [client 127.0.0.1:56034] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:16:05.529700 2014] [:error] [pid 1400] [client 127.0.0.1:56034] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:16:05.529726 2014] [:error] [pid 1400] [client 127.0.0.1:56034] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:25, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:57.946350 2014] [:error] [pid 6013] [client 127.0.0.1:56089] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:57.946443 2014] [:error] [pid 6013] [client 127.0.0.1:56089] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:57.946478 2014] [:error] [pid 6013] [client 127.0.0.1:56089] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:57.946501 2014] [:error] [pid 6013] [client 127.0.0.1:56089] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:58.693293 2014] [:error] [pid 1401] [client 127.0.0.1:56090] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:58.693368 2014] [:error] [pid 1401] [client 127.0.0.1:56090] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:58.693394 2014] [:error] [pid 1401] [client 127.0.0.1:56090] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:21:58.693417 2014] [:error] [pid 1401] [client 127.0.0.1:56090] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:06.524994 2014] [:error] [pid 7953] [client 127.0.0.1:56097] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:06.525104 2014] [:error] [pid 7953] [client 127.0.0.1:56097] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:06.525146 2014] [:error] [pid 7953] [client 127.0.0.1:56097] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:06.525181 2014] [:error] [pid 7953] [client 127.0.0.1:56097] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:09.297933 2014] [:error] [pid 1402] [client 127.0.0.1:56099] PHP Notice:  Undefined variable: category in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:09.298025 2014] [:error] [pid 1402] [client 127.0.0.1:56099] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:09.298068 2014] [:error] [pid 1402] [client 127.0.0.1:56099] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:22:09.298105 2014] [:error] [pid 1402] [client 127.0.0.1:56099] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 12:30:12.940783 2014] [:error] [pid 7953] [client 127.0.0.1:56193] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 39, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:30:12.940886 2014] [:error] [pid 7953] [client 127.0.0.1:56193] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:30:12.940914 2014] [:error] [pid 7953] [client 127.0.0.1:56193] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:30:12.940936 2014] [:error] [pid 7953] [client 127.0.0.1:56193] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:26, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:37.936498 2014] [:error] [pid 1400] [client 127.0.0.1:56205] PHP Fatal error:  Class 'Panyar\\Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 40, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:37.936613 2014] [:error] [pid 1400] [client 127.0.0.1:56205] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:37.936643 2014] [:error] [pid 1400] [client 127.0.0.1:56205] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:37.936664 2014] [:error] [pid 1400] [client 127.0.0.1:56205] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:26, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:56.601305 2014] [:error] [pid 1401] [client 127.0.0.1:56207] PHP Fatal error:  Class 'Panyar\\Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 40, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:56.601385 2014] [:error] [pid 1401] [client 127.0.0.1:56207] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:56.601412 2014] [:error] [pid 1401] [client 127.0.0.1:56207] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:31:56.601433 2014] [:error] [pid 1401] [client 127.0.0.1:56207] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:26, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:32:53.614497 2014] [:error] [pid 6013] [client 127.0.0.1:56219] PHP Fatal error:  Class 'Panyar\\Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 40, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:32:53.614622 2014] [:error] [pid 6013] [client 127.0.0.1:56219] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:32:53.614662 2014] [:error] [pid 6013] [client 127.0.0.1:56219] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:32:53.614688 2014] [:error] [pid 6013] [client 127.0.0.1:56219] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:26, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:34.607608 2014] [:error] [pid 7953] [client 127.0.0.1:56232] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 39, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:34.607693 2014] [:error] [pid 7953] [client 127.0.0.1:56232] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:34.607720 2014] [:error] [pid 7953] [client 127.0.0.1:56232] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:34.607742 2014] [:error] [pid 7953] [client 127.0.0.1:56232] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:41.911284 2014] [:error] [pid 1400] [client 127.0.0.1:56233] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 39, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:41.911362 2014] [:error] [pid 1400] [client 127.0.0.1:56233] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:41.911390 2014] [:error] [pid 1400] [client 127.0.0.1:56233] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:33:41.911411 2014] [:error] [pid 1400] [client 127.0.0.1:56233] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:35:04.863492 2014] [:error] [pid 1399] [client 127.0.0.1:56244] PHP Fatal error:  Class 'Panyar\\Validation' not found in /home/xikang/Public/Panyar/config/FormController.php on line 36, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:35:04.863574 2014] [:error] [pid 1399] [client 127.0.0.1:56244] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:35:04.863613 2014] [:error] [pid 1399] [client 127.0.0.1:56244] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:35:04.863660 2014] [:error] [pid 1399] [client 127.0.0.1:56244] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:37:52.782863 2014] [:error] [pid 1402] [client 127.0.0.1:56280] PHP Fatal error:  Class 'Course' not found in /home/xikang/Public/Panyar/config/FormController.php on line 68, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:37:52.782937 2014] [:error] [pid 1402] [client 127.0.0.1:56280] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:37:52.782964 2014] [:error] [pid 1402] [client 127.0.0.1:56280] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:37:52.782986 2014] [:error] [pid 1402] [client 127.0.0.1:56280] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:26, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:39:22.583803 2014] [:error] [pid 1398] [client 127.0.0.1:56305] PHP Fatal error:  Class 'Course' not found in /home/xikang/Public/Panyar/config/FormController.php on line 68, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:39:22.583906 2014] [:error] [pid 1398] [client 127.0.0.1:56305] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:39:22.583951 2014] [:error] [pid 1398] [client 127.0.0.1:56305] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 12:39:22.583988 2014] [:error] [pid 1398] [client 127.0.0.1:56305] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:25, referer: http://panyar.com/editCourse.php?id=1
+[Fri Dec 19 14:05:45.395091 2014] [:error] [pid 1448] [client 127.0.0.1:37043] script '/home/xikang/Public/Panyar/deleteCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:04.051180 2014] [:error] [pid 1450] [client 127.0.0.1:37077] PHP Fatal error:  Class 'Panyar\\Course' not found in /home/xikang/Public/Panyar/deleteCourse.php on line 7, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:04.051231 2014] [:error] [pid 1450] [client 127.0.0.1:37077] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:04.051252 2014] [:error] [pid 1450] [client 127.0.0.1:37077] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626450 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP Warning:  require(config/autoload.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/deleteCourse.php on line 2, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626557 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626580 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626726 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP Fatal error:  require(): Failed opening required 'config/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/deleteCourse.php on line 2, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626758 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:39.626783 2014] [:error] [pid 7800] [client 127.0.0.1:37080] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.019949 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP Notice:  Undefined variable: couser in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.019998 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.020018 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.020063 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP Fatal error:  Call to a member function deleteById() on a non-object in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.020068 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:09:47.020073 2014] [:error] [pid 7801] [client 127.0.0.1:37091] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866393 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Notice:  Undefined variable: coures in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866460 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866473 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866527 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Fatal error:  Call to a member function deleteById() on a non-object in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866533 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:08.866540 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.458829 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Notice:  Undefined variable: coures in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.458912 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.458937 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.459010 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Fatal error:  Call to a member function deleteById() on a non-object in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.459027 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:09.459046 2014] [:error] [pid 7802] [client 127.0.0.1:37092] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:23.354017 2014] [:error] [pid 3918] [client 127.0.0.1:37093] PHP Fatal error:  Call to undefined method Panyar\\Course::deleteById() in /home/xikang/Public/Panyar/deleteCourse.php on line 8, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:23.354071 2014] [:error] [pid 3918] [client 127.0.0.1:37093] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:10:23.354095 2014] [:error] [pid 3918] [client 127.0.0.1:37093] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:17:56.769613 2014] [:error] [pid 7801] [client 127.0.0.1:37492] script '/home/xikang/Public/Panyar/showAllCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=1
+[Fri Dec 19 14:18:11.867869 2014] [:error] [pid 3918] [client 127.0.0.1:37494] PHP Notice:  Undefined index: id in /home/xikang/Public/Panyar/createCourse.php on line 9, referer: http://panyar.com/home.php
+[Fri Dec 19 14:18:11.867982 2014] [:error] [pid 3918] [client 127.0.0.1:37494] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Dec 19 14:18:11.868011 2014] [:error] [pid 3918] [client 127.0.0.1:37494] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/home.php
+[Fri Dec 19 14:19:37.423291 2014] [:error] [pid 7800] [client 127.0.0.1:37523] script '/home/xikang/Public/Panyar/showAllCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=4
+[Fri Dec 19 14:20:00.959016 2014] [:error] [pid 7801] [client 127.0.0.1:37526] script '/home/xikang/Public/Panyar/showAllCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=4
+[Fri Dec 19 14:25:14.349974 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/xikang/Public/Panyar/config/Course.php on line 119, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:25:14.350050 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:25:14.350079 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:25:14.350101 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/deleteCourse.php:7, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:25:14.350124 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:25:14.350146 2014] [:error] [pid 1452] [client 127.0.0.1:37610] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:27:13.968747 2014] [:error] [pid 9871] [client 127.0.0.1:37665] PHP Fatal error:  Call to undefined method PDOStatement::exec() in /home/xikang/Public/Panyar/config/Course.php on line 110, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:27:13.968817 2014] [:error] [pid 9871] [client 127.0.0.1:37665] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:27:13.968831 2014] [:error] [pid 9871] [client 127.0.0.1:37665] PHP   1. {main}() /home/xikang/Public/Panyar/deleteCourse.php:0, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:27:13.968841 2014] [:error] [pid 9871] [client 127.0.0.1:37665] PHP   2. Panyar\\Course->deleteById() /home/xikang/Public/Panyar/deleteCourse.php:8, referer: http://panyar.com/showCourse.php?id=5
+[Fri Dec 19 14:49:12.523111 2014] [:error] [pid 1450] [client 127.0.0.1:38119] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/createCourse.php on line 31, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:49:12.523184 2014] [:error] [pid 1450] [client 127.0.0.1:38119] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:49:12.523229 2014] [:error] [pid 1450] [client 127.0.0.1:38119] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:49:42.340274 2014] [:error] [pid 7800] [client 127.0.0.1:38122] PHP Fatal error:  Class 'Panyra\\Validation' not found in /home/xikang/Public/Panyar/createCourse.php on line 32, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:49:42.340349 2014] [:error] [pid 7800] [client 127.0.0.1:38122] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:49:42.340372 2014] [:error] [pid 7800] [client 127.0.0.1:38122] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:02.320215 2014] [:error] [pid 1450] [client 127.0.0.1:38244] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:02.320261 2014] [:error] [pid 1450] [client 127.0.0.1:38244] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:02.320272 2014] [:error] [pid 1450] [client 127.0.0.1:38244] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:02.320280 2014] [:error] [pid 1450] [client 127.0.0.1:38244] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:27.456270 2014] [:error] [pid 7800] [client 127.0.0.1:38247] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:27.456302 2014] [:error] [pid 7800] [client 127.0.0.1:38247] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:27.456313 2014] [:error] [pid 7800] [client 127.0.0.1:38247] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:27.456320 2014] [:error] [pid 7800] [client 127.0.0.1:38247] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.212993 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213078 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213114 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213136 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213251 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213272 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213292 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213311 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213351 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213356 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213362 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213367 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213434 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213453 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213495 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213514 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213578 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213583 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213588 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213592 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213641 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213656 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213673 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.213690 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214236 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214269 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214291 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214310 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214389 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 15, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214408 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214426 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214446 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214559 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Fatal error:  Cannot redeclare createAnswer() (previously declared in /home/xikang/Public/Panyar/config/helperFunction.php:4) in /home/xikang/Public/Panyar/config/helperFunction.php on line 4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214595 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 14:59:55.214601 2014] [:error] [pid 10902] [client 127.0.0.1:38259] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:00:44.477986 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 7
+[Fri Dec 19 15:00:44.478063 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478075 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478083 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478135 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 8
+[Fri Dec 19 15:00:44.478142 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478149 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478157 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478184 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 9
+[Fri Dec 19 15:00:44.478190 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478197 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478215 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478254 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 10
+[Fri Dec 19 15:00:44.478261 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478268 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478274 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478299 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 11
+[Fri Dec 19 15:00:44.478305 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478311 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478317 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478341 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 12
+[Fri Dec 19 15:00:44.478346 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478352 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478358 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478510 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 13
+[Fri Dec 19 15:00:44.478518 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478525 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478531 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478554 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 15
+[Fri Dec 19 15:00:44.478569 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478575 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:44.478581 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4
+[Fri Dec 19 15:00:44.478613 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Fatal error:  Cannot redeclare createAnswer() (previously declared in /home/xikang/Public/Panyar/config/helperFunction.php:4) in /home/xikang/Public/Panyar/config/helperFunction.php on line 4
+[Fri Dec 19 15:00:44.478619 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP Stack trace:
+[Fri Dec 19 15:00:44.478625 2014] [:error] [pid 9871] [client 127.0.0.1:38261] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0
+[Fri Dec 19 15:00:57.143239 2014] [:error] [pid 1448] [client 127.0.0.1:38266] PHP Fatal error:  Cannot redeclare createAnswer() (previously declared in /home/xikang/Public/Panyar/config/helperFunction.php:4) in /home/xikang/Public/Panyar/config/helperFunction.php on line 4, referer: http://panyar.com/showCourse.php?id=3
+[Fri Dec 19 15:00:57.143266 2014] [:error] [pid 1448] [client 127.0.0.1:38266] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Fri Dec 19 15:00:57.143274 2014] [:error] [pid 1448] [client 127.0.0.1:38266] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Fri Dec 19 15:00:57.143280 2014] [:error] [pid 1448] [client 127.0.0.1:38266] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:25, referer: http://panyar.com/showCourse.php?id=3
+[Fri Dec 19 15:01:36.228355 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.228398 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.228412 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.228422 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.597065 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.597112 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.597139 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:36.597160 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.110737 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.110810 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.110839 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.110869 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.379114 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.379158 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.379186 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.379206 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.642740 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.642758 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.642766 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.642772 2014] [:error] [pid 1452] [client 127.0.0.1:38282] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.885360 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Fatal error:  Call to undefined function checkIsset() in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.885395 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.885407 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:01:37.885416 2014] [:error] [pid 1450] [client 127.0.0.1:38283] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678192 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP Warning:  require(config/helperFunctioin): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createCourse.php on line 4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678222 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678231 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678257 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP Fatal error:  require(): Failed opening required 'config/helperFunctioin' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createCourse.php on line 4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678262 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:43.678268 2014] [:error] [pid 7802] [client 127.0.0.1:38297] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322419 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP Warning:  require(config/helperFunctioin.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/createCourse.php on line 4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322502 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322529 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322638 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP Fatal error:  require(): Failed opening required 'config/helperFunctioin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/createCourse.php on line 4, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322656 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:02:51.322675 2014] [:error] [pid 9873] [client 127.0.0.1:38299] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599665 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599723 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599741 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599755 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599819 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599832 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599844 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599857 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599901 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599912 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599924 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599936 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.599990 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600002 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600014 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600026 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600066 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600077 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600088 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600117 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600158 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600168 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600179 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600190 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600433 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600447 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600459 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600470 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600511 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600521 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600532 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:03:08.600543 2014] [:error] [pid 1448] [client 127.0.0.1:38311] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175119 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175155 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175168 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175178 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175221 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175230 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175238 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175247 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175285 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175291 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175296 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175301 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175325 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175330 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175335 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175343 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175370 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175378 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175386 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175393 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175479 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175507 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175536 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.175566 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176069 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176102 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176133 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176164 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176280 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176308 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176364 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:05:58.176396 2014] [:error] [pid 7801] [client 127.0.0.1:38345] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786757 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786822 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786847 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786862 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786929 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786942 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786954 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.786983 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787050 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787067 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787085 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787103 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787182 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787199 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787218 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787235 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787296 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787313 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787331 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787348 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787438 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787455 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787472 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787489 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787839 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787861 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787879 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787896 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787958 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787973 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.787989 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:05.788006 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392135 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392208 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392234 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392254 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392347 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392363 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392382 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392400 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392464 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392479 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392528 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392547 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392625 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392642 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392660 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392677 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392740 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392755 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392771 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392789 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392847 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392862 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392878 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.392895 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393256 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393278 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393296 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393313 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393377 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393392 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393409 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.393426 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610651 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610677 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610694 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610707 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610767 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610780 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610791 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610804 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610854 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610867 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610880 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610892 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610951 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610964 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610977 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.610989 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611037 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611049 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611060 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611072 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611118 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611146 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611158 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611169 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611383 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611399 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611412 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611424 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611472 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611483 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611494 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.611506 2014] [:error] [pid 7802] [client 127.0.0.1:38465] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881243 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: courseName in /home/xikang/Public/Panyar/config/FormController.php on line 6, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881296 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881315 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881327 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881398 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881407 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881415 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881422 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881447 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881454 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881461 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881499 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881547 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/FormController.php on line 9, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881554 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881561 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881568 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881596 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: startDate in /home/xikang/Public/Panyar/config/FormController.php on line 10, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881602 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881608 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881615 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881640 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/FormController.php on line 11, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881646 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881655 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881666 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881870 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/FormController.php on line 12, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881882 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881889 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881896 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881954 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/FormController.php on line 14, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881970 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.881988 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:06.882005 2014] [:error] [pid 10902] [client 127.0.0.1:38466] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648610 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/CourseForm.php on line 17, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648660 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648669 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648675 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648708 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/CourseForm.php on line 23, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648713 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648718 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648723 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648742 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/CourseForm.php on line 25, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648746 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648751 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648756 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648788 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/CourseForm.php on line 33, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648792 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648798 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648803 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648821 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/CourseForm.php on line 34, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648825 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648830 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648835 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648851 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/CourseForm.php on line 40, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648855 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648860 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.648872 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.649022 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/CourseForm.php on line 54, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.649031 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.649037 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:17.649042 2014] [:error] [pid 9873] [client 127.0.0.1:38467] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.638860 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: description in /home/xikang/Public/Panyar/config/CourseForm.php on line 17, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.638924 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.638950 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.638970 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639052 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: startTime in /home/xikang/Public/Panyar/config/CourseForm.php on line 23, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639068 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639086 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639103 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639161 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: endTime in /home/xikang/Public/Panyar/config/CourseForm.php on line 25, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639176 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639192 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639209 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639283 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/CourseForm.php on line 33, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639299 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639316 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639333 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639387 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: endDate in /home/xikang/Public/Panyar/config/CourseForm.php on line 34, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639426 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639445 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639462 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639517 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: fee in /home/xikang/Public/Panyar/config/CourseForm.php on line 40, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639532 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639549 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.639565 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.640023 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Notice:  Undefined variable: note in /home/xikang/Public/Panyar/config/CourseForm.php on line 54, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.640044 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.640062 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Fri Dec 19 15:15:24.640079 2014] [:error] [pid 1448] [client 127.0.0.1:38470] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:37:17.335781 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP Warning:  Unterminated comment starting line 23 in /home/xikang/Public/Panyar/config/FormController.php on line 23, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:17.366548 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:17.366596 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:17.366683 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP Parse error:  syntax error, unexpected end of file in /home/xikang/Public/Panyar/config/FormController.php on line 71, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:17.366690 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:17.366696 2014] [:error] [pid 1384] [client 127.0.0.1:38836] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:35.233167 2014] [:error] [pid 1381] [client 127.0.0.1:38839] PHP Parse error:  syntax error, unexpected end of file in /home/xikang/Public/Panyar/config/FormController.php on line 71, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:35.233279 2014] [:error] [pid 1381] [client 127.0.0.1:38839] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Dec 20 11:37:35.233335 2014] [:error] [pid 1381] [client 127.0.0.1:38839] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/home.php
+[Sat Dec 20 11:47:21.955504 2014] [:error] [pid 1384] [client 127.0.0.1:39019] PHP Parse error:  syntax error, unexpected '<' in /home/xikang/Public/Panyar/config/FormController.php on line 24, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:47:21.955534 2014] [:error] [pid 1384] [client 127.0.0.1:39019] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:47:21.955547 2014] [:error] [pid 1384] [client 127.0.0.1:39019] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:48:25.405103 2014] [:error] [pid 7413] [client 127.0.0.1:39037] PHP Notice:  Undefined index: file_type in /home/xikang/Public/Panyar/config/FormController.php on line 20, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:48:25.405176 2014] [:error] [pid 7413] [client 127.0.0.1:39037] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:48:25.405199 2014] [:error] [pid 7413] [client 127.0.0.1:39037] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:48:25.405214 2014] [:error] [pid 7413] [client 127.0.0.1:39037] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:52:22.346751 2014] [:error] [pid 3331] [client 127.0.0.1:39147] PHP Notice:  Undefined index: file_type in /home/xikang/Public/Panyar/config/FormController.php on line 20, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:52:22.346789 2014] [:error] [pid 3331] [client 127.0.0.1:39147] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:52:22.346804 2014] [:error] [pid 3331] [client 127.0.0.1:39147] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 11:52:22.346813 2014] [:error] [pid 3331] [client 127.0.0.1:39147] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142028 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142150 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142182 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142203 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142223 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142385 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8R5tO3' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142405 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142423 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142442 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:05:30.142461 2014] [:error] [pid 8960] [client 127.0.0.1:39320] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.379842 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.379923 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.379942 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.379955 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.379967 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.380059 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphpInkg' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.380071 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.380083 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.380095 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:02.380106 2014] [:error] [pid 1383] [client 127.0.0.1:39355] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857061 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857111 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857121 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857129 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857136 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857190 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQzoXkb' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857197 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857204 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857211 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:29.857219 2014] [:error] [pid 1385] [client 127.0.0.1:39369] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.285964 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286051 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286076 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286096 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286115 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286253 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpeFNApL' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286271 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286290 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286308 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:09:50.286326 2014] [:error] [pid 7413] [client 127.0.0.1:39371] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.646964 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647011 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647025 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647037 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647047 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647127 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpR8OlFe' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647136 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647147 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647157 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:01.647167 2014] [:error] [pid 1382] [client 127.0.0.1:39373] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974403 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974483 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974500 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974509 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974516 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974594 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqmb14N' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974603 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974610 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974617 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:10:59.974624 2014] [:error] [pid 8958] [client 127.0.0.1:39386] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268363 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268395 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268404 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268412 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268420 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268468 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpsOlY7C' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268474 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268481 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268488 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:11:17.268496 2014] [:error] [pid 8960] [client 127.0.0.1:39398] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.389794 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP Warning:  move_uploaded_file(image/12323345183_28c431f925_k.jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.389889 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.389915 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.389935 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.389954 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.390075 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRl5Fpq' to 'image/12323345183_28c431f925_k.jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.390092 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.390110 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.390128 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 12:20:19.390146 2014] [:error] [pid 1381] [client 127.0.0.1:39494] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:59, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:10:40.982880 2014] [:error] [pid 7413] [client 127.0.0.1:42706] PHP Notice:  Undefined variable: corusePhoto in /home/xikang/Public/Panyar/config/CourseForm.php on line 25, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:10:40.982915 2014] [:error] [pid 7413] [client 127.0.0.1:42706] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:10:40.982924 2014] [:error] [pid 7413] [client 127.0.0.1:42706] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:10:40.982930 2014] [:error] [pid 7413] [client 127.0.0.1:42706] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:13, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:14:42.573000 2014] [:error] [pid 1382] [client 127.0.0.1:42802] PHP Notice:  Undefined index: photo in /home/xikang/Public/Panyar/config/FormController.php on line 50, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:14:42.573079 2014] [:error] [pid 1382] [client 127.0.0.1:42802] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:14:42.573108 2014] [:error] [pid 1382] [client 127.0.0.1:42802] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:14:42.573129 2014] [:error] [pid 1382] [client 127.0.0.1:42802] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:7, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:16:16.341614 2014] [:error] [pid 1382] [client 127.0.0.1:42824] PHP Warning:  POST Content-Length of 10362505 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://panyar.com/createCourse.php
+[Sat Dec 20 15:49:52.483712 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP Notice:  Undefined variable: cousere in /home/xikang/Public/Panyar/config/FormController.php on line 78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483791 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483821 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483862 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483950 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP Fatal error:  Call to a member function edit() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483966 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.483984 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:49:52.484002 2014] [:error] [pid 21859] [client 127.0.0.1:44167] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:09.856415 2014] [:error] [pid 8959] [client 127.0.0.1:44170] PHP Notice:  Undefined variable: courseId in /home/xikang/Public/Panyar/config/Course.php on line 125, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:09.856445 2014] [:error] [pid 8959] [client 127.0.0.1:44170] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:09.856455 2014] [:error] [pid 8959] [client 127.0.0.1:44170] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:09.856461 2014] [:error] [pid 8959] [client 127.0.0.1:44170] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:09.856468 2014] [:error] [pid 8959] [client 127.0.0.1:44170] PHP   3. Panyar\\Course->edit() /home/xikang/Public/Panyar/config/FormController.php:78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:34.812424 2014] [:error] [pid 12724] [client 127.0.0.1:44175] PHP Notice:  Undefined variable: courseId in /home/xikang/Public/Panyar/config/Course.php on line 125, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:34.812481 2014] [:error] [pid 12724] [client 127.0.0.1:44175] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:34.812496 2014] [:error] [pid 12724] [client 127.0.0.1:44175] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:34.812508 2014] [:error] [pid 12724] [client 127.0.0.1:44175] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:50:34.812521 2014] [:error] [pid 12724] [client 127.0.0.1:44175] PHP   3. Panyar\\Course->edit() /home/xikang/Public/Panyar/config/FormController.php:79, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:51:38.072351 2014] [:error] [pid 1383] [client 127.0.0.1:44203] PHP Notice:  Undefined variable: courseId in /home/xikang/Public/Panyar/config/Course.php on line 125, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:51:38.072390 2014] [:error] [pid 1383] [client 127.0.0.1:44203] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:51:38.072401 2014] [:error] [pid 1383] [client 127.0.0.1:44203] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:51:38.072411 2014] [:error] [pid 1383] [client 127.0.0.1:44203] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:27, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 15:51:38.072421 2014] [:error] [pid 1383] [client 127.0.0.1:44203] PHP   3. Panyar\\Course->edit() /home/xikang/Public/Panyar/config/FormController.php:78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:12:03.005286 2014] [:error] [pid 8959] [client 127.0.0.1:44539] PHP Notice:  Undefined variable: photo in /home/xikang/Public/Panyar/config/CourseForm.php on line 24, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:03.005394 2014] [:error] [pid 8959] [client 127.0.0.1:44539] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:03.005421 2014] [:error] [pid 8959] [client 127.0.0.1:44539] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:03.005441 2014] [:error] [pid 8959] [client 127.0.0.1:44539] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:30, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:33.948725 2014] [:error] [pid 24409] [client 127.0.0.1:44554] PHP Notice:  Undefined variable: photo in /home/xikang/Public/Panyar/config/CourseForm.php on line 24, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:33.948792 2014] [:error] [pid 24409] [client 127.0.0.1:44554] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:33.948806 2014] [:error] [pid 24409] [client 127.0.0.1:44554] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:12:33.948815 2014] [:error] [pid 24409] [client 127.0.0.1:44554] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:30, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:05.595040 2014] [:error] [pid 23566] [client 127.0.0.1:44567] PHP Notice:  Undefined variable: photo in /home/xikang/Public/Panyar/config/CourseForm.php on line 24, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:05.595097 2014] [:error] [pid 23566] [client 127.0.0.1:44567] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:05.595113 2014] [:error] [pid 23566] [client 127.0.0.1:44567] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:05.595122 2014] [:error] [pid 23566] [client 127.0.0.1:44567] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:30, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:43.179974 2014] [:error] [pid 21858] [client 127.0.0.1:44570] PHP Notice:  Undefined variable: photo in /home/xikang/Public/Panyar/config/CourseForm.php on line 24, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:43.180085 2014] [:error] [pid 21858] [client 127.0.0.1:44570] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:43.180119 2014] [:error] [pid 21858] [client 127.0.0.1:44570] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:43.180142 2014] [:error] [pid 21858] [client 127.0.0.1:44570] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:30, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:44.629085 2014] [:error] [pid 21859] [client 127.0.0.1:44571] PHP Notice:  Undefined variable: photo in /home/xikang/Public/Panyar/config/CourseForm.php on line 24, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:44.629170 2014] [:error] [pid 21859] [client 127.0.0.1:44571] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:44.629198 2014] [:error] [pid 21859] [client 127.0.0.1:44571] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:13:44.629226 2014] [:error] [pid 21859] [client 127.0.0.1:44571] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:30, referer: http://panyar.com/showCourse.php?id=3
+[Sat Dec 20 16:14:11.585544 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP Notice:  Undefined variable: checkPhotoPath in /home/xikang/Public/Panyar/config/FormController.php on line 78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585661 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585692 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585743 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585842 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP Fatal error:  Function name must be a string in /home/xikang/Public/Panyar/config/FormController.php on line 78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585860 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585880 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:11.585898 2014] [:error] [pid 24409] [client 127.0.0.1:44584] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:43.878321 2014] [:error] [pid 23724] [client 127.0.0.1:44586] PHP Notice:  Undefined variable: cour in /home/xikang/Public/Panyar/config/Course.php on line 125, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:43.878360 2014] [:error] [pid 23724] [client 127.0.0.1:44586] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:43.878369 2014] [:error] [pid 23724] [client 127.0.0.1:44586] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:43.878377 2014] [:error] [pid 23724] [client 127.0.0.1:44586] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:14:43.878385 2014] [:error] [pid 23724] [client 127.0.0.1:44586] PHP   3. Panyar\\Course->edit() /home/xikang/Public/Panyar/config/FormController.php:80, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:15:39.140453 2014] [:error] [pid 23566] [client 127.0.0.1:44600] PHP Notice:  Undefined variable: coureId in /home/xikang/Public/Panyar/config/Course.php on line 124, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:15:39.140516 2014] [:error] [pid 23566] [client 127.0.0.1:44600] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:15:39.140534 2014] [:error] [pid 23566] [client 127.0.0.1:44600] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:15:39.140548 2014] [:error] [pid 23566] [client 127.0.0.1:44600] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:15:39.140563 2014] [:error] [pid 23566] [client 127.0.0.1:44600] PHP   3. Panyar\\Course->edit() /home/xikang/Public/Panyar/config/FormController.php:80, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:17:24.276446 2014] [:error] [pid 24691] [client 127.0.0.1:44640] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/config/Course.php on line 156, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:17:24.276595 2014] [:error] [pid 24691] [client 127.0.0.1:44640] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:17:24.276630 2014] [:error] [pid 24691] [client 127.0.0.1:44640] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:17:24.276652 2014] [:error] [pid 24691] [client 127.0.0.1:44640] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:17:24.276675 2014] [:error] [pid 24691] [client 127.0.0.1:44640] PHP   3. Panyar\\Course->checkPhotoPath() /home/xikang/Public/Panyar/config/FormController.php:78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:32.550227 2014] [:error] [pid 23723] [client 127.0.0.1:44675] PHP Notice:  Undefined property: stdClass::$Photo in /home/xikang/Public/Panyar/config/Course.php on line 153, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:32.550314 2014] [:error] [pid 23723] [client 127.0.0.1:44675] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:32.550327 2014] [:error] [pid 23723] [client 127.0.0.1:44675] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:32.550335 2014] [:error] [pid 23723] [client 127.0.0.1:44675] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:32.550345 2014] [:error] [pid 23723] [client 127.0.0.1:44675] PHP   3. Panyar\\Course->checkPhotoPath() /home/xikang/Public/Panyar/config/FormController.php:78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:54.525788 2014] [:error] [pid 24409] [client 127.0.0.1:44687] PHP Notice:  Undefined property: stdClass::$Photo in /home/xikang/Public/Panyar/config/Course.php on line 152, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:54.525895 2014] [:error] [pid 24409] [client 127.0.0.1:44687] PHP Stack trace:, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:54.525927 2014] [:error] [pid 24409] [client 127.0.0.1:44687] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:54.525948 2014] [:error] [pid 24409] [client 127.0.0.1:44687] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:28, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 16:19:54.525970 2014] [:error] [pid 24409] [client 127.0.0.1:44687] PHP   3. Panyar\\Course->checkPhotoPath() /home/xikang/Public/Panyar/config/FormController.php:78, referer: http://panyar.com/editCourse.php?id=3
+[Sat Dec 20 18:57:15.551539 2014] [:error] [pid 3788] [client 127.0.0.1:35413] script '/home/xikang/Public/Panyar/showClient.php' not found or unable to stat, referer: http://panyar.com/
+[Sat Dec 20 19:18:34.327364 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327436 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327467 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327529 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327544 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327562 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327616 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327631 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327647 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327685 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327699 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327739 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327831 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327846 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327861 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327916 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327936 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.327972 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328073 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328092 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328108 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328146 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328158 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328173 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328475 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328494 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328510 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328548 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328560 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328574 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328638 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328654 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328690 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328740 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328752 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328767 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328819 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328832 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328847 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328885 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328898 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328930 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328973 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.328986 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329002 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329040 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329053 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329069 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329120 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 37, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329134 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329151 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329405 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 37, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329422 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329455 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329500 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 38, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329514 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329530 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329568 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 38, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329582 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:34.329598 2014] [:error] [pid 3788] [client 127.0.0.1:35792] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433450 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433523 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433561 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433693 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 24, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433710 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433731 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433819 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433849 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433881 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433931 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 25, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433946 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.433964 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434048 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434065 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434109 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434154 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 26, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434168 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434185 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434268 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434288 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434306 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434346 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 27, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434360 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434376 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434704 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434725 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434744 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434787 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434801 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434818 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434870 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434884 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434901 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434941 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 28, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434954 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.434987 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435047 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435062 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435079 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435122 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435136 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435152 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435193 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435207 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435223 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435263 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 30, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435276 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435292 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435342 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 37, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435356 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435372 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435617 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 37, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435635 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435652 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435695 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/showCourse.php on line 38, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435709 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435725 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435779 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 38, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435793 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
+[Sat Dec 20 19:18:40.435809 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
