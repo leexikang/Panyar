@@ -2,13 +2,18 @@
 require("config/header.php");
 require("vendor/autoload.php");
 
+use Panyar\User;
+use Panyar\Validation;
+
 $msg = array();
-    if( isset($_GET['login']) ){
 
-        $username = $_GET['username'];
-        $password = $_GET['password'];
+$username = ( isset( $username ) ? $username : null );
+    if( isset($_POST['login']) ){
 
-        if( empty($_GET['username'] ) OR empty( $_GET['password'] ) ){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        if( empty($_POST['username'] ) OR empty( $_POST['password'] ) ){
 
             $msg["allRequire"] = "Please fill all the fields";
 
@@ -16,19 +21,19 @@ $msg = array();
                 $msg["loginFail"] = "Username and Password are not matched.";
         }
 
-        if( $msg == null AND isset( $_GET['login'] ) ){
+        if( $msg == null AND isset( $_POST['login'] ) ){
 
-            echo "login";
+            header( 'Location: home.php');
         }
     }
 
 ?>
     <section class="content">
 <div class="contentWrapper">
-    <FORM class="login_form" method="GET" action="login.php">
+    <FORM class="login_form" method="POST" action="login.php">
         <div> 
         <label for="username"> Username </label>
-        <input type="text" name="username" id="username" /> 
+        <input type="text" name="username" id="username" value="<?php echo $username ?>" /> 
     </div>
     <div>
         <label for="password"> Password:</label>
@@ -37,10 +42,13 @@ $msg = array();
         <div>
         <input type="submit" value="login" name="login" />
     </div>
-        <span><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null );
-echo (isset($msg['loginFail']) ? $msg['loginFail'] : null ) ?></span>
+        <span class='messageError' ><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null );
+echo (isset($msg['loginFail']) ? $msg['loginFail'] : null ) ?></span> <br/> <br/>
+
+<a href='signup.php'>  new User ? Sign Up </a>
 </div>
     </FORM>
+<br/><br/><br/>
 </section>
  </body> 
  </html>

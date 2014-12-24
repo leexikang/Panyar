@@ -7,13 +7,17 @@
 	</head>
  <body>
 
- 	<header>
+    <header>
 
- 	<div class="logo">
+    <ul>
 
- 		<span>Panyar </span>
+    <li> <a href='login.php'> Login </a> </li>
 
- 	</div>
- 	</header>
+    </ul>
+ 
+
+        <a href='/'> <span class='logo' >Panyar </span> </a>
+
+	</header>
 
 

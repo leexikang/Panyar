@@ -4,14 +4,12 @@ require('vendor/autoload.php');
 
 use Panyar\User;
 
-    if( isset($_GET['edit']) ){
+    if( isset($_POST['edit']) ){
 
-        $name = $_GET['email'];
-        $email = $_GET['email'];
-        $intro = $_GET['intro'];
+        $email = $_POST['email'];
+        $intro = $_POST['intro'];
 
         $data = array(
-            'name' => $name,
             'email' => $email,
             'intro' => $intro
         );
@@ -31,13 +29,8 @@ $user = $userObj->fetchById( 1 ); //////////////////////
    <section class="content" >
     <div class="contentWrapper">
      <div>
-     <FORM class="login_form" method="GET" action="<?php $_SERVER['PHP_SELF'] ?>">
-        <div> 
-        <label for='name' > Name  </label>
-        <input type="text" name='name' id='name' value="<?php echo $user->name ?>" />
-
-    <div>
-        <label for="email"> Email </label>
+     <FORM class="login_form" method="POST" action="<?php $_SERVER['PHP_SELF'] ?>">
+              <label for="email"> Email </label>
         <input type="email" name="email" id="email" value="<?php echo $user->email ?>"/><br/>
     </div>
     <div>

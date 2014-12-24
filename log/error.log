@@ -1677,3 +1677,578 @@
 [Sat Dec 20 19:18:40.435779 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/showCourse.php on line 38, referer: http://panyar.com/showClient.php?name=MinSan
 [Sat Dec 20 19:18:40.435793 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP Stack trace:, referer: http://panyar.com/showClient.php?name=MinSan
 [Sat Dec 20 19:18:40.435809 2014] [:error] [pid 3796] [client 127.0.0.1:35793] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showClient.php?name=MinSan
+[Mon Dec 22 21:47:00.079208 2014] [:error] [pid 3806] [client 127.0.0.1:58213] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/xikang/Public/Panyar/config/Payment.php on line 30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:00.189533 2014] [:error] [pid 3806] [client 127.0.0.1:58213] PHP Stack trace:, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:00.189600 2014] [:error] [pid 3806] [client 127.0.0.1:58213] PHP   1. {main}() /home/xikang/Public/Panyar/makePayment.php:0, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:00.189608 2014] [:error] [pid 3806] [client 127.0.0.1:58213] PHP   2. Panyar\\Payment->insertAll() /home/xikang/Public/Panyar/makePayment.php:27, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:00.189615 2014] [:error] [pid 3806] [client 127.0.0.1:58213] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Payment.php:30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:29.167493 2014] [:error] [pid 4184] [client 127.0.0.1:58214] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/xikang/Public/Panyar/config/Payment.php on line 30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:29.167623 2014] [:error] [pid 4184] [client 127.0.0.1:58214] PHP Stack trace:, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:29.167647 2014] [:error] [pid 4184] [client 127.0.0.1:58214] PHP   1. {main}() /home/xikang/Public/Panyar/makePayment.php:0, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:29.167668 2014] [:error] [pid 4184] [client 127.0.0.1:58214] PHP   2. Panyar\\Payment->insertAll() /home/xikang/Public/Panyar/makePayment.php:29, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:47:29.167687 2014] [:error] [pid 4184] [client 127.0.0.1:58214] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Payment.php:30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:48:11.714635 2014] [:error] [pid 3817] [client 127.0.0.1:58227] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/xikang/Public/Panyar/config/Payment.php on line 30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:48:11.714730 2014] [:error] [pid 3817] [client 127.0.0.1:58227] PHP Stack trace:, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:48:11.714756 2014] [:error] [pid 3817] [client 127.0.0.1:58227] PHP   1. {main}() /home/xikang/Public/Panyar/makePayment.php:0, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:48:11.714780 2014] [:error] [pid 3817] [client 127.0.0.1:58227] PHP   2. Panyar\\Payment->insertAll() /home/xikang/Public/Panyar/makePayment.php:29, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 21:48:11.714802 2014] [:error] [pid 3817] [client 127.0.0.1:58227] PHP   3. PDOStatement->execute() /home/xikang/Public/Panyar/config/Payment.php:30, referer: http://panyar.com/makePayment.php
+[Mon Dec 22 22:02:59.770864 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP Notice:  Undefined property: Panyar\\User::$username in /home/xikang/Public/Panyar/invoice.php on line 19
+[Mon Dec 22 22:02:59.770949 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP Stack trace:
+[Mon Dec 22 22:02:59.770969 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:02:59.771009 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP Notice:  Undefined property: Panyar\\User::$email in /home/xikang/Public/Panyar/invoice.php on line 20
+[Mon Dec 22 22:02:59.771016 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP Stack trace:
+[Mon Dec 22 22:02:59.771024 2014] [:error] [pid 1373] [client 127.0.0.1:58422] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.023823 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 24
+[Mon Dec 22 22:07:10.023858 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.023866 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.023892 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 24
+[Mon Dec 22 22:07:10.023898 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.023907 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.023929 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 25
+[Mon Dec 22 22:07:10.023934 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.023939 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.023952 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 25
+[Mon Dec 22 22:07:10.023956 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.023961 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.023986 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 25
+[Mon Dec 22 22:07:10.023991 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.023996 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.024009 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 25
+[Mon Dec 22 22:07:10.024013 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.024018 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.024035 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 27
+[Mon Dec 22 22:07:10.024040 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.024045 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.024057 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 27
+[Mon Dec 22 22:07:10.024061 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.024066 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.024078 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 27
+[Mon Dec 22 22:07:10.024093 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.024098 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:10.024210 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 27
+[Mon Dec 22 22:07:10.024215 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP Stack trace:
+[Mon Dec 22 22:07:10.024220 2014] [:error] [pid 4184] [client 127.0.0.1:58482] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:20.925301 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/invoice.php on line 24
+[Mon Dec 22 22:07:20.925337 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP Stack trace:
+[Mon Dec 22 22:07:20.925348 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Mon Dec 22 22:07:20.925440 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/invoice.php on line 24
+[Mon Dec 22 22:07:20.925467 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP Stack trace:
+[Mon Dec 22 22:07:20.925494 2014] [:error] [pid 3806] [client 127.0.0.1:58488] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0
+[Tue Dec 23 09:16:52.100697 2014] [:error] [pid 1380] [client 127.0.0.1:48147] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[Tue Dec 23 09:16:52.176129 2014] [:error] [pid 1380] [client 127.0.0.1:48147] PHP Fatal error:  Unknown: Failed opening required '/home/xikang/Public/Panyar/obj.php' (include_path='.:/usr/share/php:/usr/share/pear') in Unknown on line 0
+[Tue Dec 23 16:22:06.027591 2014] [:error] [pid 1440] [client 127.0.0.1:52360] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/signup.php on line 19, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:22:06.093063 2014] [:error] [pid 1440] [client 127.0.0.1:52360] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:22:06.093123 2014] [:error] [pid 1440] [client 127.0.0.1:52360] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:22:51.626947 2014] [:error] [pid 1441] [client 127.0.0.1:52372] PHP Fatal error:  Call to undefined method Panyar\\User::insertAll() in /home/xikang/Public/Panyar/signup.php on line 38, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:22:51.627045 2014] [:error] [pid 1441] [client 127.0.0.1:52372] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:22:51.627080 2014] [:error] [pid 1441] [client 127.0.0.1:52372] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Tue Dec 23 16:33:51.030488 2014] [:error] [pid 18631] [client 127.0.0.1:52542] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/xikang/Public/Panyar/signup.php on line 52, referer: http://panyar.com/signup.php
+[Tue Dec 23 21:19:33.503547 2014] [:error] [pid 1443] [client 127.0.0.1:53298] PHP Fatal error:  Class 'User' not found in /home/xikang/Public/Panyar/clientInfo.php on line 20, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:33.503629 2014] [:error] [pid 1443] [client 127.0.0.1:53298] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:33.503662 2014] [:error] [pid 1443] [client 127.0.0.1:53298] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530048 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP Notice:  Undefined variable: rows in /home/xikang/Public/Panyar/config/User.php on line 21, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530081 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530101 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530108 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP   2. Panyar\\User->fetchALl() /home/xikang/Public/Panyar/clientInfo.php:21, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530141 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP Warning:  Invalid argument supplied for foreach() in /home/xikang/Public/Panyar/clientInfo.php on line 23, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530146 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:19:49.530151 2014] [:error] [pid 1440] [client 127.0.0.1:53311] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268205 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268272 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268288 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268349 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268357 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268365 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268389 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268396 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268403 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268424 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268430 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268437 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268469 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268476 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268483 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268501 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268508 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268514 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268552 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268559 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268566 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268583 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268588 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268594 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268871 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268882 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268889 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268907 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268912 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:20:26.268918 2014] [:error] [pid 19388] [client 127.0.0.1:53314] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563289 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563403 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563441 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563563 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563586 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563610 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563671 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563689 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563708 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563751 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563793 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563810 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563878 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563894 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563910 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563951 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563964 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.563980 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564024 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564038 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564054 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564094 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564107 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564123 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564497 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564518 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564535 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564579 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564593 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:17.564608 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090594 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090633 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090643 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090690 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090696 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090704 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090725 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090732 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090739 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090756 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090762 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090769 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090796 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090803 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090809 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090827 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090832 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090839 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090857 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090863 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090870 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090886 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090892 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.090899 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091057 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091067 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091087 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091124 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091135 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.091146 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400457 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400482 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400494 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400531 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400539 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400549 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400575 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400582 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400591 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400613 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400620 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400629 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400663 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400671 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400679 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400700 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400707 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400715 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400737 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400760 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400769 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400790 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400797 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.400805 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401036 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401047 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401055 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401079 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401086 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.401094 2014] [:error] [pid 19388] [client 127.0.0.1:53346] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603432 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603449 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603456 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603478 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603482 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603488 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603502 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603506 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603511 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603524 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603528 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603532 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603563 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603568 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603572 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603584 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603588 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603593 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603605 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603609 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603614 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603626 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603629 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603634 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603745 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603752 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603757 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603769 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603773 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:18.603778 2014] [:error] [pid 19000] [client 127.0.0.1:53345] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152315 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152352 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152368 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152400 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152434 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152443 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152467 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152474 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152481 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152500 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152506 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152513 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152546 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152555 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152563 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152584 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152591 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152598 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152619 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152626 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152633 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152651 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152659 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152667 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152871 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152888 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152897 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152938 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152946 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.152953 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701131 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701163 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701174 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701208 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701213 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701219 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701239 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701245 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701250 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701265 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701269 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701274 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701306 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701313 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701318 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701332 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701337 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701342 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701356 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701360 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701387 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701403 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701408 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701413 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701558 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701566 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701571 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701585 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701589 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.701594 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903244 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903280 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903292 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903325 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903332 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903339 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903362 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903369 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903376 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903395 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903401 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903408 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903441 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903468 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903476 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903497 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903503 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903509 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903530 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903537 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903545 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903563 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903570 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903576 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903783 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903800 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903808 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903830 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903835 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:56.903842 2014] [:error] [pid 18631] [client 127.0.0.1:53364] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121304 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121360 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121372 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121411 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121419 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121427 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121472 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121480 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121488 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121507 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121513 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121520 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121552 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121560 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121567 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121588 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121594 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121602 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121620 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121626 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121633 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121650 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121655 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.121662 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122082 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 28, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122110 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122127 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122172 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122206 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:21:57.122223 2014] [:error] [pid 19000] [client 127.0.0.1:53365] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113323 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 30, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113407 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113432 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113510 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 30, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113527 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113547 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113602 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 30, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113618 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113637 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113738 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 30, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113762 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113787 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113842 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/clientInfo.php on line 30, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113863 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:22:59.113873 2014] [:error] [pid 19388] [client 127.0.0.1:53377] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230658 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230703 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230716 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230783 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230793 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230803 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230844 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230852 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230861 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230886 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230893 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230901 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230928 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230935 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230944 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230967 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230974 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.230982 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231006 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231013 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231021 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231062 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231070 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231078 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231266 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231277 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231285 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231309 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231324 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:23:42.231333 2014] [:error] [pid 22310] [client 127.0.0.1:53379] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352472 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352531 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352549 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352598 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352609 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352620 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352650 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352659 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352669 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352710 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352719 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352730 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352758 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352767 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352777 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352804 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352813 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352823 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352851 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352859 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.352887 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353116 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353129 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353139 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353168 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353176 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353185 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353211 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Notice:  Object of class stdClass could not be converted to int in /home/xikang/Public/Panyar/clientInfo.php on line 29, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353219 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:24:19.353229 2014] [:error] [pid 18630] [client 127.0.0.1:53391] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Tue Dec 23 21:34:15.054945 2014] [:error] [pid 22606] [client 127.0.0.1:53522] PHP Fatal error:  Class 'User' not found in /home/xikang/Public/Panyar/editClient.php on line 12, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:15.054981 2014] [:error] [pid 22606] [client 127.0.0.1:53522] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:15.054991 2014] [:error] [pid 22606] [client 127.0.0.1:53522] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991547 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 28, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991586 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991605 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991628 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 28, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991645 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991653 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991678 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 28, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991685 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991692 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991708 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 28, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991728 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991735 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991793 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 30, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991800 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991805 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991818 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 30, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991822 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991826 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991840 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 30, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991844 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991849 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991860 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 30, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991864 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.991868 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992056 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 37, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992071 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992079 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992109 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 37, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992115 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992121 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992138 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Undefined variable: course in /home/xikang/Public/Panyar/editClient.php on line 38, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992144 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992161 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992177 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 38, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992182 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:34:21.992189 2014] [:error] [pid 19000] [client 127.0.0.1:53523] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:35:30.685179 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 24, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685258 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685286 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685352 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 24, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685368 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685387 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685464 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 25, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685490 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685518 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685597 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 25, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685624 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685645 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685748 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 26, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685777 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685805 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685850 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 26, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685865 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685883 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685961 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 27, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685977 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.685994 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686048 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 27, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686070 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686099 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686464 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 33, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686488 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686506 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686549 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 33, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686563 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP Stack trace:, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:30.686580 2014] [:error] [pid 19388] [client 127.0.0.1:53538] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/editClient.php?id=1
+[Tue Dec 23 21:35:46.795465 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 24
+[Tue Dec 23 21:35:46.795493 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795501 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795522 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 24
+[Tue Dec 23 21:35:46.795526 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795531 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795548 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 25
+[Tue Dec 23 21:35:46.795553 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795557 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795570 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 25
+[Tue Dec 23 21:35:46.795573 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795578 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795601 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 26
+[Tue Dec 23 21:35:46.795616 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795621 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795634 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 26
+[Tue Dec 23 21:35:46.795637 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795642 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795656 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 27
+[Tue Dec 23 21:35:46.795659 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795664 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795675 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 27
+[Tue Dec 23 21:35:46.795679 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795683 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795787 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 33
+[Tue Dec 23 21:35:46.795793 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795798 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:35:46.795810 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 33
+[Tue Dec 23 21:35:46.795814 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP Stack trace:
+[Tue Dec 23 21:35:46.795819 2014] [:error] [pid 18630] [client 127.0.0.1:53541] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.603482 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 24
+[Tue Dec 23 21:36:18.603561 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.603593 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.603657 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 24
+[Tue Dec 23 21:36:18.603673 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.603692 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.603752 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 25
+[Tue Dec 23 21:36:18.603767 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.603786 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.603827 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 25
+[Tue Dec 23 21:36:18.603841 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.603859 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.603955 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 26
+[Tue Dec 23 21:36:18.603971 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.603988 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.604028 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 26
+[Tue Dec 23 21:36:18.604040 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.604056 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.604104 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 27
+[Tue Dec 23 21:36:18.604117 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.604133 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.604171 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 27
+[Tue Dec 23 21:36:18.604184 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.604200 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.604534 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Undefined variable: user in /home/xikang/Public/Panyar/editClient.php on line 33
+[Tue Dec 23 21:36:18.604555 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.604572 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:36:18.604613 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Notice:  Trying to get property of non-object in /home/xikang/Public/Panyar/editClient.php on line 33
+[Tue Dec 23 21:36:18.604626 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP Stack trace:
+[Tue Dec 23 21:36:18.604642 2014] [:error] [pid 19386] [client 127.0.0.1:53552] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0
+[Tue Dec 23 21:44:57.679803 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP Warning:  require(adminNav.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/admin.php on line 7
+[Tue Dec 23 21:44:57.679832 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP Stack trace:
+[Tue Dec 23 21:44:57.679840 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Tue Dec 23 21:44:57.679865 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP Fatal error:  require(): Failed opening required 'adminNav.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/admin.php on line 7
+[Tue Dec 23 21:44:57.679870 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP Stack trace:
+[Tue Dec 23 21:44:57.679876 2014] [:error] [pid 18630] [client 127.0.0.1:53646] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Tue Dec 23 21:45:24.618308 2014] [:error] [pid 19386] [client 127.0.0.1:53658] script '/home/xikang/Public/Panyar/report.php' not found or unable to stat, referer: http://panyar.com/clientInfo.php
+[Tue Dec 23 21:47:46.350690 2014] [:error] [pid 18999] [client 127.0.0.1:53683] PHP Fatal error:  Class 'Validation' not found in /home/xikang/Public/Panyar/login.php on line 15, referer: http://panyar.com/login.php
+[Tue Dec 23 21:47:46.350724 2014] [:error] [pid 18999] [client 127.0.0.1:53683] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 23 21:47:46.350740 2014] [:error] [pid 18999] [client 127.0.0.1:53683] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:39.763725 2014] [:error] [pid 22310] [client 127.0.0.1:53695] PHP Fatal error:  Class 'User' not found in /home/xikang/Public/Panyar/login.php on line 16, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:39.763768 2014] [:error] [pid 22310] [client 127.0.0.1:53695] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:39.763780 2014] [:error] [pid 22310] [client 127.0.0.1:53695] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:50.692278 2014] [:error] [pid 1443] [client 127.0.0.1:53707] PHP Fatal error:  Class 'User' not found in /home/xikang/Public/Panyar/login.php on line 16, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:50.692317 2014] [:error] [pid 1443] [client 127.0.0.1:53707] PHP Stack trace:, referer: http://panyar.com/login.php
+[Tue Dec 23 21:48:50.692331 2014] [:error] [pid 1443] [client 127.0.0.1:53707] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Tue Dec 23 21:54:22.085101 2014] [:error] [pid 19388] [client 127.0.0.1:53807] PHP Notice:  Undefined property: stdClass::$name in /home/xikang/Public/Panyar/createProfile.php on line 37, referer: http://panyar.com/home.php
+[Tue Dec 23 21:54:22.085183 2014] [:error] [pid 19388] [client 127.0.0.1:53807] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 23 21:54:22.085209 2014] [:error] [pid 19388] [client 127.0.0.1:53807] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 23 21:55:52.341731 2014] [:error] [pid 18631] [client 127.0.0.1:53846] PHP Notice:  Undefined property: stdClass::$name in /home/xikang/Public/Panyar/createProfile.php on line 37, referer: http://panyar.com/home.php
+[Tue Dec 23 21:55:52.341767 2014] [:error] [pid 18631] [client 127.0.0.1:53846] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 23 21:55:52.341775 2014] [:error] [pid 18631] [client 127.0.0.1:53846] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Tue Dec 23 21:57:02.193635 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP Notice:  Undefined property: stdClass::$name in /home/xikang/Public/Panyar/createProfile.php on line 37, referer: http://panyar.com/home.php
+[Tue Dec 23 21:57:02.193722 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP Stack trace:, referer: http://panyar.com/home.php
+[Tue Dec 23 21:57:02.193743 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php

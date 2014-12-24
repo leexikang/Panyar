@@ -17,8 +17,8 @@ class User implements Query{
         $stmt = $this->conn->prepare("SELECT * FROM client");
         $stmt->setFetchMode( PDO::FETCH_OBJ );
         $stmt->execute();
-        $row  = $stmt->fetch();
-        return $rows;
+        $row  = $stmt->fetchAll();
+        return $row;
 
     }
 
@@ -47,7 +47,7 @@ class User implements Query{
     }
 
 
-    public function createUser( $data ){
+    public function insertAll( $data ){
 
         extract( $data );
 
@@ -62,13 +62,12 @@ class User implements Query{
 
         extract( $data );
         $sql = "UPDATE client 
-            set name = :name,
-            email = :email,
+            set email = :email,
             intro = :intro
             Where id = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute(
-            array( ':name' => $name,
+            array( 
             ':email' => $email,
             ':intro' => $intro,
             ':id' => $id
@@ -85,6 +84,14 @@ class User implements Query{
         $row = $stmt->fetchAll();
 
         return $row;
+
+    }
+
+    public function deleteById( $id ){
+
+         $stmt = $this->conn->prepare("DELETE FROM client 
+            WHERE id = :id");
+        $stmt->execute( array ( ":id" => $id ) );
 
     }
 }

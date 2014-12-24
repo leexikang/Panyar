@@ -1,6 +1,8 @@
 html {
   font-family: sans-serif; }
 
+
+
 header {
 
   width: 100%;
@@ -9,6 +11,28 @@ header {
   border-radius: 0 0 1px 1px;
 
 }
+
+header ul{
+
+    float: right;
+    padding: 0.5em 1em 1em 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+seader ul a:hover{
+
+    text-decoration: underline;
+
+}
+
 
 section .mian{
     width: 100%;
@@ -95,12 +119,21 @@ footer{
 
 }
 
-.logo{
-	text-align: center;
-	width: 6em;
-	height: 2.5em;
+footer ul{
+
+    line-height: 2em;
+    padding-top: 1em;
+    margin: 2em;
+
 }
-.logo span{
+footer ul li{
+
+    color: white; 
+
+}
+
+
+.logo {
 	
 	font-weight: bold;
 	color: white;
@@ -223,7 +256,7 @@ td{
     width: 3em;
 }
 
-.courseName{
+.Tdname{
 
     width: 20em;
 }
@@ -281,3 +314,25 @@ td{
     margin-right: 2em;
 
 }
+
+.comfirmPayment h1 {
+
+    padding-left: 0.5em;
+    font-size: 2em;
+}
+
+.comfirmPayment p {
+
+    padding: 1em;
+    font-size: 1.5em;
+
+}
+
+.comfirmPayment a{
+
+    font-size: 1.3em;
+
+
+}
+
+

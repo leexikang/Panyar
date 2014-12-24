@@ -1,17 +1,21 @@
 <?php
+
 require("vendor/autoload.php");
 require("config/header.php");
 
+use Panyar\Validation;
+use Panyar\User;
+
 $msg = array();
-    if( isset($_GET['signup']) ){
+    if( isset($_POST['signup']) ){
 
-            $username = $_GET['username'];
-            $password = $_GET['password'];
-            $passwordRe = $_GET['passwordRe'];
-            $email = $_GET['email'];
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+            $passwordRe = $_POST['passwordRe'];
+            $email = $_POST['email'];
 
-            if( empty($_GET['username'] ) OR empty( $_GET['password'] )
-                OR empty( $_GET['email'] )  ){
+            if( empty($_POST['username'] ) OR empty( $_POST ['password'] )
+                OR empty( $_POST ['email'] )  ){
                 $msg["allRequire"] = "Please fill all the fields";
                 }
 
@@ -24,7 +28,7 @@ $msg = array();
                 $msg["userExist"] = "User already exist";
             }
 
-            if( $msg == null AND isset( $_GET['signup'] ) ){
+            if( $msg == null AND isset( $_POST ['signup'] ) ){
                 $data = array(
                     'username' => $username,
                     'password' => $password,
@@ -32,7 +36,8 @@ $msg = array();
                 );
 
                 $user = new User();
-                $user->insertAllRoll($data);
+                $user->insertAll($data);
+                header('location: makePayment.php');
            }
     }
 
@@ -41,11 +46,11 @@ $msg = array();
 <section class="content">
     <div class="contentWrapper">
  	<div>
-    <FORM class="login_form" method="GET" action="signup.php">
-		<div> 
+    <FORM class="login_form" method='POST' action="<?php echo $_SERVER['PHP_SELF'] ?> ">
+		<div>
 		<label for="username"> Username </label>
-		<input type="text" name="username" id="username" /> 
-        <span><?php echo (isset($msg['userExist']) ? $msg['userExist'] : null )  ?></span>
+		<input type="text" name="username" id="username" />
+        <span class='messageError'><?php  echo (isset($msg['userExist']) ? $msg['userExist'] : null )  ?></span>
 	</div>
 	<div>
 		<label for="password"> Password:</label>
@@ -54,7 +59,7 @@ $msg = array();
 	<div>
 		<label for="passwordRe"> Confirm Password:</label>
 		<input type="passwordRe" name="passwordRe" id="passwordRe" /><br/>
-        <span><?php echo (isset($msg['passwordMatch']) ? $msg['passwordMatch'] : null ) ?></span>
+        <span class='messageError'><?php echo (isset($msg['passwordMatch']) ? $msg['passwordMatch'] : null ) ?></span>
 	</div>
 	<div>
 		<label for="email"> Email </label>
@@ -62,7 +67,7 @@ $msg = array();
 	</div>
 	<div>
 		<input type="submit" value="Signup" name="signup" />
-        <span><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null ) ?></span>
+        <span class='messageError'><?php echo (isset($msg['allRequire']) ? $msg['allRequire'] : null ) ?></span>
 	</div>
     </FORM>
 </section>
