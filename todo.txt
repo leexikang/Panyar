@@ -1,7 +1,0 @@
-
-Home Page
-
--user can edit theri profile
--user can browse tehir and edit their course
-- A form fied for editing their course
-
