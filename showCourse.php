@@ -1,9 +1,9 @@
 <?php
-require("config/header.php");
+use Panyar\Course;
 require('vendor/autoload.php');
 require('config/helperFunction.php');
-
-use Panyar\Course;
+session_start();
+require("config/header.php");
 
 if( isset ( $_GET['id'] ) ){
 
@@ -33,9 +33,13 @@ createAnswer( 'Duration', $date);
 ?>
     </table>
     <br/>
-    <a href='' class='first' > Back </a>
+<?php if( checkSession() ){ ?>
+    <a href='showAllCourses.php' class='first' > Back </a>
     <a href="editCourse.php?id=<?php echo $course->courseId ?>"> Edit </a>
     <a href="deleteCourse.php?id=<?php echo $course->courseId ?>" > Delete </a>
+<?php } else{ ?>
+    <a href='/' class='first' > Back </a>
+<?php  } ?>
     </div>
 
         </section>

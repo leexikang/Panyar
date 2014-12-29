@@ -71,22 +71,23 @@ protected $conn;
 
         extract($data);
 
-        $stmt = $this->conn->prepare("INSERT INTO course
+        $stmt = $this->conn->prepare("REPLACE INTO course
             (courseName, description, startTime, endTime,
-            startDate, endDate, fee, categoryId, note, photo) VALUES
+            startDate, endDate, fee, categoryId, note, photo, id) VALUES
             (:courseName, :description, :startTime, :endTime,
-            :startDate, :endDate, :fee, :categoryId, :note, :photo)");
+            :startDate, :endDate, :fee, :categoryId, :note, :photo, :id)");
             $stmt->execute( array(
-            'courseName' => $courseName,
-            'description' => $description,
-            'startTime' => $startTime,
-            'endTime' => $endTime,
-            'startDate' => $startDate,
-            'endDate' => $endDate,
-            'fee' => $fee,
-            'categoryId' => $category,
-            'note' => $note,
-            'photo' => $photo
+            ':courseName' => $courseName,
+            ':description' => $description,
+            ':startTime' => $startTime,
+            ':endTime' => $endTime,
+            ':startDate' => $startDate,
+            ':endDate' => $endDate,
+            ':fee' => $fee,
+            ':categoryId' => $category,
+            ':note' => $note,
+            ':photo' => $photo,
+            ':id' => $id
         ) );
     }
 
@@ -160,7 +161,6 @@ protected $conn;
 
         if( $path == 'image/' ){
             $course = SELF::fetchById( $id );
-            var_dump( $course );
             return $course->photo;
         }else{
             return $path;

@@ -1,5 +1,5 @@
 <?php
-require("config/header.php");
+require('config/initRequire.php');
 ?>
     <section class="main" >
 <?php require("config/clientNav.php"); ?>

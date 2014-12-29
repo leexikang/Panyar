@@ -1,5 +1,5 @@
 <?php
-require("config/header.php");
+require('config/initRequire.php');
 ?>
     
  	</article>

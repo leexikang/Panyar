@@ -1,6 +1,11 @@
 <?php
-require("vendor/autoload.php");
+
+require('vendor/autoload.php');
+require('config/helperFunction.php');
+session_start();
+
 require("config/header.php");
+
 
 use Panyar\Category;
 use Panyar\Course;

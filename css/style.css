@@ -263,8 +263,13 @@ td{
 
 .view{
 
-    width: 5em;
+    width: 6em;
 
+}
+
+.courseName{
+
+    width: 20em;
 }
 
 /** for showCourse Page **/
@@ -335,4 +340,17 @@ td{
 
 }
 
+.report {
 
+    width: 80%;
+    text-align: center;
+    padding: 2em;
+
+}
+
+.report td{
+
+    width: 10em;
+    border-right: 1px solid gray;
+
+}

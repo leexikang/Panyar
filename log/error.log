@@ -2252,3 +2252,255 @@
 [Tue Dec 23 21:57:02.193635 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP Notice:  Undefined property: stdClass::$name in /home/xikang/Public/Panyar/createProfile.php on line 37, referer: http://panyar.com/home.php
 [Tue Dec 23 21:57:02.193722 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP Stack trace:, referer: http://panyar.com/home.php
 [Tue Dec 23 21:57:02.193743 2014] [:error] [pid 18999] [client 127.0.0.1:53888] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Sat Dec 27 10:51:04.341894 2014] [:error] [pid 1450] [client 127.0.0.1:44467] script '/home/xikang/Public/Panyar/report.php' not found or unable to stat, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:51:28.415336 2014] [:error] [pid 4063] [client 127.0.0.1:44471] script '/home/xikang/Public/Panyar/report.php' not found or unable to stat, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240588 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240633 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240653 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240695 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240705 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:03.240720 2014] [:error] [pid 4055] [client 127.0.0.1:44541] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.383952 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.384005 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.384023 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.384100 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.384114 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:12.384124 2014] [:error] [pid 1450] [client 127.0.0.1:44549] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222768 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP Warning:  require(conifg/footer.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222825 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222840 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222903 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP Fatal error:  require(): Failed opening required 'conifg/footer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222916 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:15.222924 2014] [:error] [pid 4063] [client 127.0.0.1:44550] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245000 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP Warning:  require(conifg/footer.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245083 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245118 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245239 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP Fatal error:  require(): Failed opening required 'conifg/footer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/report.php on line 11, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245266 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 10:55:26.245285 2014] [:error] [pid 1447] [client 127.0.0.1:44551] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 11:39:48.808213 2014] [:error] [pid 1450] [client 127.0.0.1:45552] PHP Parse error:  syntax error, unexpected end of file in /home/xikang/Public/Panyar/report.php on line 41, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 11:40:08.902473 2014] [:error] [pid 1451] [client 127.0.0.1:45553] PHP Fatal error:  Call to undefined method Panyar\\User::fetchJoinReport() in /home/xikang/Public/Panyar/report.php on line 8, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 11:40:08.902562 2014] [:error] [pid 1451] [client 127.0.0.1:45553] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 11:40:08.902580 2014] [:error] [pid 1451] [client 127.0.0.1:45553] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 12:03:18.129074 2014] [:error] [pid 5489] [client 127.0.0.1:46101] PHP Fatal error:  Class 'Panyar\\Admin' not found in /home/xikang/Public/Panyar/report.php on line 7, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 12:03:18.129159 2014] [:error] [pid 5489] [client 127.0.0.1:46101] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 12:03:18.129193 2014] [:error] [pid 5489] [client 127.0.0.1:46101] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Dec 27 16:10:48.962240 2014] [:error] [pid 11174] [client 127.0.0.1:49554] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:10:48.962374 2014] [:error] [pid 11174] [client 127.0.0.1:49554] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:10:48.962393 2014] [:error] [pid 11174] [client 127.0.0.1:49554] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:10:48.962403 2014] [:error] [pid 11174] [client 127.0.0.1:49554] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:11:48.917764 2014] [:error] [pid 11184] [client 127.0.0.1:49579] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:11:48.917866 2014] [:error] [pid 11184] [client 127.0.0.1:49579] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:11:48.917881 2014] [:error] [pid 11184] [client 127.0.0.1:49579] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:11:48.917888 2014] [:error] [pid 11184] [client 127.0.0.1:49579] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:13:01.126054 2014] [:error] [pid 11185] [client 127.0.0.1:49601] PHP Fatal error:  Call to a member function lastInsertId() on a non-object in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:13:01.126097 2014] [:error] [pid 11185] [client 127.0.0.1:49601] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:13:01.126112 2014] [:error] [pid 11185] [client 127.0.0.1:49601] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:13:01.126122 2014] [:error] [pid 11185] [client 127.0.0.1:49601] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:14:25.294609 2014] [:error] [pid 11237] [client 127.0.0.1:49626] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:14:25.294669 2014] [:error] [pid 11237] [client 127.0.0.1:49626] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:14:25.294683 2014] [:error] [pid 11237] [client 127.0.0.1:49626] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:14:25.294692 2014] [:error] [pid 11237] [client 127.0.0.1:49626] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:00.858734 2014] [:error] [pid 11217] [client 127.0.0.1:49647] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:00.858782 2014] [:error] [pid 11217] [client 127.0.0.1:49647] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:00.858792 2014] [:error] [pid 11217] [client 127.0.0.1:49647] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:00.858800 2014] [:error] [pid 11217] [client 127.0.0.1:49647] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:14.390028 2014] [:error] [pid 1451] [client 127.0.0.1:49657] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:14.390069 2014] [:error] [pid 1451] [client 127.0.0.1:49657] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:14.390080 2014] [:error] [pid 1451] [client 127.0.0.1:49657] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:14.390090 2014] [:error] [pid 1451] [client 127.0.0.1:49657] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:53.629073 2014] [:error] [pid 1451] [client 127.0.0.1:49680] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertedId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:53.629132 2014] [:error] [pid 1451] [client 127.0.0.1:49680] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:53.629149 2014] [:error] [pid 1451] [client 127.0.0.1:49680] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:15:53.629163 2014] [:error] [pid 1451] [client 127.0.0.1:49680] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:16:32.789829 2014] [:error] [pid 11258] [client 127.0.0.1:49690] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/xikang/Public/Panyar/config/User.php on line 59, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:16:32.789890 2014] [:error] [pid 11258] [client 127.0.0.1:49690] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:16:32.789910 2014] [:error] [pid 11258] [client 127.0.0.1:49690] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0, referer: http://panyar.com/signup.php
+[Sat Dec 27 16:16:32.789925 2014] [:error] [pid 11258] [client 127.0.0.1:49690] PHP   2. Panyar\\User->insertAll() /home/xikang/Public/Panyar/signup.php:39, referer: http://panyar.com/signup.php
+[Sat Dec 27 22:21:55.982416 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP Warning:  require(conifg/helperFunction.php): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/signup.php on line 5
+[Sat Dec 27 22:21:56.009543 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP Stack trace:
+[Sat Dec 27 22:21:56.009599 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0
+[Sat Dec 27 22:21:56.009656 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP Fatal error:  require(): Failed opening required 'conifg/helperFunction.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/signup.php on line 5
+[Sat Dec 27 22:21:56.009664 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP Stack trace:
+[Sat Dec 27 22:21:56.009674 2014] [:error] [pid 1363] [client 127.0.0.1:52099] PHP   1. {main}() /home/xikang/Public/Panyar/signup.php:0
+[Sat Dec 27 22:28:08.035740 2014] [:error] [pid 1363] [client 127.0.0.1:52198] PHP Fatal error:  Call to undefined function setSessionCookie() in /home/xikang/Public/Panyar/login.php on line 28, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:08.035796 2014] [:error] [pid 1363] [client 127.0.0.1:52198] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:08.035807 2014] [:error] [pid 1363] [client 127.0.0.1:52198] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381369 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP Warning:  require(config/helperFunction): failed to open stream: No such file or directory in /home/xikang/Public/Panyar/login.php on line 4, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381453 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381487 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381567 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP Fatal error:  require(): Failed opening required 'config/helperFunction' (include_path='.:/usr/share/php:/usr/share/pear') in /home/xikang/Public/Panyar/login.php on line 4, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381586 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:40.381605 2014] [:error] [pid 3368] [client 127.0.0.1:52208] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:46.119573 2014] [:error] [pid 3261] [client 127.0.0.1:52210] PHP Notice:  Undefined property: stdClass::$Id in /home/xikang/Public/Panyar/login.php on line 29, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:46.119621 2014] [:error] [pid 3261] [client 127.0.0.1:52210] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:28:46.119635 2014] [:error] [pid 3261] [client 127.0.0.1:52210] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:37:02.370855 2014] [:error] [pid 1366] [client 127.0.0.1:52322] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/login.php
+[Sat Dec 27 22:37:02.370913 2014] [:error] [pid 1366] [client 127.0.0.1:52322] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:37:02.370927 2014] [:error] [pid 1366] [client 127.0.0.1:52322] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:37:02.370935 2014] [:error] [pid 1366] [client 127.0.0.1:52322] PHP   2. require() /home/xikang/Public/Panyar/login.php:2, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:04.899201 2014] [:error] [pid 3368] [client 127.0.0.1:52342] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:04.899280 2014] [:error] [pid 3368] [client 127.0.0.1:52342] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:04.899306 2014] [:error] [pid 3368] [client 127.0.0.1:52342] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:04.899327 2014] [:error] [pid 3368] [client 127.0.0.1:52342] PHP   2. require() /home/xikang/Public/Panyar/login.php:2, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:14.374061 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:14.374125 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP Stack trace:, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:14.374139 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:14.374149 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP   2. require() /home/xikang/Public/Panyar/login.php:2, referer: http://panyar.com/login.php
+[Sat Dec 27 22:38:18.607443 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:38:18.607516 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP Stack trace:
+[Sat Dec 27 22:38:18.607540 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Sat Dec 27 22:38:18.607560 2014] [:error] [pid 3261] [client 127.0.0.1:52347] PHP   2. require() /home/xikang/Public/Panyar/login.php:2
+[Sat Dec 27 22:38:25.441522 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:38:25.441555 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP Stack trace:
+[Sat Dec 27 22:38:25.441567 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Sat Dec 27 22:38:25.441574 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP   2. require() /home/xikang/Public/Panyar/index.php:3
+[Sat Dec 27 22:38:29.973107 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:38:29.973151 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP Stack trace:
+[Sat Dec 27 22:38:29.973170 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Sat Dec 27 22:38:29.973186 2014] [:error] [pid 1362] [client 127.0.0.1:52355] PHP   2. require() /home/xikang/Public/Panyar/login.php:2
+[Sat Dec 27 22:38:56.521210 2014] [:error] [pid 1365] [client 127.0.0.1:52356] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:38:56.521292 2014] [:error] [pid 1365] [client 127.0.0.1:52356] PHP Stack trace:
+[Sat Dec 27 22:38:56.521323 2014] [:error] [pid 1365] [client 127.0.0.1:52356] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Sat Dec 27 22:38:56.521344 2014] [:error] [pid 1365] [client 127.0.0.1:52356] PHP   2. require() /home/xikang/Public/Panyar/login.php:2
+[Sat Dec 27 22:38:57.529424 2014] [:error] [pid 1363] [client 127.0.0.1:52357] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:38:57.529492 2014] [:error] [pid 1363] [client 127.0.0.1:52357] PHP Stack trace:
+[Sat Dec 27 22:38:57.529511 2014] [:error] [pid 1363] [client 127.0.0.1:52357] PHP   1. {main}() /home/xikang/Public/Panyar/login.php:0
+[Sat Dec 27 22:38:57.529525 2014] [:error] [pid 1363] [client 127.0.0.1:52357] PHP   2. require() /home/xikang/Public/Panyar/login.php:2
+[Sat Dec 27 22:40:06.348319 2014] [:error] [pid 1362] [client 127.0.0.1:52383] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sat Dec 27 22:40:06.348350 2014] [:error] [pid 1362] [client 127.0.0.1:52383] PHP Stack trace:
+[Sat Dec 27 22:40:06.348358 2014] [:error] [pid 1362] [client 127.0.0.1:52383] PHP   1. {main}() /home/xikang/Public/Panyar/index.php:0
+[Sat Dec 27 22:40:06.348363 2014] [:error] [pid 1362] [client 127.0.0.1:52383] PHP   2. require() /home/xikang/Public/Panyar/index.php:3
+[Sat Dec 27 22:40:34.957012 2014] [:error] [pid 1364] [client 127.0.0.1:52387] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/home.php
+[Sat Dec 27 22:40:34.957063 2014] [:error] [pid 1364] [client 127.0.0.1:52387] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Dec 27 22:40:34.957081 2014] [:error] [pid 1364] [client 127.0.0.1:52387] PHP   1. {main}() /home/xikang/Public/Panyar/createProfile.php:0, referer: http://panyar.com/home.php
+[Sat Dec 27 22:40:34.957105 2014] [:error] [pid 1364] [client 127.0.0.1:52387] PHP   2. require() /home/xikang/Public/Panyar/createProfile.php:2, referer: http://panyar.com/home.php
+[Sat Dec 27 22:41:16.742096 2014] [:error] [pid 5980] [client 127.0.0.1:52401] PHP Parse error:  syntax error, unexpected 'config' (T_STRING) in /home/xikang/Public/Panyar/createProfile.php on line 5, referer: http://panyar.com/home.php
+[Sat Dec 27 22:41:39.204651 2014] [:error] [pid 1362] [client 127.0.0.1:52407] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:41:39.204694 2014] [:error] [pid 1362] [client 127.0.0.1:52407] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:41:39.204705 2014] [:error] [pid 1362] [client 127.0.0.1:52407] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:41:39.204714 2014] [:error] [pid 1362] [client 127.0.0.1:52407] PHP   2. require() /home/xikang/Public/Panyar/showAllCourses.php:2, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:08.599677 2014] [:error] [pid 3368] [client 127.0.0.1:52419] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:08.599746 2014] [:error] [pid 3368] [client 127.0.0.1:52419] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:08.599773 2014] [:error] [pid 3368] [client 127.0.0.1:52419] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:08.599795 2014] [:error] [pid 3368] [client 127.0.0.1:52419] PHP   2. require() /home/xikang/Public/Panyar/showAllCourses.php:2, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:09.360475 2014] [:error] [pid 5980] [client 127.0.0.1:52420] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:09.360556 2014] [:error] [pid 5980] [client 127.0.0.1:52420] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:09.360591 2014] [:error] [pid 5980] [client 127.0.0.1:52420] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:09.360614 2014] [:error] [pid 5980] [client 127.0.0.1:52420] PHP   2. require() /home/xikang/Public/Panyar/showAllCourses.php:2, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:16.439932 2014] [:error] [pid 1363] [client 127.0.0.1:52421] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:16.439958 2014] [:error] [pid 1363] [client 127.0.0.1:52421] PHP Stack trace:, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:16.439966 2014] [:error] [pid 1363] [client 127.0.0.1:52421] PHP   1. {main}() /home/xikang/Public/Panyar/showAllCourses.php:0, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:16.439973 2014] [:error] [pid 1363] [client 127.0.0.1:52421] PHP   2. require() /home/xikang/Public/Panyar/showAllCourses.php:2, referer: http://panyar.com/createProfile.php
+[Sat Dec 27 22:42:26.461077 2014] [:error] [pid 1365] [client 127.0.0.1:52423] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:42:26.461106 2014] [:error] [pid 1365] [client 127.0.0.1:52423] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:42:26.461114 2014] [:error] [pid 1365] [client 127.0.0.1:52423] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:42:26.461129 2014] [:error] [pid 1365] [client 127.0.0.1:52423] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:3, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:47:35.145204 2014] [:error] [pid 1365] [client 127.0.0.1:52483] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:47:35.145285 2014] [:error] [pid 1365] [client 127.0.0.1:52483] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:47:35.145313 2014] [:error] [pid 1365] [client 127.0.0.1:52483] PHP   1. {main}() /home/xikang/Public/Panyar/showCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:47:35.145334 2014] [:error] [pid 1365] [client 127.0.0.1:52483] PHP   2. require() /home/xikang/Public/Panyar/showCourse.php:2, referer: http://panyar.com/showAllCourses.php
+[Sat Dec 27 22:48:06.820472 2014] [:error] [pid 3261] [client 127.0.0.1:52496] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/showCourse.php?id=1
+[Sat Dec 27 22:48:06.820550 2014] [:error] [pid 3261] [client 127.0.0.1:52496] PHP Stack trace:, referer: http://panyar.com/showCourse.php?id=1
+[Sat Dec 27 22:48:06.820577 2014] [:error] [pid 3261] [client 127.0.0.1:52496] PHP   1. {main}() /home/xikang/Public/Panyar/editCourse.php:0, referer: http://panyar.com/showCourse.php?id=1
+[Sat Dec 27 22:48:06.820599 2014] [:error] [pid 3261] [client 127.0.0.1:52496] PHP   2. require() /home/xikang/Public/Panyar/editCourse.php:3, referer: http://panyar.com/showCourse.php?id=1
+[Sat Dec 27 22:59:19.187272 2014] [:error] [pid 3368] [client 127.0.0.1:52648] PHP Notice:  Undefined variable: action in /home/xikang/Public/Panyar/config/FormController.php on line 75, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 22:59:19.187325 2014] [:error] [pid 3368] [client 127.0.0.1:52648] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 22:59:19.187339 2014] [:error] [pid 3368] [client 127.0.0.1:52648] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 22:59:19.187349 2014] [:error] [pid 3368] [client 127.0.0.1:52648] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328656 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP Warning:  move_uploaded_file(image/12093345293_a5ea505d44_k (copy).jpg): failed to open stream: Permission denied in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328704 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328714 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328722 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328730 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328791 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFMHjpa' to 'image/12093345293_a5ea505d44_k (copy).jpg' in /home/xikang/Public/Panyar/config/FormController.php on line 58, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328799 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP Stack trace:, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328807 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328824 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:00:48.328831 2014] [:error] [pid 5980] [client 127.0.0.1:52675] PHP   3. move_uploaded_file() /home/xikang/Public/Panyar/config/FormController.php:58, referer: http://panyar.com/createCourse.php
+[Sat Dec 27 23:17:19.116960 2014] [:error] [pid 6862] [client 127.0.0.1:52942] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/
+[Sat Dec 27 23:17:19.117000 2014] [:error] [pid 6862] [client 127.0.0.1:52942] PHP Stack trace:, referer: http://panyar.com/
+[Sat Dec 27 23:17:19.117010 2014] [:error] [pid 6862] [client 127.0.0.1:52942] PHP   1. {main}() /home/xikang/Public/Panyar/showClient.php:0, referer: http://panyar.com/
+[Sat Dec 27 23:17:19.117016 2014] [:error] [pid 6862] [client 127.0.0.1:52942] PHP   2. require() /home/xikang/Public/Panyar/showClient.php:4, referer: http://panyar.com/
+[Sat Dec 27 23:24:42.280531 2014] [:error] [pid 6805] [client 127.0.0.1:53032] script '/home/xikang/Public/Panyar/showAllCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=1
+[Sat Dec 27 23:24:47.393993 2014] [:error] [pid 6869] [client 127.0.0.1:53033] script '/home/xikang/Public/Panyar/showAllCourse.php' not found or unable to stat, referer: http://panyar.com/showCourse.php?id=1
+[Sun Dec 28 15:50:36.396529 2014] [:error] [pid 10586] [client 127.0.0.1:39020] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:50:36.418138 2014] [:error] [pid 10586] [client 127.0.0.1:39020] PHP Stack trace:
+[Sun Dec 28 15:50:36.418173 2014] [:error] [pid 10586] [client 127.0.0.1:39020] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:50:36.418185 2014] [:error] [pid 10586] [client 127.0.0.1:39020] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:51:46.521188 2014] [:error] [pid 10586] [client 127.0.0.1:39039] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:51:46.521262 2014] [:error] [pid 10586] [client 127.0.0.1:39039] PHP Stack trace:
+[Sun Dec 28 15:51:46.521288 2014] [:error] [pid 10586] [client 127.0.0.1:39039] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:51:46.521308 2014] [:error] [pid 10586] [client 127.0.0.1:39039] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:51:58.419177 2014] [:error] [pid 1380] [client 127.0.0.1:39053] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:51:58.419267 2014] [:error] [pid 1380] [client 127.0.0.1:39053] PHP Stack trace:
+[Sun Dec 28 15:51:58.419288 2014] [:error] [pid 1380] [client 127.0.0.1:39053] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:51:58.419300 2014] [:error] [pid 1380] [client 127.0.0.1:39053] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:23.848505 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:23.848668 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP Stack trace:
+[Sun Dec 28 15:52:23.848693 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:23.848708 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:24.410786 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:24.410810 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP Stack trace:
+[Sun Dec 28 15:52:24.410829 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:24.410834 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:24.669360 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:24.669378 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP Stack trace:
+[Sun Dec 28 15:52:24.669387 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:24.669396 2014] [:error] [pid 1377] [client 127.0.0.1:39056] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:24.875084 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:24.875128 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP Stack trace:
+[Sun Dec 28 15:52:24.875150 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:24.875171 2014] [:error] [pid 10586] [client 127.0.0.1:39057] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:33.229663 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:33.229840 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Stack trace:
+[Sun Dec 28 15:52:33.229878 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:33.229900 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:33.607914 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:33.607950 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP Stack trace:
+[Sun Dec 28 15:52:33.607963 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:33.607970 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:33.800412 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:33.800455 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Stack trace:
+[Sun Dec 28 15:52:33.800480 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:33.800503 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:33.985701 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:33.985741 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP Stack trace:
+[Sun Dec 28 15:52:33.985751 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:33.985760 2014] [:error] [pid 10917] [client 127.0.0.1:39059] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:52:34.213164 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:52:34.213191 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP Stack trace:
+[Sun Dec 28 15:52:34.213199 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:52:34.213226 2014] [:error] [pid 1379] [client 127.0.0.1:39058] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:53:52.780626 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:53:52.780700 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP Stack trace:
+[Sun Dec 28 15:53:52.780726 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:53:52.780748 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:53:53.239381 2014] [:error] [pid 1378] [client 127.0.0.1:39073] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:53:53.239416 2014] [:error] [pid 1378] [client 127.0.0.1:39073] PHP Stack trace:
+[Sun Dec 28 15:53:53.239426 2014] [:error] [pid 1378] [client 127.0.0.1:39073] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:53:53.239432 2014] [:error] [pid 1378] [client 127.0.0.1:39073] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:53:53.467877 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14
+[Sun Dec 28 15:53:53.467896 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP Stack trace:
+[Sun Dec 28 15:53:53.467906 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP   1. {main}() /home/xikang/Public/Panyar/admin.php:0
+[Sun Dec 28 15:53:53.467913 2014] [:error] [pid 1380] [client 127.0.0.1:39072] PHP   2. require() /home/xikang/Public/Panyar/admin.php:2
+[Sun Dec 28 15:54:24.897862 2014] [:error] [pid 1379] [client 127.0.0.1:39086] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/admin.php
+[Sun Dec 28 15:54:24.897935 2014] [:error] [pid 1379] [client 127.0.0.1:39086] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Sun Dec 28 15:54:24.897962 2014] [:error] [pid 1379] [client 127.0.0.1:39086] PHP   1. {main}() /home/xikang/Public/Panyar/clientInfo.php:0, referer: http://panyar.com/admin.php
+[Sun Dec 28 15:54:24.897983 2014] [:error] [pid 1379] [client 127.0.0.1:39086] PHP   2. require() /home/xikang/Public/Panyar/clientInfo.php:2, referer: http://panyar.com/admin.php
+[Sun Dec 28 15:54:38.012801 2014] [:error] [pid 1380] [client 127.0.0.1:39091] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:54:38.012890 2014] [:error] [pid 1380] [client 127.0.0.1:39091] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:54:38.012917 2014] [:error] [pid 1380] [client 127.0.0.1:39091] PHP   1. {main}() /home/xikang/Public/Panyar/editClient.php:0, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:54:38.012939 2014] [:error] [pid 1380] [client 127.0.0.1:39091] PHP   2. require() /home/xikang/Public/Panyar/editClient.php:2, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:55:07.714885 2014] [:error] [pid 1379] [client 127.0.0.1:39105] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:55:07.714927 2014] [:error] [pid 1379] [client 127.0.0.1:39105] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:55:07.714938 2014] [:error] [pid 1379] [client 127.0.0.1:39105] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:55:07.714947 2014] [:error] [pid 1379] [client 127.0.0.1:39105] PHP   2. require() /home/xikang/Public/Panyar/report.php:2, referer: http://panyar.com/clientInfo.php
+[Sun Dec 28 15:57:22.067787 2014] [:error] [pid 1381] [client 127.0.0.1:39137] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/signup.php
+[Sun Dec 28 15:57:22.067883 2014] [:error] [pid 1381] [client 127.0.0.1:39137] PHP Stack trace:, referer: http://panyar.com/signup.php
+[Sun Dec 28 15:57:22.067919 2014] [:error] [pid 1381] [client 127.0.0.1:39137] PHP   1. {main}() /home/xikang/Public/Panyar/makePayment.php:0, referer: http://panyar.com/signup.php
+[Sun Dec 28 15:57:22.067942 2014] [:error] [pid 1381] [client 127.0.0.1:39137] PHP   2. require() /home/xikang/Public/Panyar/makePayment.php:3, referer: http://panyar.com/signup.php
+[Sun Dec 28 15:57:43.878608 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP Fatal error:  Call to undefined function checkSession() in /home/xikang/Public/Panyar/config/header.php on line 14, referer: http://panyar.com/makePayment.php
+[Sun Dec 28 15:57:43.878629 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP Stack trace:, referer: http://panyar.com/makePayment.php
+[Sun Dec 28 15:57:43.878639 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0, referer: http://panyar.com/makePayment.php
+[Sun Dec 28 15:57:43.878645 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP   2. require() /home/xikang/Public/Panyar/invoice.php:3, referer: http://panyar.com/makePayment.php

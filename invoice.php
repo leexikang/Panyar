@@ -1,8 +1,5 @@
 <?php
-require("vendor/autoload.php");
-require("config/header.php");
-require('config/helperFunction.php');
-
+require('config/initRequire.php');
 use Panyar\User;
 $id = 1;
 $userObj = new User();

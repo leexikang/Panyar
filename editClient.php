@@ -1,8 +1,5 @@
 <?php
-require("config/header.php");
-require('vendor/autoload.php');
-require('config/helperFunction.php');
-
+require('config/initRequire.php');
 use Panyar\User;
 
 if( isset ( $_GET['id'] ) ){

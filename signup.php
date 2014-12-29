@@ -1,7 +1,14 @@
 <?php
-
-require("vendor/autoload.php");
+require('vendor/autoload.php');
+require('config/helperFunction.php');
+session_start();
 require("config/header.php");
+if( checkSession() ){
+
+    header('location: index.php');
+}
+
+
 
 use Panyar\Validation;
 use Panyar\User;
@@ -36,8 +43,13 @@ $msg = array();
                 );
 
                 $user = new User();
-                $user->insertAll($data);
-                header('location: makePayment.php');
+               if( $userId = $user->insertAll($data) ){
+
+                   setSessionCookie( 'id', $userId);
+                   setSessionCookie( 'username', $username );
+                   header('Location: makePayment.php');
+            }
+
            }
     }
 

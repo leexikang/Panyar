@@ -1,9 +1,7 @@
 <?php
-require("vendor/autoload.php");
-require("config/header.php");
-require('config/helperFunction.php');
 
-
+require('config/initRequire.php');
+$action = 'new';
 require('config/FormController.php');
 
 ?>

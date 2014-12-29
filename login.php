@@ -1,6 +1,13 @@
 <?php
+
+require('vendor/autoload.php');
+require('config/helperFunction.php');
+session_start();
 require("config/header.php");
-require("vendor/autoload.php");
+if( checkSession() ){
+
+    header('location: index.php');
+}
 
 use Panyar\User;
 use Panyar\Validation;
@@ -22,6 +29,11 @@ $username = ( isset( $username ) ? $username : null );
         }
 
         if( $msg == null AND isset( $_POST['login'] ) ){
+
+            $userObj = new User();
+            $user = $userObj->fetchByName( $username );
+            setSessionCookie( 'id', $user->id );
+            setSessionCookie( 'username', $user->username);
 
             header( 'Location: home.php');
         }

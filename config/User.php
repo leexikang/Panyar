@@ -56,6 +56,8 @@ class User implements Query{
         $stmt = $this->conn->prepare($sql);
         $stmt->execute( array(":username" => $username, ":password" => $password,
             ":email" => $email) );
+        $row = $this->conn->lastInsertId('id');
+        return $row;
     }
 
     public function updateInfo( $data, $id ){
@@ -94,6 +96,22 @@ class User implements Query{
         $stmt->execute( array ( ":id" => $id ) );
 
     }
+
+    public function fetchReport() {
+
+        $sql = "SELECT username, joinDate, paymentExpireDate, email
+            FROM client, report
+            WHERE client.id = report.id 
+            ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute();
+        $row = $stmt->fetchAll();
+
+        return $row;
+
+    }
+
 }
 
 

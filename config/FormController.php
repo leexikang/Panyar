@@ -67,7 +67,8 @@ if( isset($_POST['edit']) ){
                     'fee' => $fee,
                     'category' => $category,
                     'note' => $note,
-                    'photo' => $path
+                    'photo' => $path,
+                    'id' => $_SESSION['id']
                 );
 
                 $course = new Course();
@@ -85,6 +86,9 @@ if( isset($_POST['edit']) ){
 
                     }
 
-                }
+                header("Location: showClient.php?name={$_SESSION['username']}" );
+
+            }
+
             }
 

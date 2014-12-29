@@ -11,8 +11,14 @@
 
     <ul>
 
+<?php    if( checkSession() ){
+    echo "<ll> <a href='home.php'> {$_SESSION['username']} </a> </li>";
+}
+    else{ ?>
     <li> <a href='login.php'> Login </a> </li>
-
+<?php
+    }
+?> 
     </ul>
  
 

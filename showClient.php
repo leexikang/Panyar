@@ -1,8 +1,6 @@
 <?php
 
-require("vendor/autoload.php");
-require("config/header.php");
-
+require('config/initRequire.php');
 use Panyar\Course;
 
 ?>
