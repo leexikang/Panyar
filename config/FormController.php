@@ -1,8 +1,11 @@
 <?php
+use Panyar\Category;
 use Panyar\Validation;
 use Panyar\Course;
 
 $msg = array();
+$categoryObj = new Category();
+$categories = $categoryObj->fetchAll();
 
 if( isset($_POST['edit']) ){
 
@@ -13,7 +16,7 @@ if( isset($_POST['edit']) ){
             $startDate = $_POST['startDate'];
             $endDate = $_POST['endDate'];
             $fee = $_POST['fee'];
-            $category = $_POST['category'];
+            $categoryId = $_POST['categoryId'];
             $note = $_POST['note'];
             $coursePhoto = $_FILES['coursePhoto']['name'];
             $tmp = $_FILES['coursePhoto']['tmp_name'];
@@ -65,13 +68,14 @@ if( isset($_POST['edit']) ){
                     'startDate' => $startDate,
                     'endDate' => $endDate,
                     'fee' => $fee,
-                    'category' => $category,
+                    'category' => $categoryId,
                     'note' => $note,
                     'photo' => $path,
                     'id' => $_SESSION['id']
                 );
 
                 $course = new Course();
+                var_dump( $data );
 
                 if ( $action == 'edit' ){
 
@@ -90,5 +94,5 @@ if( isset($_POST['edit']) ){
 
             }
 
-            }
+          }
 

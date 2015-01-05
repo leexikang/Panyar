@@ -2,24 +2,26 @@
 
 require('config/initRequire.php');
 use Panyar\User;
+$id = $_SESSION['id'];
 
     if( isset($_POST['edit']) ){
 
         $email = $_POST['email'];
+        $address= $_POST['address'];
         $intro = $_POST['intro'];
 
         $data = array(
             'email' => $email,
-            'intro' => $intro
+            'intro' => $intro,
+            'address' => $address
         );
         $userInsert = new User();
 
-        $userInsert->updateInfo( $data, 1);
+        $userInsert->updateInfo( $data, $id);
     }
 
 $userObj = new User();
-$user = $userObj->fetchById( 1 ); //////////////////////
-
+$user = $userObj->fetchById( $id ); 
 
 ?>
     <section class="main" >
@@ -33,6 +35,10 @@ $user = $userObj->fetchById( 1 ); //////////////////////
         <input type="email" name="email" id="email" value="<?php echo $user->email ?>"/><br/>
     </div>
     <div>
+     <div>
+        <label for="address"> Address </label>
+        <input type="text" name="address" id="address" value="<?php echo $user->address ?>"/><br/>
+    </div>
 
     <div>
         <label for='intro'> Tell people about your center </label> <br/>

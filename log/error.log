@@ -2504,3 +2504,370 @@
 [Sun Dec 28 15:57:43.878629 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP Stack trace:, referer: http://panyar.com/makePayment.php
 [Sun Dec 28 15:57:43.878639 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP   1. {main}() /home/xikang/Public/Panyar/invoice.php:0, referer: http://panyar.com/makePayment.php
 [Sun Dec 28 15:57:43.878645 2014] [:error] [pid 11133] [client 127.0.0.1:39141] PHP   2. require() /home/xikang/Public/Panyar/invoice.php:3, referer: http://panyar.com/makePayment.php
+[Thu Jan 01 17:26:40.328857 2015] [:error] [pid 1371] [client 127.0.0.1:59951] PHP Notice:  Use of undefined constant hello - assumed 'hello' in /home/xikang/Public/Panyar/config/Admin.php on line 24
+[Thu Jan 01 17:26:40.343047 2015] [:error] [pid 1371] [client 127.0.0.1:59951] PHP Stack trace:
+[Thu Jan 01 17:26:40.343159 2015] [:error] [pid 1371] [client 127.0.0.1:59951] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0
+[Thu Jan 01 17:26:40.343188 2015] [:error] [pid 1371] [client 127.0.0.1:59951] PHP   2. Panyar\\Admin->fetchReport() /home/xikang/Public/Panyar/report.php:11
+[Thu Jan 01 17:27:14.851057 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/xikang/Public/Panyar/config/Admin.php on line 24
+[Thu Jan 01 17:27:14.851133 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP Stack trace:
+[Thu Jan 01 17:27:14.851166 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0
+[Thu Jan 01 17:27:14.851188 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP   2. spl_autoload_call() /home/xikang/Public/Panyar/report.php:6
+[Thu Jan 01 17:27:14.851211 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP   3. Composer\\Autoload\\ClassLoader->loadClass() /home/xikang/Public/Panyar/report.php:0
+[Thu Jan 01 17:27:14.851232 2015] [:error] [pid 8741] [client 127.0.0.1:59958] PHP   4. Composer\\Autoload\\includeFile() /home/xikang/Public/Panyar/vendor/composer/ClassLoader.php:277
+[Thu Jan 01 17:59:41.697737 2015] [:error] [pid 1371] [client 127.0.0.1:60330] PHP Notice:  Undefined variable: action in /home/xikang/Public/Panyar/report.php on line 8, referer: http://panyar.com/report.php
+[Thu Jan 01 17:59:41.697766 2015] [:error] [pid 1371] [client 127.0.0.1:60330] PHP Stack trace:, referer: http://panyar.com/report.php
+[Thu Jan 01 17:59:41.697775 2015] [:error] [pid 1371] [client 127.0.0.1:60330] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/report.php
+[Thu Jan 01 18:00:11.133419 2015] [:error] [pid 1372] [client 127.0.0.1:60343] PHP Notice:  Undefined variable: action in /home/xikang/Public/Panyar/report.php on line 8, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:00:11.133449 2015] [:error] [pid 1372] [client 127.0.0.1:60343] PHP Stack trace:, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:00:11.133459 2015] [:error] [pid 1372] [client 127.0.0.1:60343] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:00:31.642471 2015] [:error] [pid 6737] [client 127.0.0.1:60344] PHP Notice:  Undefined variable: action in /home/xikang/Public/Panyar/report.php on line 8, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:00:31.642542 2015] [:error] [pid 6737] [client 127.0.0.1:60344] PHP Stack trace:, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:00:31.642569 2015] [:error] [pid 6737] [client 127.0.0.1:60344] PHP   1. {main}() /home/xikang/Public/Panyar/report.php:0, referer: http://panyar.com/report.php?action=course
+[Thu Jan 01 18:07:48.091888 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.091948 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.091974 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092092 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092111 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092131 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092201 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092219 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:48.092238 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955160 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955221 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955246 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955355 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955374 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955394 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955464 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955481 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:07:56.955500 2015] [:error] [pid 1371] [client 127.0.0.1:60453] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545550 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545580 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545640 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545764 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545781 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545801 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545871 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545887 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:20:59.545905 2015] [:error] [pid 17441] [client 127.0.0.1:60634] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:22:37.384771 2015] [:error] [pid 8741] [client 127.0.0.1:60668] PHP Catchable fatal error:  Argument 1 passed to Panyar\\Validation::checkLogin() must be an instance of Panyar\\User, instance of Panyar\\Admin given, called in /home/xikang/Public/Panyar/adminlogin.php on line 27 and defined in /home/xikang/Public/Panyar/config/Validation.php on line 77, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:22:37.384861 2015] [:error] [pid 8741] [client 127.0.0.1:60668] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:22:37.384935 2015] [:error] [pid 8741] [client 127.0.0.1:60668] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:22:37.384972 2015] [:error] [pid 8741] [client 127.0.0.1:60668] PHP   2. Panyar\\Validation::checkLogin() /home/xikang/Public/Panyar/adminlogin.php:27, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404200 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP Notice:  Undefined property: stdClass::$id in /home/xikang/Public/Panyar/adminlogin.php on line 35, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404267 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404284 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404417 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/adminlogin.php on line 36, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404451 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:36.404476 2015] [:error] [pid 1374] [client 127.0.0.1:60682] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.898999 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP Notice:  Undefined property: stdClass::$id in /home/xikang/Public/Panyar/adminlogin.php on line 35, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.899032 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.899040 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.899083 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/adminlogin.php on line 36, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.899100 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:23:48.899106 2015] [:error] [pid 1371] [client 127.0.0.1:60695] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083609 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP Notice:  Undefined property: stdClass::$id in /home/xikang/Public/Panyar/adminlogin.php on line 35, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083694 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083721 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083845 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/adminlogin.php on line 36, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083865 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:24:41.083885 2015] [:error] [pid 8741] [client 127.0.0.1:60732] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.306963 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP Notice:  Undefined property: stdClass::$id in /home/xikang/Public/Panyar/adminlogin.php on line 36, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.306994 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.307001 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.307051 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP Notice:  Undefined property: stdClass::$username in /home/xikang/Public/Panyar/adminlogin.php on line 37, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.307061 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP Stack trace:, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:25:10.307067 2015] [:error] [pid 6737] [client 127.0.0.1:60742] PHP   1. {main}() /home/xikang/Public/Panyar/adminlogin.php:0, referer: http://panyar.com/adminlogin.php
+[Thu Jan 01 18:27:45.208179 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208244 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208270 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208378 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208397 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208417 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208487 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208504 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP Stack trace:, referer: http://panyar.com/home.php
+[Thu Jan 01 18:27:45.208523 2015] [:error] [pid 17441] [client 127.0.0.1:60780] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Thu Jan 01 18:34:04.341570 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341601 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Stack trace:, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341611 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341649 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341654 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Stack trace:, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341660 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341682 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341687 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP Stack trace:, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 18:34:04.341693 2015] [:error] [pid 17443] [client 127.0.0.1:60868] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/report.php?action=expire
+[Thu Jan 01 19:43:03.950444 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950525 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950553 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950574 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950658 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950675 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950694 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:43:03.950713 2015] [:error] [pid 1374] [client 127.0.0.1:60966] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363408 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363453 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363473 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363487 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363561 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363589 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363608 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:27.363626 2015] [:error] [pid 8741] [client 127.0.0.1:60978] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.524339 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP Warning:  The use statement with non-compound name 'Category' has no effect in /home/xikang/Public/Panyar/config/FormController.php on line 4, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.524399 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.524423 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.525363 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP Fatal error:  Class 'Category' not found in /home/xikang/Public/Panyar/config/FormController.php on line 7, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.525373 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.525380 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:44:43.525386 2015] [:error] [pid 6737] [client 127.0.0.1:60981] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840739 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840803 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840824 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840841 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840910 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840923 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840939 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:00.840954 2015] [:error] [pid 17443] [client 127.0.0.1:32791] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636472 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636557 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636584 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636603 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636691 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636702 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636714 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:13.636724 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331003 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331033 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331061 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331081 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331166 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331181 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331199 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.331216 2015] [:error] [pid 1371] [client 127.0.0.1:32794] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609293 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Notice:  Undefined variable: categoriesObj in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609340 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609364 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609384 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609466 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/xikang/Public/Panyar/config/FormController.php on line 8, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609481 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609499 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   1. {main}() /home/xikang/Public/Panyar/createCourse.php:0, referer: http://panyar.com/showAllCourses.php
+[Thu Jan 01 19:48:14.609546 2015] [:error] [pid 17442] [client 127.0.0.1:32793] PHP   2. require() /home/xikang/Public/Panyar/createCourse.php:5, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 16:25:33.653591 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663189 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663242 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663394 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663416 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663437 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663514 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663532 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 16:25:33.663551 2015] [:error] [pid 3274] [client 127.0.0.1:37470] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 16:30:12.960474 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960543 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960568 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960775 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960799 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960819 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960895 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960912 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 16:30:12.960931 2015] [:error] [pid 1363] [client 127.0.0.1:37560] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:23:37.808950 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838278 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838379 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838558 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838591 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838614 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838692 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838711 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:23:37.838731 2015] [:error] [pid 1436] [client 127.0.0.1:37922] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:28:15.681618 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681698 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681736 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681902 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681910 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681918 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681949 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681957 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP Stack trace:, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:28:15.681964 2015] [:error] [pid 1434] [client 127.0.0.1:37993] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/admin.php
+[Fri Jan 02 21:34:55.221194 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221295 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221341 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221502 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221547 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221585 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221720 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221765 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:34:55.221837 2015] [:error] [pid 1434] [client 127.0.0.1:38107] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116323 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116430 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116479 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116648 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116686 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116729 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116851 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116892 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:50:25.116927 2015] [:error] [pid 5782] [client 127.0.0.1:38539] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424568 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424607 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424621 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424673 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424681 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424691 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424721 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424729 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:15.424738 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:37.436473 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436540 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436574 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436703 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436754 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436784 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436888 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436914 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP Stack trace:, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:37.436941 2015] [:error] [pid 1433] [client 127.0.0.1:38609] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/showAllCourses.php
+[Fri Jan 02 21:55:56.892960 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893046 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893077 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893190 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893211 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893233 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893303 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893323 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 21:55:56.893343 2015] [:error] [pid 1437] [client 127.0.0.1:38622] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.149904 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.149951 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.149967 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150025 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150036 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150047 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150104 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150116 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:22:59.150140 2015] [:error] [pid 1435] [client 127.0.0.1:39309] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598671 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598714 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598726 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598792 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598800 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598808 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598835 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598842 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP Stack trace:, referer: http://panyar.com/home.php
+[Fri Jan 02 22:30:38.598850 2015] [:error] [pid 1437] [client 127.0.0.1:39443] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.063365 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073558 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073634 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073784 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073807 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073828 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073906 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073925 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 11:58:14.073945 2015] [:error] [pid 11563] [client 127.0.0.1:33243] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 12:04:28.259773 2015] [:error] [pid 3883] [client 127.0.0.1:33356] script '/home/xikang/Public/Panyar/adminLogin.php' not found or unable to stat
+[Sat Jan 03 12:04:31.866478 2015] [:error] [pid 3883] [client 127.0.0.1:33356] script '/home/xikang/Public/Panyar/adminogin.php' not found or unable to stat
+[Sat Jan 03 12:05:32.660345 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660370 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660386 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660426 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660431 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660437 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660457 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660462 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 12:05:32.660467 2015] [:error] [pid 12425] [client 127.0.0.1:33379] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:03:24.087143 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097763 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Stack trace:, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097826 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097877 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097884 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Stack trace:, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097890 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097912 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097918 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP Stack trace:, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:03:24.097924 2015] [:error] [pid 5422] [client 127.0.0.1:54401] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/adminHome.php
+[Sat Jan 03 16:08:26.072206 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072287 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072317 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072431 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072453 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072476 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072524 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072530 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:08:26.072536 2015] [:error] [pid 1468] [client 127.0.0.1:54730] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211026 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211079 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211092 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211188 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211198 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211207 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211245 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211252 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:09:45.211261 2015] [:error] [pid 6809] [client 127.0.0.1:54773] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315483 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315516 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315537 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315588 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315598 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315608 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315643 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315654 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:13:06.315663 2015] [:error] [pid 1468] [client 127.0.0.1:54928] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958298 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958319 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958343 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958390 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958397 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958419 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958457 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958467 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:15:29.958477 2015] [:error] [pid 6809] [client 127.0.0.1:54969] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900565 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900610 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900628 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900711 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900729 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900747 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900816 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900838 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:16:37.900857 2015] [:error] [pid 6548] [client 127.0.0.1:54986] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146496 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146529 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146539 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146582 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146588 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146595 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146618 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146637 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP Stack trace:, referer: http://panyar.com/home.php
+[Sat Jan 03 16:17:39.146644 2015] [:error] [pid 1468] [client 127.0.0.1:55002] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/home.php
+[Sat Jan 03 19:58:12.196355 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/xikang/Public/Panyar/logout.php on line 13, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229349 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229391 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229448 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Notice:  Use of undefined constant username - assumed 'username' in /home/xikang/Public/Panyar/logout.php on line 14, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229456 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229461 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229484 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Notice:  Use of undefined constant PHPSESSID - assumed 'PHPSESSID' in /home/xikang/Public/Panyar/logout.php on line 16, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229490 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP Stack trace:, referer: http://panyar.com/clientInfo.php
+[Sat Jan 03 19:58:12.229495 2015] [:error] [pid 1406] [client 127.0.0.1:44132] PHP   1. {main}() /home/xikang/Public/Panyar/logout.php:0, referer: http://panyar.com/clientInfo.php
+[Mon Jan 05 11:23:31.066025 2015] [authz_core:error] [pid 6966] [client 127.0.0.1:34231] AH01630: client denied by server configuration: /home/xikang/Public/Panyar/
+[Mon Jan 05 11:23:31.468570 2015] [core:error] [pid 6966] (13)Permission denied: [client 127.0.0.1:34231] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.147666 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.147884 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.362012 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.740563 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.740599 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.889963 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.965942 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:46.966005 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:47.091101 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:47.125977 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:47.126045 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:45:47.268107 2015] [core:error] [pid 11106] (13)Permission denied: [client 127.0.0.1:34969] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:12.311836 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:12.311901 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:12.463759 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:13.783613 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:13.783663 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:13.914463 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:14.462316 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:14.462350 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:14.600392 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:14.924382 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:14.924487 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:15.092395 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:15.177409 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /html denied (filesystem path '/home/xikang/Public/Panyar/html') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:15.177460 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /index.php denied (filesystem path '/home/xikang/Public/Panyar/index.php') because search permissions are missing on a component of the path
+[Mon Jan 05 11:46:15.400696 2015] [core:error] [pid 11108] (13)Permission denied: [client 127.0.0.1:34971] AH00035: access to /favicon.ico denied (filesystem path '/home/xikang/Public/Panyar/favicon.ico') because search permissions are missing on a component of the path

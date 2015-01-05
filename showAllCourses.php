@@ -17,7 +17,7 @@ use Panyar\Course;
     <tr>
 <?php
 $courseObj = new Course();
-$courses = $courseObj->fetchByOwner( 1 );
+$courses = $courseObj->fetchByOwner( $_SESSION['id'] );
 $num = 0; 
 foreach ( $courses as $course ){
     $num ++;

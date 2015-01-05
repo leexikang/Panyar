@@ -7,3 +7,4 @@ interface Query{
     public function fetchById($id);
 
 }
+    

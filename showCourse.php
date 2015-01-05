@@ -1,5 +1,6 @@
 <?php
 use Panyar\Course;
+use Panyar\User;
 require('vendor/autoload.php');
 require('config/helperFunction.php');
 session_start();
@@ -11,6 +12,9 @@ if( isset ( $_GET['id'] ) ){
 
     $courseObj = new Course();
     $course = $courseObj->fetchById( $id );
+
+    $users = new User();
+    $user = $users->fetchById( $course->id );
 }
 
 ?>
@@ -29,6 +33,9 @@ $time = substr($course->startTime, 0,5) . ' to ' . substr( $course->endTime, 0, 
 createAnswer( 'time', $time);
 $date  = $course->startDate . ' to ' . $course->startDate;
 createAnswer( 'Duration', $date);
+createAnswer('Center', $user->username);
+createAnswer('Email', $user->email);
+createAnswer('Address', $user->address);
 
 ?>
     </table>

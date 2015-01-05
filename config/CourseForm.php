@@ -9,6 +9,7 @@ $endDate = ( isset($endDate) ? $endDate : null );
 $fee = ( isset($fee) ? $fee : null );
 $note = ( isset($note) ? $note : null );
 $path = ( isset( $path ) ? $path : null );
+$categoryId = ( isset($categoryId) ? $categoryId : null );
 ?>
 
 <div class="contentWrapper">
@@ -58,9 +59,16 @@ $path = ( isset( $path ) ? $path : null );
     </div>
 
 		<div>
-        <label for='category' > Category: </label> <br/>
-        <select name='category' >
-        <option value="1"> min </option>
+        <label for='categoryId' > Category: </label> <br/>
+        <select name='categoryId' >
+        <?php
+foreach( $categories as $category){
+?>
+    <option <?php if( $categoryId == $category->categoryId ) echo 'selected' ;?>
+    value="<?php echo $category->categoryId ?>"> <?php echo $category->categoryName ?>  </option>
+<?php
+}
+?>
         </select>
     </div>
 

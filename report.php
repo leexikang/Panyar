@@ -4,17 +4,27 @@ require('config/initRequire.php');
 use Panyar\Admin;
 
 $adminObj = new Admin();
-$reports = $adminObj->fetchReport();
+
+$action = ( isset( $_GET['action'] ) ? $_GET['action'] : null);
+
+    $reports = $adminObj->fetchReport( $action );
 
 
 
 ?>
+
     <section class='main'>
+
 
 <?php require("config/adminNav.php"); ?>
     <section class='content'>
-    <table class='report'>
-    <tr> <td> Client </td>
+        <table class='report'>
+    <nav>
+    <a href='report.php?action=course'> By Course Number  </a>
+    <a href='report.php?action=date'> By Enroll Date </a>
+    <a href='report.php?action=expire'> By Expire Date</a>
+    </nav>
+<tr> <td> Client </td>
         <td> Enroll Date </td>
         <td> Fee Expire Date </td> 
         <td> email </td>

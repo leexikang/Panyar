@@ -74,7 +74,8 @@ class Validation{
 
     }
 
-    public static function checkLogin ( User $user, $username, $password )
+    public static function checkLogin ( Query $user, $username, $password )
+
     {
         if( $user->queryExistUser( $username, $password ) ){
             return true;

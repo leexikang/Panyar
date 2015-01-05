@@ -3,7 +3,7 @@ require('config/initRequire.php');
 use Panyar\User;
 $id = 1;
 $userObj = new User();
-$user = $userObj->fetchById( $id );
+$user = $userObj->fetchById( $_SESSION['id'] );
 
 ?>
 <section class='main'>

@@ -16,8 +16,10 @@ if( $_GET['id'] ) {
     $startDate = $course->startDate;
     $endDate = $course->endDate;
     $fee = $course->fee;
+    $categoryId = $course->categoryId;
     $note = $course->note;
     $path = $course->photo;
+
 
 }
 

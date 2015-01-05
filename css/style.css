@@ -354,3 +354,15 @@ td{
     border-right: 1px solid gray;
 
 }
+
+.content nav{
+
+    padding: 3em;
+}
+
+.content nav a{
+
+    padding: 2em;
+    color: #1c9ead;
+
+}

@@ -65,13 +65,15 @@ class User implements Query{
         extract( $data );
         $sql = "UPDATE client 
             set email = :email,
-            intro = :intro
+            intro = :intro,
+            address = :address
             Where id = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute(
             array( 
             ':email' => $email,
             ':intro' => $intro,
+            ':address' => $address,
             ':id' => $id
         ) );
     }

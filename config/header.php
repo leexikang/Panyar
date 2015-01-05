@@ -12,9 +12,15 @@
     <ul>
 
 <?php    if( checkSession() ){
-    echo "<ll> <a href='home.php'> {$_SESSION['username']} </a> </li>";
+    if( isset( $_SESSION['admin'] ) ) {
+    echo "<ll> <a href='adminHome.php'> {$_SESSION['username']} </a> </li>";
+    }else{
+
+        echo "<ll> <a href='home.php'> {$_SESSION['username']} </a> </li>";
+    }
 }
-    else{ ?>
+
+     else{ ?>
     <li> <a href='login.php'> Login </a> </li>
 <?php
     }

@@ -8,7 +8,7 @@ if( isset ($_POST['purchase'] ) ){
 
     $paymentType = $_POST['paymentType'];
     $pincode = $_POST['pincode'];
-    $id = 1; ////////////////////////////// !!!///////////
+    $id = $_SESSION['id'] ;
 
     if( empty( $_POST['paymentType'] ) OR empty( $_POST['pincode'] ) ) {
             $msg["allRequire"] = "Please fill all the fields";
@@ -35,9 +35,9 @@ if( isset ($_POST['purchase'] ) ){
         <div> 
         <label for='paymentType'>  Select Payment type </label>
         <select name='paymentType' >
-        <option> Visa </option>
-        <option> Paypal </option>
-        <option> Master card </option>
+        <option value='visa'> Visa </option>
+        <option value='paypal' > Paypal </option>
+        <option value='master' > Master card </option>
         </select>
     </div>
 

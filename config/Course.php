@@ -71,12 +71,12 @@ protected $conn;
 
         extract($data);
 
-        $stmt = $this->conn->prepare("REPLACE INTO course
+        $stmt = $this->conn->prepare("INSERT INTO course
             (courseName, description, startTime, endTime,
             startDate, endDate, fee, categoryId, note, photo, id) VALUES
             (:courseName, :description, :startTime, :endTime,
             :startDate, :endDate, :fee, :categoryId, :note, :photo, :id)");
-            $stmt->execute( array(
+$row =             $stmt->execute( array(
             ':courseName' => $courseName,
             ':description' => $description,
             ':startTime' => $startTime,
@@ -89,6 +89,8 @@ protected $conn;
             ':photo' => $photo,
             ':id' => $id
         ) );
+
+        var_dump( $stmt );
     }
 
     public function fetchByCategory( $category ) {
