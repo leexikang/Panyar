@@ -63,14 +63,14 @@ class User implements Query{
     public function updateInfo( $data, $id ){
 
         extract( $data );
-        $sql = "UPDATE client 
+        $sql = "UPDATE client
             set email = :email,
             intro = :intro,
             address = :address
             Where id = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute(
-            array( 
+            array(
             ':email' => $email,
             ':intro' => $intro,
             ':address' => $address,
@@ -93,7 +93,7 @@ class User implements Query{
 
     public function deleteById( $id ){
 
-         $stmt = $this->conn->prepare("DELETE FROM client 
+         $stmt = $this->conn->prepare("DELETE FROM client
             WHERE id = :id");
         $stmt->execute( array ( ":id" => $id ) );
 
@@ -103,7 +103,7 @@ class User implements Query{
 
         $sql = "SELECT username, joinDate, paymentExpireDate, email
             FROM client, report
-            WHERE client.id = report.id 
+            WHERE client.id = report.id
             ";
         $stmt = $this->conn->prepare($sql);
         $stmt->setFetchMode( PDO::FETCH_OBJ );
@@ -111,6 +111,22 @@ class User implements Query{
         $row = $stmt->fetchAll();
 
         return $row;
+
+    }
+
+    public function searchByUser( $value ){
+        $sql = "SELECT * FROM client
+            WHERE username LIKE :value
+            ";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        var_dump( $stmt );
+        $stmt->execute(array( ':value' => $value.'%') );
+        $row = $stmt->fetchAll();
+
+        return $row;
+
+
 
     }
 

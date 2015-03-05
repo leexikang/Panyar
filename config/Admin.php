@@ -34,7 +34,7 @@ class Admin implements Query{
 
     public function fetchReport( $action = NULL) {
 
-        $sql = "SELECT username, joinDate, paymentExpireDate, email, count( courseId ) as ownCourse
+        $sql = "SELECT client.id, username, joinDate, paymentExpireDate, email, count( courseId ) as ownCourse
             FROM client, report, course
             WHERE client.id = report.id
             AND client.id = course.id
@@ -74,6 +74,26 @@ class Admin implements Query{
         return $row;
 
     }
+
+    public function searchByUser( $value ){
+        $sql = "SELECT client.id, username, joinDate, paymentExpireDate, email, count( courseId ) as ownCourse
+            FROM client, report, course
+            WHERE client.id = report.id
+            AND client.id = course.id
+            AND client.username LIKE :value
+            GROUP BY course.id";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->setFetchMode( PDO::FETCH_OBJ );
+        $stmt->execute(array(':value' => '%'.$value.'%') );
+        $row = $stmt->fetchAll();
+
+        return $row;
+
+
+
+    }
+
+
 
 
 }

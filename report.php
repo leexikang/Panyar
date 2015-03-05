@@ -10,7 +10,6 @@ $action = ( isset( $_GET['action'] ) ? $_GET['action'] : null);
     $reports = $adminObj->fetchReport( $action );
 
 
-
 ?>
 
     <section class='main'>
@@ -26,7 +25,7 @@ $action = ( isset( $_GET['action'] ) ? $_GET['action'] : null);
     </nav>
 <tr> <td> Client </td>
         <td> Enroll Date </td>
-        <td> Fee Expire Date </td> 
+        <td> Fee Expire Date </td>
         <td> email </td>
         <td> Own Courses </td>
     </tr>
@@ -34,7 +33,7 @@ $action = ( isset( $_GET['action'] ) ? $_GET['action'] : null);
 foreach ( $reports as $report){
 
     echo '<tr>';
-    echo "<td> $report->username </td>";
+    echo "<td> <a href='editClient.php?id=$report->id'> $report->username </a> </td>";
     echo "<td> $report->joinDate </td>";
     echo "<td> $report->paymentExpireDate </td>";
     echo "<td> $report->email </td> ";

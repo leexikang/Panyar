@@ -1,7 +1,7 @@
 <?php
 require('config/initRequire.php');
 ?>
-    
+
  	</article>
  <section class="main" >
 <?php require('config/adminNav.php') ?>

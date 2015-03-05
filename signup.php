@@ -70,7 +70,7 @@ $msg = array();
 	</div>
 	<div>
 		<label for="passwordRe"> Confirm Password:</label>
-		<input type="passwordRe" name="passwordRe" id="passwordRe" /><br/>
+		<input type="password" name="passwordRe" id="passwordRe" /><br/>
         <span class='messageError'><?php echo (isset($msg['passwordMatch']) ? $msg['passwordMatch'] : null ) ?></span>
 	</div>
 	<div>

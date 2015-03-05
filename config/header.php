@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html> 
+<html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,13 +20,14 @@
     }
 }
 
-     else{ ?>
+else{ ?>
+
     <li> <a href='login.php'> Login </a> </li>
 <?php
     }
-?> 
+?>
     </ul>
- 
+
 
         <a href='/'> <span class='logo' >Panyar </span> </a>
 

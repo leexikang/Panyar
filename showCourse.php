@@ -21,10 +21,10 @@ if( isset ( $_GET['id'] ) ){
     <section class="main" >
 
     <section class="content">
-    
+
     <div class='info'>
     <table>
-<?php 
+<?php
 createAnswer( 'Course Name', $course->courseName);
 createAnswer( 'Description', $course->description);
 createAnswer( 'note', $course->note);
@@ -40,7 +40,7 @@ createAnswer('Address', $user->address);
 ?>
     </table>
     <br/>
-<?php if( checkSession() ){ ?>
+<?php if( $_SESSION['username'] == $user->username ){ ?>
     <a href='showAllCourses.php' class='first' > Back </a>
     <a href="editCourse.php?id=<?php echo $course->courseId ?>"> Edit </a>
     <a href="deleteCourse.php?id=<?php echo $course->courseId ?>" > Delete </a>

@@ -366,3 +366,17 @@ td{
     color: #1c9ead;
 
 }
+
+.content form{
+
+    padding-left: 3em;
+
+}
+
+.notFound{
+    padding-left:2em;
+    font-size: 1.5em;
+    color: red;
+
+}
+

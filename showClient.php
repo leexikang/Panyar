@@ -1,6 +1,10 @@
 <?php
 
-require('config/initRequire.php');
+require('vendor/autoload.php');
+require('config/helperFunction.php');
+session_start();
+require("config/header.php");
+use Panyar\User;
 use Panyar\Course;
 
 ?>
@@ -34,7 +38,7 @@ use Panyar\Course;
         header('location: /');
     }
 ?>
- <button> <a href='/'> Back </a> </button> 
+ <button> <a href='index.php'> Back </a> </button>
   </section>
 
 
